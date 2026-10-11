@@ -44,7 +44,8 @@ def build(slug):
     t = (ROOT/"templates"/"clinic.html").read_text(encoding="utf-8")
     css = (ROOT/"templates"/"clinic.css").read_text(encoding="utf-8")
     h = c["hours"]
-    hours = [{"en":en,"ar":ar,"t":(f'{h["open"]} – {h["close"]}' if i in h["days"] else "Closed")} for i,(en,ar) in enumerate(DAYS)]
+    per = h.get("by_day")  # optional per-day override: {"4": "1:00 PM – 10:00 PM"}
+    hours = [{"en":en,"ar":ar,"t":((per or {}).get(str(i)) or (f'{h["open"]} – {h["close"]}' if i in h["days"] else "Closed"))} for i,(en,ar) in enumerate(DAYS)]
     for x in hours: x["t"] = x["t"]
     svc_json = [{"en":s["en"],"ar":s["ar"]} for s in c["services"]]
     q = urllib.parse.quote(f'{c["name_en"]} {", ".join(c["address_en"])}')

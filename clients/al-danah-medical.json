@@ -1,0 +1,29 @@
+{
+  "slug": "al-danah-medical",
+  "name_en": "Al Danah Medical Center",
+  "name_ar": "مركز الدانة الطبي",
+  "area_en": "Al Dhait, Ras Al Khaimah",
+  "area_ar": "الظيت، رأس الخيمة",
+  "wa": "971565544971",
+  "phone_display": "+971 56 554 4971",
+  "tel": "+971565544971",
+  "rating": "4.7",
+  "reviews": "96",
+  "lead_en": "Dental, dermatology, nutrition, physiotherapy, laser and slimming treatments under one roof in Al Dhait, Ras Al Khaimah. Open every day until 10 PM.",
+  "lead_ar": "أسنان، جلدية، تغذية، علاج طبيعي، ليزر وعلاجات تنحيف تحت سقف واحد في الظيت، رأس الخيمة. مفتوحين كل يوم لين 10 بالليل.",
+  "desc_en": "Al Danah Medical Center in Al Dhait, Ras Al Khaimah. Book an appointment online.",
+  "address_en": ["Building 6, 7/10 Sheikh Rashid Bin Saeed Street, Al Dhait", "Ras Al Khaimah, UAE"],
+  "address_ar": ["مبنى 6، 7/10 شارع الشيخ راشد بن سعيد، الظيت", "رأس الخيمة، الإمارات"],
+  "lat": 25.7198168,
+  "lng": 55.9217537,
+  "hours": {"open": "10:00 AM", "close": "10:00 PM", "days": [0,1,2,3,4,5,6], "by_day": {"0": "11:00 AM – 10:00 PM", "5": "1:00 PM – 10:00 PM"}},
+  "services": [
+    {"en": "Dental", "ar": "الأسنان"},
+    {"en": "Dermatology", "ar": "الجلدية"},
+    {"en": "Nutrition", "ar": "التغذية"},
+    {"en": "Physiotherapy", "ar": "العلاج الطبيعي"},
+    {"en": "Laser treatments", "ar": "علاجات الليزر"},
+    {"en": "Slimming treatments", "ar": "علاجات التنحيف"}
+  ],
+  "palette": {"night": "#12302e", "primary": "#1f6f68", "primary2": "#2a8a82", "accent": "#d4a64a", "accent_soft": "#f1e3bf", "ink": "#14262a", "paper": "#f5f9f8", "line": "#d9e6e4", "muted": "#58706d"}
+}
