@@ -1,0 +1,26 @@
+{
+  "slug": "al-jazeera-clinic",
+  "name_en": "Al Jazeera Medical Clinic",
+  "name_ar": "عيادة الجزيرة الطبية",
+  "area_en": "Al Jazeera Al Hamra, Ras Al Khaimah",
+  "area_ar": "الجزيرة الحمراء، رأس الخيمة",
+  "wa": "97172446899",
+  "phone_display": "+971 7 244 6899",
+  "tel": "+97172446899",
+  "rating": "4.1",
+  "reviews": "16",
+  "lead_en": "A friendly neighbourhood clinic in Al Jazeera Al Hamra, Ras Al Khaimah, with doctors and nurses you can see without a long wait. Open morning and evening, six days a week.",
+  "lead_ar": "عيادة قريبة منكم في الجزيرة الحمراء، رأس الخيمة، فيها أطباء وممرضين وتخلصون بدون انتظار طويل. مفتوحين صبح ومساء، ست أيام في الأسبوع.",
+  "desc_en": "Al Jazeera Medical Clinic in Al Jazeera Al Hamra, Ras Al Khaimah. Book an appointment online.",
+  "address_en": ["Al Jazeera Al Hamra", "Ras Al Khaimah, UAE"],
+  "address_ar": ["الجزيرة الحمراء", "رأس الخيمة، الإمارات"],
+  "lat": 25.7090538,
+  "lng": 55.8145231,
+  "hours": {"open": "8:30 AM", "close": "9:00 PM", "days": [0,1,2,3,4,5], "by_day": {"0": "8:30 AM – 12:30 PM, 5:00 – 9:00 PM", "1": "8:30 AM – 12:30 PM, 5:00 – 9:00 PM", "2": "8:30 AM – 12:30 PM, 5:00 – 9:00 PM", "3": "8:30 AM – 12:30 PM, 5:00 – 9:00 PM", "4": "8:30 AM – 12:30 PM, 5:00 – 9:00 PM", "5": "8:30 – 11:00 AM, 5:00 – 9:00 PM"}},
+  "services": [
+    {"en": "General consultation", "ar": "كشف طبي عام"},
+    {"en": "Nursing care", "ar": "الرعاية التمريضية"},
+    {"en": "Treatment and prescriptions", "ar": "العلاج والوصفات الطبية"}
+  ],
+  "palette": {"night": "#10243f", "primary": "#1b4f8a", "primary2": "#2a67aa", "accent": "#e0a23b", "accent_soft": "#f6e5c0", "ink": "#13202f", "paper": "#f5f8fc", "line": "#dbe4ef", "muted": "#586b80"}
+}
