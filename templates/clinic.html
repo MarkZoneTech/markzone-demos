@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title><<NAME_EN>> | <<AREA_EN>></title>
+<meta name="description" content="<<DESC_EN>>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='<<PRIMARY_URL>>'/><path d='M42 22h16v20h20v16H58v20H42V58H22V42h20z' fill='white'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+<<CSS>>
+/* ===== CLINIC TOKENS (generated from clients/<<SLUG>>.json) ===== */
+:root{
+  --night:<<NIGHT>>; --primary:<<PRIMARY>>; --primary-2:<<PRIMARY2>>;
+  --gold:<<ACCENT>>; --gold-soft:<<ACCENT_SOFT>>;
+  --ink:<<INK>>; --paper:<<PAPER>>; --line:<<LINE>>; --muted:<<MUTED>>;
+}
+.glass{background:linear-gradient(145deg,var(--primary-2),var(--night));display:grid;place-items:center}
+.glass svg{width:62%;height:62%;display:block}
+.svc-photo{background:linear-gradient(160deg,var(--primary),var(--night));border-radius:22px;min-height:340px;min-width:0;max-width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.svc-photo svg{width:140px;height:140px;max-width:60%;flex:none}
+@media (max-width:880px){.svc-photo{min-height:0}}
+</style>
+</head>
+<body>
+
+<div class="preview">
+  <span class="en">Website preview prepared for <<NAME_EN>> by MarkZone Technology. Not yet published. Sample content, to be confirmed by the clinic.</span>
+  <span class="ar">نسخة تجريبية من موقع تم تصميمه لـ<<NAME_AR>> من قبل ماركزون تكنولوجي. الموقع غير منشور بعد. المحتوى توضيحي وتعتمده العيادة قبل النشر.</span>
+</div>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Home">
+      <svg viewBox="0 0 42 42" aria-hidden="true"><circle cx="21" cy="21" r="19" fill="none" stroke="<<ACCENT>>" stroke-width="2"/><path d="M18 9h6v9h9v6h-9v9h-6v-9H9v-6h9z" fill="<<PRIMARY2>>"/></svg>
+      <span>
+        <b class="en"><<NAME_EN>></b><b class="ar"><<NAME_AR>></b>
+        <small class="en"><<AREA_EN>></small><small class="ar"><<AREA_AR>></small>
+      </span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#services"><span class="en">Services</span><span class="ar">الخدمات</span></a>
+      <a href="#book"><span class="en">Book</span><span class="ar">الحجز</span></a>
+      <a href="#faq"><span class="en">FAQ</span><span class="ar">الأسئلة</span></a>
+      <a href="#visit"><span class="en">Location</span><span class="ar">الموقع</span></a>
+    </nav>
+    <div class="tools">
+      <button class="lang" id="langBtn" type="button">العربية</button>
+      <a class="btn btn-gold" href="#book"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span class="en">Book now</span><span class="ar">احجز الآن</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1 class="chart en"><span class="l1">Care you can trust.</span><span class="l2">Close to home.</span><span class="l3"><<NAME_EN>> · <<AREA_EN>></span></h1>
+      <h1 class="chart ar"><span class="l1">رعاية تثق فيها.</span><span class="l2">قريبة منك.</span><span class="l3"><<NAME_AR>> · <<AREA_AR>></span></h1>
+      <p class="lead en"><<LEAD_EN>></p>
+      <p class="lead ar"><<LEAD_AR>></p>
+      <div class="cta">
+        <a class="btn btn-gold" href="#book"><span class="en">Book an appointment</span><span class="ar">احجز موعدك</span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> patients</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> مراجع</span></div>
+    </div>
+    <div class="lens" aria-hidden="true">
+      <div class="ring r2"></div><div class="ring"></div>
+      <div class="glass"><svg viewBox="0 0 100 100"><path d="M40 12h20v28h28v20H60v28H40V60H12V40h28z" fill="#fff" fill-opacity=".92"/></svg></div>
+      <div class="tag"><b><<OPEN_DAYS>></b><span><span class="en">Days a week</span><span class="ar">أيام في الأسبوع</span></span></div>
+    </div>
+  </div>
+</section>
+
+<div class="trust">
+  <div class="wrap">
+    <div class="t"><b><<RATING>></b><span class="en">Google rating</span><span class="ar">تقييم جوجل</span></div>
+    <div class="t"><b><<REVIEWS>></b><span class="en">Patient reviews</span><span class="ar">تقييم من المراجعين</span></div>
+    <div class="t"><b><<OPEN_DAYS>></b><span class="en">Days a week</span><span class="ar">أيام في الأسبوع</span></div>
+    <div class="t"><b>24/7</b><span class="en">Online booking</span><span class="ar">حجز عبر الإنترنت</span></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap svc-grid">
+    <div class="svc-photo rv"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M40 12h20v28h28v20H60v28H40V60H12V40h28z" fill="#fff" fill-opacity=".9"/></svg></div>
+    <div class="rv">
+      <div class="rule"></div>
+      <h2 class="en">Care for <b>you and your family</b></h2>
+      <h2 class="ar">رعاية <b>لك ولعائلتك</b></h2>
+      <p class="intro en">Clear information about what the clinic offers, so patients know they are in the right place before they call.</p>
+      <p class="intro ar">معلومات واضحة عن خدمات العيادة، عشان المراجع يعرف إنه في المكان الصحيح قبل ما يتصل.</p>
+      <div class="svc">
+        <h3 class="en">Services</h3><h3 class="ar">الخدمات</h3>
+        <ul class="en"><<SERVICES_LI_EN>></ul>
+        <ul class="ar"><<SERVICES_LI_AR>></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="steps">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Your visit, <b>in three simple steps</b></h2>
+    <h2 class="ar rv">زيارتك <b>في ثلاث خطوات</b></h2>
+    <p class="intro en rv">No complicated forms and no long waits to get an answer.</p>
+    <p class="intro ar rv">بدون إجراءات معقدة، وبدون انتظار طويل.</p>
+    <div class="step-grid">
+      <div class="step rv"><div class="n">1</div><h3 class="en">Book in a minute</h3><h3 class="ar">احجز في دقيقة</h3><p class="en">Pick a service and time below, and it arrives straight to us on WhatsApp.</p><p class="ar">اختر الخدمة والوقت، ويوصلنا طلبك مباشرة على واتساب.</p></div>
+      <div class="step rv"><div class="n">2</div><h3 class="en">See the doctor</h3><h3 class="ar">قابل الدكتور</h3><p class="en">A careful consultation, with the tests you need arranged for you.</p><p class="ar">استشارة دقيقة، مع ترتيب الفحوصات اللي تحتاجها.</p></div>
+      <div class="step rv"><div class="n">3</div><h3 class="en">A clear plan</h3><h3 class="ar">خطة واضحة</h3><p class="en">You leave understanding your diagnosis and exactly what comes next.</p><p class="ar">تطلع وأنت فاهم حالتك والخطوة الجاية بوضوح.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv">
+      <div class="rule"></div>
+      <h2 class="en">Book your <b>appointment</b></h2><h2 class="ar">احجز <b>موعدك</b></h2>
+      <p class="intro en">Fill in a few details and your request opens in WhatsApp, ready to send. We'll confirm your time shortly.</p>
+      <p class="intro ar">عبّئ بياناتك وبينفتح طلبك في واتساب جاهز للإرسال، وبنأكد لك الموعد بأقرب وقت.</p>
+      <ul class="book-perks">
+        <li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li>
+        <li><span class="en">Send a photo of your insurance card to check your cover</span><span class="ar">أرسل صورة بطاقة التأمين عشان نتأكد من التغطية</span></li>
+      </ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate>
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX"></div>
+      <div class="full"><label for="fSvc"><span class="en">What do you need?</span><span class="ar">شو تحتاج؟</span></label>
+        <select id="fSvc"></select></div>
+      <div><label for="fDate"><span class="en">Preferred date</span><span class="ar">التاريخ المفضل</span></label><input id="fDate" type="date" required></div>
+      <div><label><span class="en">Preferred time</span><span class="ar">الوقت المفضل</span></label>
+        <div class="slots" id="fSlot">
+          <label><input type="radio" name="slot" value="m" checked><span><span class="en">Morning</span><span class="ar">الصبح</span></span></label>
+          <label><input type="radio" name="slot" value="a"><span><span class="en">Afternoon</span><span class="ar">الظهر</span></span></label>
+          <label><input type="radio" name="slot" value="e"><span><span class="en">Evening</span><span class="ar">المساء</span></span></label>
+        </div></div>
+      <div class="full"><label for="fNote"><span class="en">Anything we should know? (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg><span class="en">Send request on WhatsApp</span><span class="ar">أرسل الطلب على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap faq-grid">
+    <div class="rv">
+      <div class="rule"></div>
+      <h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2>
+      <p class="intro en">Can't find your answer? Message us on WhatsApp and we'll reply.</p>
+      <p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب وبنرد عليك.</p>
+    </div>
+    <div class="rv">
+      <details><summary><span class="en">Do I need to book in advance?</span><span class="ar">لازم أحجز موعد مسبقاً؟</span></summary>
+        <p class="en">Booking ahead is the best way to avoid waiting. Send your request through the form or message us to check today's availability.</p>
+        <p class="ar">الحجز المسبق أفضل طريقة لتجنب الانتظار. أرسل طلبك من النموذج أو راسلنا نتأكد لك من المواعيد المتاحة اليوم.</p></details>
+      <details><summary><span class="en">Do you accept my insurance?</span><span class="ar">تقبلون تأميني؟</span></summary>
+        <p class="en">Send a photo of your insurance card on WhatsApp and we'll confirm your cover before your visit.</p>
+        <p class="ar">أرسل صورة بطاقة التأمين على واتساب ونأكد لك التغطية قبل الزيارة.</p></details>
+      <details><summary><span class="en">What should I bring?</span><span class="ar">شو أجيب معي؟</span></summary>
+        <p class="en">Your Emirates ID, your insurance card, and any previous medical reports or a list of your medication.</p>
+        <p class="ar">الهوية الإماراتية، بطاقة التأمين، وأي تقارير طبية سابقة أو قائمة أدويتك.</p></details>
+      <details><summary><span class="en">Where is the clinic?</span><span class="ar">وين العيادة؟</span></summary>
+        <p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p>
+        <p class="ar"><<ADDR_AR_INLINE>>. استخدم الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap visit-grid">
+    <div class="rv">
+      <div class="rule"></div>
+      <h2 class="en">Visit <b>the clinic</b></h2><h2 class="ar">زورونا <b>في العيادة</b></h2>
+      <p class="addr en"><<ADDR_EN_BR>></p>
+      <p class="addr ar"><<ADDR_AR_BR>></p>
+      <div class="contact">
+        <a class="btn btn-line" href="<<DIRECTIONS_URL>>" target="_blank" rel="noopener"><span class="en">Get directions</span><span class="ar">الاتجاهات</span></a>
+        <a class="btn btn-wa" href="https://wa.me/<<WA>>" target="_blank" rel="noopener"><span class="en">WhatsApp us</span><span class="ar">واتساب</span></a>
+      </div>
+    </div>
+    <div class="rv">
+      <h2 class="en">Opening <b>hours</b></h2><h2 class="ar">أوقات <b>الدوام</b></h2>
+      <table class="hours" id="hours"></table>
+    </div>
+  </div>
+  <iframe class="map" title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="<<MAP_EMBED>>"></iframe>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span class="en">© <span class="yr"></span> <<NAME_EN>>, <<AREA_EN>></span>
+    <span class="ar">© <span class="yr"></span> <<NAME_AR>>، <<AREA_AR>></span>
+    <span class="en">Website by <a href="https://markzonetech.com" target="_blank" rel="noopener">MarkZone Technology</a></span>
+    <span class="ar">تصميم الموقع: <a href="https://markzonetech.com" target="_blank" rel="noopener">ماركزون تكنولوجي</a></span>
+  </div>
+</footer>
+
+<a class="float" href="https://wa.me/<<WA>>" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></svg>
+</a>
+
+<script>
+const CLINIC = { wa: "<<WA>>" };
+const HOURS = <<HOURS_JSON>>;
+const SERVICES = <<SERVICES_JSON>>;
+const SLOTS = {m:{en:"Morning",ar:"الصبح"},a:{en:"Afternoon",ar:"الظهر"},e:{en:"Evening",ar:"المساء"}};
+
+const html = document.documentElement, btn = document.getElementById('langBtn');
+const L = () => html.lang;
+
+const today = new Date().getDay();
+document.getElementById('hours').innerHTML = HOURS.map((d,i)=>
+  `<tr class="${i===today?'today':''}"><td><span class="en">${d.en}</span><span class="ar">${d.ar}</span></td><td dir="ltr">${d.t}</td></tr>`).join('');
+document.querySelectorAll('.yr').forEach(e=>e.textContent=new Date().getFullYear());
+
+const sel = document.getElementById('fSvc');
+function fillServices(){ sel.innerHTML = SERVICES.map((s,i)=>`<option value="${i}">${s[L()]}</option>`).join(''); }
+fillServices();
+const dateIn = document.getElementById('fDate');
+dateIn.min = new Date().toISOString().split('T')[0];
+document.getElementById('bookForm').addEventListener('submit', e=>{
+  e.preventDefault();
+  const name = fName.value.trim(), phone = fPhone.value.trim();
+  if(!name || !phone || !dateIn.value){
+    alert(L()==='ar' ? 'يرجى تعبئة الاسم ورقم الموبايل والتاريخ' : 'Please fill in your name, mobile number and date');
+    return;
+  }
+  const svc = SERVICES[sel.value], slot = SLOTS[document.querySelector('input[name=slot]:checked').value];
+  const note = fNote.value.trim();
+  const msg = L()==='ar'
+    ? `مرحباً، أبغى أحجز موعد:\nالاسم: ${name}\nالموبايل: ${phone}\nالخدمة: ${svc.ar}\nالتاريخ: ${dateIn.value}\nالوقت: ${slot.ar}${note?`\nملاحظات: ${note}`:''}`
+    : `Hello, I'd like to book an appointment:\nName: ${name}\nMobile: ${phone}\nService: ${svc.en}\nDate: ${dateIn.value}\nTime: ${slot.en}${note?`\nNotes: ${note}`:''}`;
+  window.open(`https://wa.me/${CLINIC.wa}?text=${encodeURIComponent(msg)}`,'_blank');
+});
+
+function setLang(l){
+  html.lang=l; html.dir = l==='ar'?'rtl':'ltr';
+  btn.textContent = l==='ar' ? 'English' : 'العربية';
+  const v=sel.value; fillServices(); sel.value=v;
+}
+btn.addEventListener('click',()=>setLang(L()==='ar'?'en':'ar'));
+if(new URLSearchParams(location.search).get('lang')==='ar') setLang('ar');
+
+const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "slug": "liverpool-medical",
+  "name_en": "Liverpool Medical Clinic",
+  "name_ar": "عيادة ليفربول الطبية",
+  "area_en": "Bur Dubai",
+  "area_ar": "بر دبي",
+  "wa": "971581388060",
+  "phone_display": "+971 58 138 8060",
+  "tel": "+971581388060",
+  "rating": "4.9",
+  "reviews": "329",
+  "lead_en": "General medicine, paediatrics, gynaecology, dental, physiotherapy and laboratory services in Al Raffa, Bur Dubai. Open every day until 11 PM.",
+  "lead_ar": "طب عام، أطفال، نسائية، أسنان، علاج طبيعي ومختبر في الرفاء، بر دبي. مفتوحين كل يوم لين 11 بالليل.",
+  "desc_en": "Liverpool Medical Clinic in Al Raffa, Bur Dubai. Book an appointment online.",
+  "address_en": ["Khalid Bin Al Waleed Rd, Al Raffa", "Bur Dubai, Dubai, UAE"],
+  "address_ar": ["شارع خالد بن الوليد، الرفاء", "بر دبي، دبي، الإمارات"],
+  "lat": 25.2593159,
+  "lng": 55.2876882,
+  "hours": {"open": "8:00 AM", "close": "11:00 PM", "days": [0,1,2,3,4,5,6]},
+  "services": [
+    {"en": "General medicine", "ar": "الطب العام"},
+    {"en": "Paediatrics", "ar": "طب الأطفال"},
+    {"en": "Gynaecology", "ar": "النسائية والولادة"},
+    {"en": "Dental", "ar": "الأسنان"},
+    {"en": "Physiotherapy", "ar": "العلاج الطبيعي"},
+    {"en": "Laboratory (pathology)", "ar": "المختبر"}
+  ],
+  "palette": {"night": "#0b2a3a", "primary": "#0f5c78", "primary2": "#14748f", "accent": "#d9a441", "accent_soft": "#f3e2b8", "ink": "#12232d", "paper": "#f6f9fa", "line": "#dbe5ea", "muted": "#5a6f7b"}
+}
