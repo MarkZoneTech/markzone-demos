@@ -38,3 +38,6 @@ How the pick works: keywords (English + Arabic) in `category` / `activity` / Goo
 
 Client JSON fields (same for all templates): slug, name_en/ar, area_en/ar, wa, phone_display, tel, rating, reviews, lead_en/ar, desc_en, address_en/ar, lat, lng, hours {open, close, days, by_day}, services [{en, ar, desc_en?, desc_ar?, price?}], category (used by the picker), optional brand {primary, accent} (derives the whole palette), optional show_prices (true = show service prices), optional copy {head_en, head_ar, sub_en, sub_ar, cta_en, cta_ar} to override hero wording.
 Templates live in `templates/<name>/` (body.html + style.css) on top of `templates/_shared/` (base CSS, header, visit, footer, WhatsApp form script) and `templates/meta.json` (default palette, nav, hero wording). Sample clients for previewing each template: `clients/_samples/`.
+
+### Legal template
+`legal` (law firms, advocates, legal consultants, notary): formal serif look, navy and bronze, scales motif, consultation request form, FAQ and a "not legal advice" note. Picked automatically by keywords (law firm, lawyer, advocate, محاماة, ...). Content stays general: no case results, years of experience or fee claims unless the owner supplies them.

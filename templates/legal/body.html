@@ -1,0 +1,69 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="badge up en"><<AREA_EN>></div><div class="badge up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> customers</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="gear up" aria-hidden="true" style="animation-delay:.2s">
+      <svg viewBox="0 0 100 100" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="50" r="46" stroke="var(--gold)" stroke-width="1" opacity=".5"/><path d="M50 18v56M30 74h40M50 26 24 30M50 26l26 4" stroke="var(--gold)" stroke-width="3"/><path d="M24 30 14 52c3 6 17 6 20 0L24 30zM76 30 66 52c3 6 17 6 20 0L76 30z" stroke="var(--gold)" stroke-width="2.5"/></svg>
+      <div class="in"><span class="en">Call or WhatsApp</span><span class="ar">اتصل أو واتساب</span></div></div>
+  </div>
+</section>
+<section id="services" class="svc-sec">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Practice <b>areas</b></h2><h2 class="ar rv">مجالات <b>العمل</b></h2>
+    <p class="intro en rv">Tell us about your matter and we will confirm the next step on WhatsApp.</p>
+    <p class="intro ar rv">قل لنا عن قضيتك ونأكد لك الخطوة الجاية على واتساب.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="how" class="how">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Your <b>consultation</b></h2><h2 class="ar rv">استشارتك <b>القانونية</b></h2>
+    <p class="intro en rv">Simple and clear from the first message.</p><p class="intro ar rv">بسيط وواضح من أول رسالة.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">1. Describe your matter</h3><h3 class="ar">١. اشرح قضيتك</h3><p class="en">Send the short form with a few details.</p><p class="ar">أرسل النموذج القصير مع بعض التفاصيل.</p></div>
+      <div class="u rv"><h3 class="en">2. We reply</h3><h3 class="ar">٢. نرد عليك</h3><p class="en">The office replies to confirm the next step and a suitable time.</p><p class="ar">المكتب يرد عليك ويحدد الخطوة الجاية والوقت المناسب.</p></div>
+      <div class="u rv"><h3 class="en">3. Meet or call</h3><h3 class="ar">٣. اجتماع أو اتصال</h3><p class="en">Discuss your matter with a lawyer, by phone or in the office.</p><p class="ar">تناقش قضيتك مع المحامي، بالتلفون أو في المكتب.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Request a <b>consultation</b></h2><h2 class="ar">اطلب <b>استشارة</b></h2>
+      <p class="intro en">Fill in a few details and your request opens in WhatsApp, ready to send. Please do not include sensitive documents yet.</p><p class="intro ar">عبّئ التفاصيل وينفتح طلبك في واتساب جاهز للإرسال. ويرجى عدم إرسال مستندات حساسة الآن.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like a legal consultation:" data-intro-ar="مرحباً، أبغى استشارة قانونية:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Type of matter</span><span class="ar">نوع القضية</span></label><select id="fSvc" data-src="services" data-f data-en="Matter" data-ar="نوع القضية"></select></div>
+            <div class="full"><label><span class="en">Preferred language</span><span class="ar">لغة التواصل</span></label><div class="slots">
+        <label><input type="radio" name="when" checked data-f data-en="Language" data-ar="اللغة" data-ven="Arabic" data-var="العربية"><span><span class="en">Arabic</span><span class="ar">العربية</span></span></label>
+        <label><input type="radio" name="when" data-f data-en="Language" data-ar="اللغة" data-ven="English" data-var="الإنجليزية"><span><span class="en">English</span><span class="ar">الإنجليزية</span></span></label></div></div>
+      <div class="full"><label for="fNote"><span class="en">Short description (optional)</span><span class="ar">وصف مختصر (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Details" data-ar="التفاصيل"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send request on WhatsApp</span><span class="ar">أرسل الطلب على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">How do I find out the fees?</span><span class="ar">كيف أعرف الأتعاب؟</span></summary><p class="en">Fees depend on the matter. Send brief details and the office will confirm how it works.</p><p class="ar">الأتعاب تعتمد على القضية. أرسل تفاصيل مختصرة والمكتب يوضح لك الطريقة.</p></details>
+      <details><summary><span class="en">Can I write in Arabic or English?</span><span class="ar">أقدر أكتب بالعربي أو الإنجليزي؟</span></summary><p class="en">Yes. This website and the form work in both languages: choose your language at the top.</p><p class="ar">أكيد. الموقع والنموذج بالعربي والإنجليزي: اختر لغتك من فوق.</p></details>
+      <details><summary><span class="en">Should I send my documents now?</span><span class="ar">أرسل مستنداتي الحين؟</span></summary><p class="en">Please wait until the office confirms how to share documents. Start with a short description of your matter.</p><p class="ar">الأفضل تنتظر لين المكتب يوضح طريقة إرسال المستندات. ابدأ بوصف مختصر لقضيتك.</p></details>
+    </div>
+  </div>
+</section>
+<p class="legal-note"><span class="en">The information on this website is general and is not legal advice.</span><span class="ar">المعلومات في هذا الموقع عامة وليست استشارة قانونية.</span></p>
+<a class="callbar" href="tel:<<TEL>>"><span class="en">Call now</span><span class="ar">اتصل الآن</span> <span dir="ltr"><<PHONE_DISPLAY>></span></a>

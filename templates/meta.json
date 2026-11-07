@@ -341,5 +341,54 @@
    "cta_en": "Get in touch",
    "cta_ar": "تواصل معنا"
   }
+ },
+ "legal": {
+  "label": "Law firms & lawyers (legal consultancy, advocates, notary)",
+  "palette": {
+   "night": "#0F1E33",
+   "primary": "#1B3556",
+   "primary2": "#2C4F7C",
+   "accent": "#B8924A",
+   "accent_soft": "#EBDDC0",
+   "ink": "#141C28",
+   "paper": "#F6F4EF",
+   "line": "#E1DCCF",
+   "muted": "#5E6572"
+  },
+  "nav": [
+   {
+    "href": "services",
+    "en": "Practice areas",
+    "ar": "مجالات العمل"
+   },
+   {
+    "href": "how",
+    "en": "Consultation",
+    "ar": "الاستشارة"
+   },
+   {
+    "href": "book",
+    "en": "Book",
+    "ar": "الحجز"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Legal help you can understand.",
+   "head_ar": "مساعدة قانونية بلغة تفهمها.",
+   "sub_en": "Send us the details of your matter and we will reply on WhatsApp.",
+   "sub_ar": "أرسل لنا تفاصيل قضيتك وبنرد عليك على واتساب.",
+   "cta_en": "Request a consultation",
+   "cta_ar": "اطلب استشارة"
+  }
  }
 }

@@ -1,0 +1,79 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-legal",
+ "category": "Law firm",
+ "name_en": "Al Mizan Advocates & Legal Consultants",
+ "name_ar": "الميزان للمحاماة والاستشارات القانونية",
+ "area_en": "Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Legal advice in Arabic and English. Send the details of your matter and we will reply on WhatsApp.",
+ "lead_ar": "استشارات قانونية بالعربي والإنجليزي. أرسل تفاصيل قضيتك وبنرد عليك على واتساب.",
+ "desc_en": "Al Mizan Advocates & Legal Consultants, Ras Al Khaimah.",
+ "address_en": [
+  "Al Nakheel",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "النخيل",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Commercial and company matters",
+   "ar": "القضايا التجارية والشركات",
+   "desc_en": "Contracts and disputes",
+   "desc_ar": "العقود والمنازعات"
+  },
+  {
+   "en": "Labour matters",
+   "ar": "القضايا العمالية",
+   "desc_en": "Employer and employee cases",
+   "desc_ar": "قضايا أصحاب العمل والموظفين"
+  },
+  {
+   "en": "Family matters",
+   "ar": "الأحوال الشخصية",
+   "desc_en": "Personal status cases",
+   "desc_ar": "قضايا الأحوال الشخصية"
+  },
+  {
+   "en": "Real estate matters",
+   "ar": "القضايا العقارية",
+   "desc_en": "Sale, rent and ownership",
+   "desc_ar": "البيع والإيجار والملكية"
+  },
+  {
+   "en": "Contract drafting and review",
+   "ar": "صياغة ومراجعة العقود",
+   "desc_en": "Clear written agreements",
+   "desc_ar": "اتفاقيات مكتوبة بوضوح"
+  },
+  {
+   "en": "Legal consultation",
+   "ar": "استشارات قانونية",
+   "desc_en": "Advice on your question",
+   "desc_ar": "رأي قانوني في سؤالك"
+  }
+ ]
+}
