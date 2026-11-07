@@ -1,0 +1,78 @@
+{
+  "slug": "salim-medical",
+  "name_en": "Salim Medical Center",
+  "name_ar": "مركز سليم الطبي",
+  "area_en": "Khuzam, Ras Al Khaimah",
+  "area_ar": "خزام، رأس الخيمة",
+  "wa": "971585234434",
+  "phone_display": "+971 58 523 4434",
+  "tel": "+971585234434",
+  "rating": "4.8",
+  "reviews": "158",
+  "lead_en": "A modern medical and dental centre in Khuzam, Ras Al Khaimah, trusted by families for braces, aligners, implants, crowns and more. Clean, friendly and well organised, open six days a week.",
+  "lead_ar": "مركز طبي وأسنان عصري في خزام، رأس الخيمة، تثق فيه العوائل للتقويم والشفافة والزراعة والتيجان وأكثر. نظيف وفريقه لطيف ومنظم، ومفتوح ست أيام في الأسبوع.",
+  "desc_en": "Salim Medical Center in Khuzam, Ras Al Khaimah. Book an appointment online.",
+  "address_en": [
+    "East Villa 13, near RAK Academy",
+    "Khuzam, Ras Al Khaimah, UAE"
+  ],
+  "address_ar": [
+    "الفيلا الشرقية 13، قرب أكاديمية رأس الخيمة",
+    "خزام، رأس الخيمة، الإمارات"
+  ],
+  "lat": 25.7670037,
+  "lng": 55.9288888,
+  "hours": {
+    "open": "10:00 AM",
+    "close": "8:00 PM",
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "by_day": {
+      "0": "10:00 AM – 8:00 PM",
+      "1": "10:00 AM – 8:00 PM",
+      "2": "10:00 AM – 8:00 PM",
+      "3": "10:00 AM – 8:00 PM",
+      "4": "10:00 AM – 8:00 PM",
+      "6": "10:00 AM – 8:00 PM"
+    }
+  },
+  "services": [
+    {
+      "en": "Orthodontics and aligners",
+      "ar": "التقويم والتقويم الشفاف"
+    },
+    {
+      "en": "Dental implants",
+      "ar": "زراعة الأسنان"
+    },
+    {
+      "en": "Crowns and veneers",
+      "ar": "التيجان والقشور"
+    },
+    {
+      "en": "Fillings and surgical extraction",
+      "ar": "الحشوات والخلع الجراحي"
+    },
+    {
+      "en": "Physiotherapy",
+      "ar": "العلاج الطبيعي"
+    }
+  ],
+  "palette": {
+    "night": "#10243f",
+    "primary": "#1b4f8a",
+    "primary2": "#2a67aa",
+    "accent": "#e0a23b",
+    "accent_soft": "#f6e5c0",
+    "ink": "#13202f",
+    "paper": "#f5f8fc",
+    "line": "#dbe4ef",
+    "muted": "#586b80"
+  }
+}
