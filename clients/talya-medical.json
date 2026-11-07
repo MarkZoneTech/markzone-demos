@@ -1,0 +1,29 @@
+{
+  "slug": "talya-medical",
+  "name_en": "Talya Medical Center",
+  "name_ar": "مركز تاليا الطبي",
+  "area_en": "Al Nakheel, Ras Al Khaimah",
+  "area_ar": "النخيل، رأس الخيمة",
+  "wa": "971522207872",
+  "phone_display": "+971 52 220 7872",
+  "tel": "+971522207872",
+  "rating": "5.0",
+  "reviews": "36",
+  "lead_en": "A family medical centre in Al Nakheel, Ras Al Khaimah, for general medicine, dental care and lab tests. Open every day until late, with Friday evenings too.",
+  "lead_ar": "مركز طبي للعائلة في النخيل، رأس الخيمة، فيه طب عام وعلاج أسنان وفحوصات مخبرية. مفتوح كل يوم إلين وقت متأخر، حتى مساء الجمعة.",
+  "desc_en": "Talya Medical Center in Al Nakheel, Ras Al Khaimah: general medicine, dentistry and lab tests. Book an appointment online.",
+  "address_en": ["Mubarakeya Building M03, Eqtisadya Street, Al Nakheel", "Facing Union Tower, Ras Al Khaimah, UAE"],
+  "address_ar": ["بناية المباركية M03، شارع الاقتصادية، النخيل", "مقابل برج يونيون، رأس الخيمة، الإمارات"],
+  "lat": 25.8004316,
+  "lng": 55.9601668,
+  "hours": {"open": "9:00 AM", "close": "11:00 PM", "days": [0,1,2,3,4,5,6], "by_day": {"5": "4:00 PM – 12:00 AM"}},
+  "services": [
+    {"en": "General medicine and consultations", "ar": "الطب العام والاستشارات الطبية"},
+    {"en": "Chronic disease follow-up", "ar": "متابعة الأمراض المزمنة"},
+    {"en": "Weight follow-up", "ar": "متابعة الوزن"},
+    {"en": "Dental services", "ar": "خدمات طب الأسنان"},
+    {"en": "Lab tests", "ar": "الفحوصات المخبرية"}
+  ],
+  "brand": {"primary": "#0A4F92", "accent": "#0C2E52", "source": "Instagram @talyamedical logo (estimated)"},
+  "palette": {"night": "#10243f", "primary": "#1b4f8a", "primary2": "#2a67aa", "accent": "#e0a23b", "accent_soft": "#f6e5c0", "ink": "#13202f", "paper": "#f5f8fc", "line": "#dbe4ef", "muted": "#586b80"}
+}
