@@ -1,0 +1,83 @@
+{
+  "slug": "nokhbat-alemarat",
+  "name_en": "Nokhbat Alemarat Medical Center",
+  "name_ar": "مركز نخبة الإمارات الطبي",
+  "area_en": "Al Mamourah, Ras Al Khaimah",
+  "area_ar": "المعمورة، رأس الخيمة",
+  "wa": "971547818082",
+  "phone_display": "+971 54 781 8082",
+  "tel": "+971547818082",
+  "rating": "4.8",
+  "reviews": "93",
+  "lead_en": "A medical and dental centre in Al Mamourah, Ras Al Khaimah, for braces, implants, surgical extraction, fillings and whitening. Friendly doctors, clear explanations, open six days a week.",
+  "lead_ar": "مركز طبي وأسنان في المعمورة، رأس الخيمة، لتقويم الأسنان والزراعة والخلع الجراحي والحشوات والتبييض. دكاترة لطيفين وشرح واضح، ومفتوح ست أيام في الأسبوع.",
+  "desc_en": "Nokhbat Alemarat Medical Center in Al Mamourah, Ras Al Khaimah. Book an appointment online.",
+  "address_en": [
+    "Emirates NBD Building, 3rd floor, Al Muntasir Road",
+    "Al Mamourah, Ras Al Khaimah, UAE"
+  ],
+  "address_ar": [
+    "مبنى بنك الإمارات دبي الوطني، الطابق الثالث، شارع المنتصر",
+    "المعمورة، رأس الخيمة، الإمارات"
+  ],
+  "lat": 25.8023495,
+  "lng": 55.9742521,
+  "hours": {
+    "open": "11:00 AM",
+    "close": "8:00 PM",
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "by_day": {
+      "0": "11:00 AM – 8:00 PM",
+      "1": "11:00 AM – 8:00 PM",
+      "2": "11:00 AM – 8:00 PM",
+      "3": "11:00 AM – 8:00 PM",
+      "4": "11:00 AM – 8:00 PM",
+      "6": "11:00 AM – 8:00 PM"
+    }
+  },
+  "services": [
+    {
+      "en": "Orthodontics and braces",
+      "ar": "تقويم الأسنان"
+    },
+    {
+      "en": "Dental implants",
+      "ar": "زراعة الأسنان"
+    },
+    {
+      "en": "Surgical extraction",
+      "ar": "الخلع الجراحي"
+    },
+    {
+      "en": "Fillings",
+      "ar": "الحشوات"
+    },
+    {
+      "en": "Teeth whitening",
+      "ar": "تبييض الأسنان"
+    }
+  ],
+  "brand": {
+    "primary": "#302D29",
+    "accent": "#CD9532",
+    "source": "Instagram @nokhbtamc highlight covers and post graphics (estimated: charcoal and gold; roles swapped so gold is the button accent)"
+  },
+  "palette": {
+    "night": "#10243f",
+    "primary": "#1b4f8a",
+    "primary2": "#2a67aa",
+    "accent": "#e0a23b",
+    "accent_soft": "#f6e5c0",
+    "ink": "#13202f",
+    "paper": "#f5f8fc",
+    "line": "#dbe4ef",
+    "muted": "#586b80"
+  }
+}
