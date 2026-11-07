@@ -1,0 +1,67 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> members</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عضو</span></div>
+    </div>
+    <div class="bell up" aria-hidden="true" style="animation-delay:.2s"><svg viewBox="0 0 120 60" fill="none"><rect x="4" y="18" width="12" height="24" rx="3" fill="var(--gold)"/><rect x="18" y="10" width="14" height="40" rx="3" fill="var(--gold)"/><rect x="32" y="26" width="56" height="8" rx="2" fill="#fff" fill-opacity=".9"/><rect x="88" y="10" width="14" height="40" rx="3" fill="var(--gold)"/><rect x="104" y="18" width="12" height="24" rx="3" fill="var(--gold)"/></svg></div>
+  </div>
+</section>
+<section id="programs" class="prog">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Our <b>programmes</b></h2><h2 class="ar rv">برامجنا</h2>
+    <p class="intro en rv">Find the programme that fits your goal. Schedules and fees are confirmed on WhatsApp.</p>
+    <p class="intro ar rv">اختر البرنامج اللي يناسب هدفك. المواعيد والرسوم نأكدها لك على واتساب.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="why" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Start <b>easy</b></h2><h2 class="ar rv">ابدأ <b>بسهولة</b></h2>
+    <p class="intro en rv">From first message to first session.</p><p class="intro ar rv">من أول رسالة لين أول جلسة.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">1. Ask</h3><h3 class="ar">١. اسأل</h3><p class="en">Message us about your goal.</p><p class="ar">راسلنا عن هدفك.</p></div>
+      <div class="u rv"><h3 class="en">2. Try a session</h3><h3 class="ar">٢. جرّب جلسة</h3><p class="en">Book a trial and see the place.</p><p class="ar">احجز تجربة وشوف المكان.</p></div>
+      <div class="u rv"><h3 class="en">3. Join</h3><h3 class="ar">٣. انضم</h3><p class="en">Choose the plan that suits you.</p><p class="ar">اختر الباقة اللي تناسبك.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Book a <b>trial session</b></h2><h2 class="ar">احجز <b>جلسة تجريبية</b></h2>
+      <p class="intro en">Fill in a few details and your request opens in WhatsApp, ready to send.</p><p class="intro ar">عبّئ التفاصيل وينفتح طلبك في واتساب جاهز للإرسال.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to book a trial session:" data-intro-ar="مرحباً، أبغى أحجز جلسة تجريبية:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Programme</span><span class="ar">البرنامج</span></label><select id="fSvc" data-src="services" data-f data-en="Programme" data-ar="البرنامج"></select></div>
+      <div><label for="fDate"><span class="en">Preferred date</span><span class="ar">التاريخ المفضل</span></label><input id="fDate" type="date" required data-f data-en="Date" data-ar="التاريخ"></div>
+      <div><label><span class="en">Preferred time</span><span class="ar">الوقت المفضل</span></label><div class="slots">
+        <label><input type="radio" name="slot" checked data-f data-en="Time" data-ar="الوقت" data-ven="Morning" data-var="الصبح"><span><span class="en">Morning</span><span class="ar">الصبح</span></span></label>
+        <label><input type="radio" name="slot" data-f data-en="Time" data-ar="الوقت" data-ven="Afternoon" data-var="الظهر"><span><span class="en">Afternoon</span><span class="ar">الظهر</span></span></label>
+        <label><input type="radio" name="slot" data-f data-en="Time" data-ar="الوقت" data-ven="Evening" data-var="المساء"><span><span class="en">Evening</span><span class="ar">المساء</span></span></label></div></div>
+      <div class="full"><label for="fNote"><span class="en">Notes (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send request on WhatsApp</span><span class="ar">أرسل الطلب على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Can I try before I join?</span><span class="ar">أقدر أجرب قبل ما أنضم؟</span></summary><p class="en">Yes, book a trial session with the form above and we'll confirm the time.</p><p class="ar">أكيد، احجز جلسة تجريبية من النموذج ونأكد لك الوقت.</p></details>
+      <details><summary><span class="en">What should I bring?</span><span class="ar">شو أجيب معي؟</span></summary><p class="en">Comfortable clothes and a water bottle. We'll tell you anything else when we confirm.</p><p class="ar">ملابس مريحة وقارورة ماء. وأي شي ثاني نخبرك فيه وقت التأكيد.</p></details>
+      <details><summary><span class="en">How much are the plans?</span><span class="ar">كم سعر الباقات؟</span></summary><p class="en">Message us on WhatsApp and we'll send the current plans and prices.</p><p class="ar">راسلنا على واتساب ونرسل لك الباقات والأسعار الحالية.</p></details>
+    </div>
+  </div>
+</section>

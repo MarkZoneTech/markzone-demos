@@ -1,0 +1,20 @@
+/* GENERAL: clean corporate, split hero with an at-a-glance card */
+:root{--r:14px;--btn-r:8px;--bg:#fff}
+.hero{background:var(--night);color:#fff;padding-block:78px 96px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 80% at 90% 10%,color-mix(in srgb,var(--primary-2) 50%,transparent),transparent 70%)}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center}
+.kick{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:20px;font-weight:600}
+html[lang="ar"] .kick{letter-spacing:0}
+.hero h1{font-size:clamp(40px,5.8vw,72px);font-weight:600;line-height:1.08;margin-bottom:22px;letter-spacing:-.01em}
+html[lang="ar"] .hero h1{line-height:1.35;letter-spacing:0}
+.hero .lead{font-size:18px;color:rgba(255,255,255,.75);max-width:52ch;margin-bottom:30px}
+.hero .rating{margin-top:30px;color:rgba(255,255,255,.7)}
+.glance{background:#fff;color:var(--ink);border-radius:20px;padding:30px;box-shadow:0 30px 70px rgba(0,0,0,.35)}
+.glance h3{font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+html[lang="ar"] .glance h3{letter-spacing:0}
+.glance dl{display:grid;gap:0}.glance .row{display:flex;justify-content:space-between;gap:16px;padding-block:13px;border-bottom:1px solid var(--line)}
+.glance .row:last-child{border:0}.glance dt{color:var(--muted);font-size:14px}.glance dd{font-weight:600;text-align:end}
+@media (max-width:880px){.hero-grid{grid-template-columns:1fr}}
+.svc-sec{background:var(--paper)}
+.about{background:#fff}
+.book{background:linear-gradient(135deg,var(--primary),var(--night))}

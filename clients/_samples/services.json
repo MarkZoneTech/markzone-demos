@@ -1,0 +1,79 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-services",
+ "category": "Air conditioning maintenance",
+ "name_en": "Cool Air AC Services",
+ "name_ar": "كول إير لخدمات التكييف",
+ "area_en": "Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "AC repair, cleaning and maintenance for homes and shops. Send your request and get a quote on WhatsApp.",
+ "lead_ar": "إصلاح وتنظيف وصيانة المكيفات للبيوت والمحلات. أرسل طلبك واستلم عرض السعر على واتساب.",
+ "desc_en": "Cool Air AC Services, Ras Al Khaimah.",
+ "address_en": [
+  "Al Nakheel",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "النخيل",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "AC repair",
+   "ar": "إصلاح المكيفات",
+   "desc_en": "Cooling problems and leaks",
+   "desc_ar": "مشاكل التبريد والتسريب"
+  },
+  {
+   "en": "AC cleaning",
+   "ar": "تنظيف المكيفات",
+   "desc_en": "Indoor and outdoor units",
+   "desc_ar": "الوحدات الداخلية والخارجية"
+  },
+  {
+   "en": "Gas refill",
+   "ar": "تعبئة غاز",
+   "desc_en": "Checked before refilling",
+   "desc_ar": "فحص قبل التعبئة"
+  },
+  {
+   "en": "Installation",
+   "ar": "تركيب",
+   "desc_en": "Split and window units",
+   "desc_ar": "سبليت وشباك"
+  },
+  {
+   "en": "Annual maintenance",
+   "ar": "عقود صيانة",
+   "desc_en": "Regular visits",
+   "desc_ar": "زيارات منتظمة"
+  },
+  {
+   "en": "Emergency call-out",
+   "ar": "طلب طارئ",
+   "desc_en": "Message us the problem",
+   "desc_ar": "أرسل لنا المشكلة"
+  }
+ ]
+}

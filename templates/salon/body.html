@@ -1,0 +1,69 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> clients</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="arch up" aria-hidden="true" style="animation-delay:.2s"><div class="b"></div>
+      <div class="a"><svg viewBox="0 0 100 100"><path d="M50 8 58 42 92 50 58 58 50 92 42 58 8 50 42 42Z" fill="var(--gold)"/><path d="M80 12l3 9 9 3-9 3-3 9-3-9-9-3 9-3z" fill="#fff" fill-opacity=".8"/><path d="M20 70l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#fff" fill-opacity=".7"/></svg></div>
+      <div class="tag"><b><<OPEN_DAYS>></b><span><span class="en">Days a week</span><span class="ar">أيام في الأسبوع</span></span></div></div>
+  </div>
+</section>
+<section id="services" class="menu-sec">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Our <b>services</b></h2><h2 class="ar rv">خدماتنا</h2>
+    <p class="intro en rv">Choose what you need and book your time. Prices and details are confirmed on WhatsApp.</p>
+    <p class="intro ar rv">اختر اللي تحتاجه واحجز وقتك. الأسعار والتفاصيل نأكدها لك على واتساب.</p>
+    <ul class="menu"><<MENU_ROWS>></ul>
+  </div>
+</section>
+<section id="why" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">A calm, <b>easy visit</b></h2><h2 class="ar rv">زيارة <b>مريحة وسهلة</b></h2>
+    <p class="intro en rv">From booking to the chair, we keep it simple.</p><p class="intro ar rv">من الحجز لين الكرسي، نخليها بسيطة.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">Book in a minute</h3><h3 class="ar">احجز في دقيقة</h3><p class="en">Send your request on WhatsApp, no calls or waiting.</p><p class="ar">أرسل طلبك على واتساب، بدون اتصال أو انتظار.</p></div>
+      <div class="u rv"><h3 class="en">Clear information</h3><h3 class="ar">معلومات واضحة</h3><p class="en">Know the service and timing before you arrive.</p><p class="ar">اعرفي الخدمة والوقت قبل ما توصل.</p></div>
+      <div class="u rv"><h3 class="en">Close to you</h3><h3 class="ar">قريبين منك</h3><p class="en">Find us in <<AREA_EN>>, with directions below.</p><p class="ar">نتواجد في <<AREA_AR>>، والاتجاهات تحت.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Book your <b>appointment</b></h2><h2 class="ar">احجز <b>موعدك</b></h2>
+      <p class="intro en">Fill in a few details and your request opens in WhatsApp, ready to send.</p><p class="intro ar">عبّئ بياناتك وبينفتح طلبك في واتساب جاهز للإرسال.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to book an appointment:" data-intro-ar="مرحباً، أبغى أحجز موعد:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Service</span><span class="ar">الخدمة</span></label><select id="fSvc" data-src="services" data-f data-en="Service" data-ar="الخدمة"></select></div>
+      <div><label for="fDate"><span class="en">Preferred date</span><span class="ar">التاريخ المفضل</span></label><input id="fDate" type="date" required data-f data-en="Date" data-ar="التاريخ"></div>
+      <div><label><span class="en">Preferred time</span><span class="ar">الوقت المفضل</span></label><div class="slots">
+        <label><input type="radio" name="slot" checked data-f data-en="Time" data-ar="الوقت" data-ven="Morning" data-var="الصبح"><span><span class="en">Morning</span><span class="ar">الصبح</span></span></label>
+        <label><input type="radio" name="slot" data-f data-en="Time" data-ar="الوقت" data-ven="Afternoon" data-var="الظهر"><span><span class="en">Afternoon</span><span class="ar">الظهر</span></span></label>
+        <label><input type="radio" name="slot" data-f data-en="Time" data-ar="الوقت" data-ven="Evening" data-var="المساء"><span><span class="en">Evening</span><span class="ar">المساء</span></span></label></div></div>
+      <div class="full"><label for="fNote"><span class="en">Notes (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send request on WhatsApp</span><span class="ar">أرسل الطلب على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Do I need to book in advance?</span><span class="ar">لازم أحجز مسبقاً؟</span></summary><p class="en">Booking ahead is the best way to get your preferred time. Send a request or message us to check availability.</p><p class="ar">الحجز المسبق أفضل طريقة تاخذ وقتك المفضل. أرسل طلبك أو راسلنا نتأكد من المتاح.</p></details>
+      <details><summary><span class="en">How much does it cost?</span><span class="ar">كم السعر؟</span></summary><p class="en">Prices depend on the service. Message us on WhatsApp and we'll confirm the price before your visit.</p><p class="ar">الأسعار تختلف حسب الخدمة. راسلنا على واتساب ونأكد لك السعر قبل الزيارة.</p></details>
+      <details><summary><span class="en">Where are you located?</span><span class="ar">وين موقعكم؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدم الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

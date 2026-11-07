@@ -1,0 +1,40 @@
+<script>
+const BIZ = { wa: "<<WA>>" };
+const HOURS = <<HOURS_JSON>>;
+const SERVICES = <<SERVICES_JSON>>;
+const html = document.documentElement, btn = document.getElementById('langBtn');
+const L = () => html.lang;
+const today = new Date().getDay();
+document.getElementById('hours').innerHTML = HOURS.map((d,i)=>
+  `<tr class="${i===today?'today':''}"><td><span class="en">${d.en}</span><span class="ar">${d.ar}</span></td><td dir="ltr">${d.t}</td></tr>`).join('');
+document.querySelectorAll('.yr').forEach(e=>e.textContent=new Date().getFullYear());
+const sel = document.querySelector('select[data-src="services"]');
+function fillServices(){ if(sel) sel.innerHTML = SERVICES.map((s,i)=>`<option value="${i}">${s[L()]}</option>`).join(''); }
+fillServices();
+document.querySelectorAll('input[type=date]').forEach(d=>d.min=new Date().toISOString().split('T')[0]);
+const form = document.getElementById('bookForm');
+form.addEventListener('submit', e=>{
+  e.preventDefault();
+  const lang = L(), lines = [], missing = [];
+  form.querySelectorAll('[data-f]').forEach(el=>{
+    let v = '';
+    if(el.type==='radio'){ if(!el.checked) return; v = lang==='ar' ? el.dataset.var : el.dataset.ven; }
+    else if(el.tagName==='SELECT'){ v = el.dataset.src==='services' ? SERVICES[el.value][lang] : el.options[el.selectedIndex].text; }
+    else v = el.value.trim();
+    if(el.required && !v) missing.push(1);
+    if(v) lines.push((lang==='ar'?el.dataset.ar:el.dataset.en)+': '+v);
+  });
+  if(missing.length){ alert(lang==='ar' ? 'يرجى تعبئة الحقول المطلوبة' : 'Please fill in the required fields'); return; }
+  const intro = lang==='ar' ? form.dataset.introAr : form.dataset.introEn;
+  window.open(`https://wa.me/${BIZ.wa}?text=${encodeURIComponent(intro+'\n'+lines.join('\n'))}`,'_blank');
+});
+function setLang(l){
+  html.lang=l; html.dir = l==='ar'?'rtl':'ltr';
+  btn.textContent = l==='ar' ? 'English' : 'العربية';
+  const v = sel && sel.value; fillServices(); if(sel) sel.value=v;
+}
+btn.addEventListener('click',()=>setLang(L()==='ar'?'en':'ar'));
+if(new URLSearchParams(location.search).get('lang')==='ar') setLang('ar');
+const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>

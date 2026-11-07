@@ -4,21 +4,21 @@ import sys, glob, os, threading, http.server, functools
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parent.parent
-FONTS = glob.glob("/tmp/claude-0/-home-claude/*/scratchpad/fonts/node_modules/@fontsource/ibm-plex-sans*/files/*.woff2")
+FONTS = glob.glob("/tmp/claude-0/-home-claude/*/scratchpad/fonts/node_modules/@fontsource/ibm-plex-*/files/*.woff2")
 
-def main(slug, outdir):
+def main(slug, outdir, root=None):
     out = Path(outdir); out.mkdir(parents=True, exist_ok=True)
-    h = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(ROOT/"public"))
+    h = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(Path(root) if root else ROOT/"public"))
     h.log_message = lambda *a, **k: None
     srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), h); port = srv.server_port
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     fontcss = []
     for f in FONTS:
         n = os.path.basename(f)  # ibm-plex-sans-latin-400-normal.woff2
-        fam = "IBM Plex Sans Arabic" if "arabic" in n else "IBM Plex Sans"
+        fam = "IBM Plex Sans Arabic" if "arabic" in n else ("IBM Plex Serif" if "serif" in n else "IBM Plex Sans")
         if "-latin-ext" in n or "cyrillic" in n or "vietnamese" in n or "greek" in n or "hebrew" in n or "devanagari" in n or "thai" in n: continue
         w = n.split("-")[-2]
-        fontcss.append((n, fam, w))
+        fontcss.append((n, fam, w, 'italic' if n.endswith('-italic.woff2') else 'normal'))
     shots = [("desktop-top", dict(width=1440,height=900), "", False),
              ("desktop-full", dict(width=1440,height=900), "", True),
              ("mobile-top", dict(width=390,height=844), "", False),
@@ -31,7 +31,7 @@ def main(slug, outdir):
             def route(r):
                 u = r.request.url
                 if "fonts.googleapis.com" in u:
-                    css = "".join(f"@font-face{{font-family:'{fam}';font-weight:{w};src:url('http://fonts.local/{n}') format('woff2')}}" for n,fam,w in fontcss)
+                    css = "".join(f"@font-face{{font-family:'{fam}';font-weight:{w};font-style:{st};src:url('http://fonts.local/{n}') format('woff2')}}" for n,fam,w,st in fontcss)
                     r.fulfill(body=css, content_type="text/css")
                 elif "fonts.local" in u:
                     n = u.rsplit("/",1)[1]; r.fulfill(path=[f for f in FONTS if f.endswith(n)][0], content_type="font/woff2")
@@ -46,4 +46,4 @@ def main(slug, outdir):
             ctx.close()
         b.close()
     print("ok", list(out.iterdir()))
-main(sys.argv[1], sys.argv[2])
+main(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv)>3 else None)

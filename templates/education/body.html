@@ -1,0 +1,65 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> parents</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> ولي أمر</span></div>
+    </div>
+    <div class="blob up" aria-hidden="true" style="animation-delay:.2s"><div class="b1"></div><div class="b2"></div><div class="b3"></div>
+      <svg viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><path d="M50 26c-8-7-22-8-34-4v52c12-4 26-3 34 4 8-7 22-8 34-4V22c-12-4-26-3-34 4zM50 26v52"/></svg></div>
+  </div>
+</section>
+<section id="programs" class="prog">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Our <b>programmes</b></h2><h2 class="ar rv">برامجنا</h2>
+    <p class="intro en rv">Find the right programme. Ages, schedules and fees are confirmed when you enquire.</p>
+    <p class="intro ar rv">اعرف البرنامج المناسب. الأعمار والمواعيد والرسوم نأكدها عند الاستفسار.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="why" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Getting started is <b>simple</b></h2><h2 class="ar rv">البدء <b>سهل</b></h2>
+    <p class="intro en rv">Three easy steps from question to first class.</p><p class="intro ar rv">ثلاث خطوات من السؤال لين أول حصة.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">1. Enquire</h3><h3 class="ar">١. استفسر</h3><p class="en">Send your question on WhatsApp.</p><p class="ar">أرسل سؤالك على واتساب.</p></div>
+      <div class="u rv"><h3 class="en">2. Visit</h3><h3 class="ar">٢. زورنا</h3><p class="en">See the centre and meet the team.</p><p class="ar">شوف المركز وقابل الفريق.</p></div>
+      <div class="u rv"><h3 class="en">3. Enrol</h3><h3 class="ar">٣. سجّل</h3><p class="en">Pick the programme and start.</p><p class="ar">اختر البرنامج وابدأ.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Ask about <b>enrolment</b></h2><h2 class="ar">اسأل عن <b>التسجيل</b></h2>
+      <p class="intro en">Send your enquiry and it opens in WhatsApp, ready to send.</p><p class="intro ar">أرسل استفسارك وينفتح في واتساب جاهز للإرسال.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to enquire about enrolment:" data-intro-ar="مرحباً، أبغى أستفسر عن التسجيل:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fStudent"><span class="en">Student name and age (optional)</span><span class="ar">اسم الطالب وعمره (اختياري)</span></label><input id="fStudent" data-f data-en="Student" data-ar="الطالب"></div>
+      <div class="full"><label for="fSvc"><span class="en">Programme</span><span class="ar">البرنامج</span></label><select id="fSvc" data-src="services" data-f data-en="Programme" data-ar="البرنامج"></select></div>
+      <div class="full"><label for="fDate"><span class="en">Preferred visit date (optional)</span><span class="ar">تاريخ الزيارة المفضل (اختياري)</span></label><input id="fDate" type="date" data-f data-en="Visit date" data-ar="تاريخ الزيارة"></div>
+      <div class="full"><label for="fNote"><span class="en">Notes (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send enquiry on WhatsApp</span><span class="ar">أرسل الاستفسار على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Can I visit before enrolling?</span><span class="ar">أقدر أزور قبل التسجيل؟</span></summary><p class="en">Yes, choose a visit date in the form and we'll confirm a time.</p><p class="ar">أكيد، اختر تاريخ الزيارة في النموذج ونأكد لك الوقت.</p></details>
+      <details><summary><span class="en">What are the fees?</span><span class="ar">كم الرسوم؟</span></summary><p class="en">Fees depend on the programme. Message us and we'll send the details.</p><p class="ar">الرسوم تختلف حسب البرنامج. راسلنا ونرسل لك التفاصيل.</p></details>
+      <details><summary><span class="en">Where is the centre?</span><span class="ar">وين المركز؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدم الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

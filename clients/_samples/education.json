@@ -1,0 +1,79 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-education",
+ "category": "Training centre and tuition",
+ "name_en": "Bright Minds Learning Center",
+ "name_ar": "مركز برايت مايندز التعليمي",
+ "area_en": "Al Nakheel, Ras Al Khaimah",
+ "area_ar": "النخيل، رأس الخيمة",
+ "lead_en": "After-school tuition and language courses for students of all ages. Ask about enrolment on WhatsApp.",
+ "lead_ar": "دروس تقوية ودورات لغة للطلاب من كل الأعمار. اسأل عن التسجيل على واتساب.",
+ "desc_en": "Bright Minds Learning Center, Ras Al Khaimah.",
+ "address_en": [
+  "Al Nakheel",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "النخيل",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Maths and science tuition",
+   "ar": "دروس رياضيات وعلوم",
+   "desc_en": "Small groups",
+   "desc_ar": "مجموعات صغيرة"
+  },
+  {
+   "en": "English course",
+   "ar": "دورة إنجليزي",
+   "desc_en": "Kids and adults",
+   "desc_ar": "للأطفال والكبار"
+  },
+  {
+   "en": "Arabic and Quran",
+   "ar": "عربي وقرآن",
+   "desc_en": "Beginner to advanced",
+   "desc_ar": "من المبتدئ للمتقدم"
+  },
+  {
+   "en": "Exam preparation",
+   "ar": "التحضير للامتحانات",
+   "desc_en": "Focused revision",
+   "desc_ar": "مراجعة مركزة"
+  },
+  {
+   "en": "Summer programme",
+   "ar": "برنامج صيفي",
+   "desc_en": "Ask for dates",
+   "desc_ar": "اسأل عن المواعيد"
+  },
+  {
+   "en": "Computer skills",
+   "ar": "مهارات الحاسوب",
+   "desc_en": "Practical lessons",
+   "desc_ar": "دروس عملية"
+  }
+ ]
+}

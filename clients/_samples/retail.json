@@ -1,0 +1,79 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-retail",
+ "category": "Mobile phones and electronics shop",
+ "name_en": "Gulf Mobiles",
+ "name_ar": "الخليج للجوالات",
+ "area_en": "Al Nakheel, Ras Al Khaimah",
+ "area_ar": "النخيل، رأس الخيمة",
+ "lead_en": "Phones, accessories and chargers, with friendly advice. Ask for any item on WhatsApp.",
+ "lead_ar": "جوالات وإكسسوارات وشواحن مع نصيحة صادقة. اسأل عن أي منتج على واتساب.",
+ "desc_en": "Gulf Mobiles, Ras Al Khaimah.",
+ "address_en": [
+  "Al Nakheel",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "النخيل",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Smartphones",
+   "ar": "هواتف ذكية",
+   "desc_en": "New phones from popular brands",
+   "desc_ar": "هواتف جديدة من ماركات معروفة"
+  },
+  {
+   "en": "Cases and screen protectors",
+   "ar": "أغطية وحمايات شاشة",
+   "desc_en": "For most models",
+   "desc_ar": "لمعظم الموديلات"
+  },
+  {
+   "en": "Chargers and cables",
+   "ar": "شواحن وكابلات",
+   "desc_en": "Fast charging options",
+   "desc_ar": "خيارات شحن سريع"
+  },
+  {
+   "en": "Headphones and speakers",
+   "ar": "سماعات ومكبرات",
+   "desc_en": "Wired and wireless",
+   "desc_ar": "سلكية ولاسلكية"
+  },
+  {
+   "en": "Phone repair",
+   "ar": "صيانة الجوالات",
+   "desc_en": "Screens and batteries",
+   "desc_ar": "شاشات وبطاريات"
+  },
+  {
+   "en": "Accessories",
+   "ar": "إكسسوارات",
+   "desc_en": "Holders, power banks and more",
+   "desc_ar": "حوامل وباور بنك وأكثر"
+  }
+ ]
+}

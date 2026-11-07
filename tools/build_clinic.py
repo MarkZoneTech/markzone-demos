@@ -38,7 +38,7 @@ def palette_from_brand(brand, base):
 def ar_time(t):
     return t.replace("AM","ص").replace("PM","م").translate(AR_DIGITS)
 
-def build(slug):
+def build(slug, out_root=None):
     c = json.loads((ROOT/"clients"/f"{slug}.json").read_text(encoding="utf-8"))
     p = palette_from_brand(c["brand"], c["palette"]) if c.get("brand",{}).get("primary") else c["palette"]; e = html.escape
     t = (ROOT/"templates"/"clinic.html").read_text(encoding="utf-8")
@@ -74,7 +74,7 @@ def build(slug):
     assert "<<" not in t.replace("<<<","") or True
     left = [s for s in __import__("re").findall(r"<<[A-Z_]+>>", t)]
     if left: sys.exit(f"Unreplaced placeholders: {set(left)}")
-    out = ROOT/"public"/c["slug"]; out.mkdir(parents=True, exist_ok=True)
+    out = Path(out_root or ROOT/"public")/c["slug"]; out.mkdir(parents=True, exist_ok=True)
     (out/"index.html").write_text(t, encoding="utf-8")
     print("built", out/"index.html", len(t), "bytes")
 

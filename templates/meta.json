@@ -1,0 +1,345 @@
+{
+ "salon": {
+  "label": "Beauty & grooming (salon, barber, spa, nails)",
+  "palette": {
+   "night": "#3B1F2B",
+   "primary": "#6B2E4A",
+   "primary2": "#8C4466",
+   "accent": "#D9A86C",
+   "accent_soft": "#F3DFC4",
+   "ink": "#2A1620",
+   "paper": "#FBF6F1",
+   "line": "#EADBD0",
+   "muted": "#7A6068"
+  },
+  "nav": [
+   {
+    "href": "services",
+    "en": "Services",
+    "ar": "الخدمات"
+   },
+   {
+    "href": "why",
+    "en": "Why us",
+    "ar": "لماذا نحن"
+   },
+   {
+    "href": "book",
+    "en": "Book",
+    "ar": "الحجز"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Beauty, made simple.",
+   "head_ar": "جمالك، بكل بساطة.",
+   "sub_en": "Book your appointment in a minute and walk in relaxed.",
+   "sub_ar": "احجز موعدك في دقيقة وتعال مرتاح.",
+   "cta_en": "Book now",
+   "cta_ar": "احجز الآن"
+  }
+ },
+ "restaurant": {
+  "label": "Food & drink (restaurant, café, bakery, sweets)",
+  "palette": {
+   "night": "#1E1410",
+   "primary": "#7A2E1B",
+   "primary2": "#A24226",
+   "accent": "#E8A33D",
+   "accent_soft": "#F6D9A3",
+   "ink": "#20140F",
+   "paper": "#FAF4EC",
+   "line": "#E8DACB",
+   "muted": "#7B6A5E"
+  },
+  "nav": [
+   {
+    "href": "menu",
+    "en": "Menu",
+    "ar": "القائمة"
+   },
+   {
+    "href": "how",
+    "en": "How to order",
+    "ar": "كيف تطلب"
+   },
+   {
+    "href": "book",
+    "en": "Order",
+    "ar": "الطلب"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Good food, good company.",
+   "head_ar": "أكل طيب وجلسة حلوة.",
+   "sub_en": "Browse the menu, then order or reserve straight on WhatsApp.",
+   "sub_ar": "تصفح القائمة، وبعدها اطلب أو احجز مباشرة على واتساب.",
+   "cta_en": "Order or reserve",
+   "cta_ar": "اطلب أو احجز"
+  }
+ },
+ "retail": {
+  "label": "Shops & products (electronics, fashion, tailoring, gifts, flowers, pharmacy)",
+  "palette": {
+   "night": "#0F1B2D",
+   "primary": "#1B4B8F",
+   "primary2": "#2A66BE",
+   "accent": "#FF7A1A",
+   "accent_soft": "#FFD9B8",
+   "ink": "#0F1B2D",
+   "paper": "#F4F7FB",
+   "line": "#DCE4EF",
+   "muted": "#5B6B80"
+  },
+  "nav": [
+   {
+    "href": "shop",
+    "en": "Products",
+    "ar": "المنتجات"
+   },
+   {
+    "href": "how",
+    "en": "How it works",
+    "ar": "كيف نخدمك"
+   },
+   {
+    "href": "book",
+    "en": "Order",
+    "ar": "الطلب"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Everything you need, one message away.",
+   "head_ar": "كل اللي تحتاجه، برسالة وحدة.",
+   "sub_en": "Tell us what you are looking for on WhatsApp and we will help you find it.",
+   "sub_ar": "قل لنا شو تدور على واتساب وبنساعدك تلقاه.",
+   "cta_en": "Order on WhatsApp",
+   "cta_ar": "اطلب على واتساب"
+  }
+ },
+ "services": {
+  "label": "Home & trade services (AC, plumbing, cleaning, garage, moving, laundry)",
+  "palette": {
+   "night": "#0E1B2A",
+   "primary": "#0B5D8F",
+   "primary2": "#1380BD",
+   "accent": "#FFC21A",
+   "accent_soft": "#FFE9A3",
+   "ink": "#0E1B2A",
+   "paper": "#F3F6F9",
+   "line": "#D8E1EA",
+   "muted": "#566678"
+  },
+  "nav": [
+   {
+    "href": "services",
+    "en": "Services",
+    "ar": "الخدمات"
+   },
+   {
+    "href": "how",
+    "en": "How it works",
+    "ar": "كيف نشتغل"
+   },
+   {
+    "href": "book",
+    "en": "Quote",
+    "ar": "عرض سعر"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Reliable help, when you need it.",
+   "head_ar": "خدمة تعتمد عليها وقت ما تحتاجها.",
+   "sub_en": "Tell us what you need and we will get back to you on WhatsApp.",
+   "sub_ar": "قل لنا شو تحتاج وبنرد عليك على واتساب.",
+   "cta_en": "Request a quote",
+   "cta_ar": "اطلب عرض سعر"
+  }
+ },
+ "fitness": {
+  "label": "Fitness & sports (gym, yoga, martial arts, swimming, academies)",
+  "palette": {
+   "night": "#0B0B0F",
+   "primary": "#1A1A2E",
+   "primary2": "#2B2B52",
+   "accent": "#C6F432",
+   "accent_soft": "#E6FA9A",
+   "ink": "#0B0B0F",
+   "paper": "#F2F2F5",
+   "line": "#DADAE2",
+   "muted": "#5F5F70"
+  },
+  "nav": [
+   {
+    "href": "programs",
+    "en": "Programmes",
+    "ar": "البرامج"
+   },
+   {
+    "href": "why",
+    "en": "Why join",
+    "ar": "لماذا تنضم"
+   },
+   {
+    "href": "book",
+    "en": "Join",
+    "ar": "انضم"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Move more. Feel stronger.",
+   "head_ar": "تحرك أكثر. كن أقوى.",
+   "sub_en": "Book a trial session and see if we are the right fit for you.",
+   "sub_ar": "احجز جلسة تجريبية وشوف إذا نناسبك.",
+   "cta_en": "Book a trial",
+   "cta_ar": "احجز تجربة"
+  }
+ },
+ "education": {
+  "label": "Education & training (nursery, tuition, training centre, language, driving school)",
+  "palette": {
+   "night": "#17285A",
+   "primary": "#243B8C",
+   "primary2": "#3A57BE",
+   "accent": "#FFB02E",
+   "accent_soft": "#FFE2A6",
+   "ink": "#16224A",
+   "paper": "#F5F7FD",
+   "line": "#DCE2F3",
+   "muted": "#5B6788"
+  },
+  "nav": [
+   {
+    "href": "programs",
+    "en": "Programmes",
+    "ar": "البرامج"
+   },
+   {
+    "href": "why",
+    "en": "Why us",
+    "ar": "لماذا نحن"
+   },
+   {
+    "href": "book",
+    "en": "Enquire",
+    "ar": "استفسار"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "A place where learning grows.",
+   "head_ar": "مكان ينمو فيه التعلّم.",
+   "sub_en": "Ask about our programmes and book a visit to the centre.",
+   "sub_ar": "استفسر عن برامجنا واحجز زيارة للمركز.",
+   "cta_en": "Enquire now",
+   "cta_ar": "استفسر الآن"
+  }
+ },
+ "general": {
+  "label": "General business (offices, consultants, agencies, any other activity)",
+  "palette": {
+   "night": "#14202B",
+   "primary": "#1F4E5F",
+   "primary2": "#2F6F85",
+   "accent": "#D4A24C",
+   "accent_soft": "#F0DDB2",
+   "ink": "#14202B",
+   "paper": "#F5F7F8",
+   "line": "#DDE4E7",
+   "muted": "#5A6B73"
+  },
+  "nav": [
+   {
+    "href": "services",
+    "en": "Services",
+    "ar": "الخدمات"
+   },
+   {
+    "href": "about",
+    "en": "About",
+    "ar": "من نحن"
+   },
+   {
+    "href": "book",
+    "en": "Contact",
+    "ar": "تواصل"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Visit",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Professional service you can rely on.",
+   "head_ar": "خدمة احترافية تعتمد عليها.",
+   "sub_en": "Tell us what you need and we will reply on WhatsApp.",
+   "sub_ar": "قل لنا شو تحتاج وبنرد عليك على واتساب.",
+   "cta_en": "Get in touch",
+   "cta_ar": "تواصل معنا"
+  }
+ }
+}

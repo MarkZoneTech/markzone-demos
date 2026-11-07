@@ -1,0 +1,79 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-general",
+ "category": "Real estate and property services",
+ "name_en": "Skyline Property Services",
+ "name_ar": "سكاي لاين للخدمات العقارية",
+ "area_en": "Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Property rental, management and advice for owners and tenants. Contact us on WhatsApp.",
+ "lead_ar": "تأجير وإدارة واستشارات عقارية للملاك والمستأجرين. تواصل معنا على واتساب.",
+ "desc_en": "Skyline Property Services, Ras Al Khaimah.",
+ "address_en": [
+  "Al Nakheel",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "النخيل",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Property rental",
+   "ar": "تأجير العقارات",
+   "desc_en": "Apartments, villas and shops",
+   "desc_ar": "شقق وفلل ومحلات"
+  },
+  {
+   "en": "Property management",
+   "ar": "إدارة العقارات",
+   "desc_en": "For owners",
+   "desc_ar": "للملاك"
+  },
+  {
+   "en": "Tenant support",
+   "ar": "دعم المستأجرين",
+   "desc_en": "Questions and requests",
+   "desc_ar": "أسئلة وطلبات"
+  },
+  {
+   "en": "Contracts and paperwork",
+   "ar": "العقود والمعاملات",
+   "desc_en": "Guidance on the steps",
+   "desc_ar": "إرشاد للخطوات"
+  },
+  {
+   "en": "Valuation advice",
+   "ar": "استشارة تقييم",
+   "desc_en": "Market guidance",
+   "desc_ar": "توجيه عن السوق"
+  },
+  {
+   "en": "Listings",
+   "ar": "عرض العقارات",
+   "desc_en": "Advertise your property",
+   "desc_ar": "اعرض عقارك"
+  }
+ ]
+}

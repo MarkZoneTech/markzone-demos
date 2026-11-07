@@ -1,0 +1,79 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-fitness",
+ "category": "Gym and fitness club",
+ "name_en": "Iron Peak Fitness",
+ "name_ar": "آيرون بيك للياقة",
+ "area_en": "Al Dhait, Ras Al Khaimah",
+ "area_ar": "الظيت، رأس الخيمة",
+ "lead_en": "A friendly gym with strength, cardio and group classes. Book a trial session on WhatsApp.",
+ "lead_ar": "نادي لياقة ودود فيه حديد وكارديو وحصص جماعية. احجز جلسة تجريبية على واتساب.",
+ "desc_en": "Iron Peak Fitness, Ras Al Khaimah.",
+ "address_en": [
+  "Al Dhait",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "الظيت",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Gym membership",
+   "ar": "اشتراك النادي",
+   "desc_en": "Strength and cardio floor",
+   "desc_ar": "قاعة حديد وكارديو"
+  },
+  {
+   "en": "Personal training",
+   "ar": "تدريب شخصي",
+   "desc_en": "One-to-one coaching",
+   "desc_ar": "تدريب فردي"
+  },
+  {
+   "en": "Group classes",
+   "ar": "حصص جماعية",
+   "desc_en": "HIIT, spin and stretch",
+   "desc_ar": "هيت وسبين وإطالة"
+  },
+  {
+   "en": "Yoga",
+   "ar": "يوغا",
+   "desc_en": "All levels",
+   "desc_ar": "لكل المستويات"
+  },
+  {
+   "en": "Boxing",
+   "ar": "ملاكمة",
+   "desc_en": "Fitness boxing",
+   "desc_ar": "ملاكمة لياقة"
+  },
+  {
+   "en": "Kids programmes",
+   "ar": "برامج الأطفال",
+   "desc_en": "Ask about ages",
+   "desc_ar": "اسأل عن الأعمار"
+  }
+ ]
+}

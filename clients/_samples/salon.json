@@ -1,0 +1,86 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-salon",
+ "category": "Ladies beauty salon",
+ "name_en": "Rose Beauty Salon",
+ "name_ar": "صالون روز للتجميل",
+ "area_en": "Al Nakheel, Ras Al Khaimah",
+ "area_ar": "النخيل، رأس الخيمة",
+ "lead_en": "A relaxed beauty salon for hair, nails and skin care. Book in a minute on WhatsApp.",
+ "lead_ar": "صالون تجميل مريح للشعر والأظافر والعناية بالبشرة. احجز في دقيقة على واتساب.",
+ "desc_en": "Rose Beauty Salon, Ras Al Khaimah.",
+ "address_en": [
+  "Al Nakheel",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "النخيل",
+  "رأس الخيمة، الإمارات"
+ ],
+ "show_prices": true,
+ "services": [
+  {
+   "en": "Haircut and styling",
+   "ar": "قص وتسريح",
+   "desc_en": "Cut, wash and blow-dry",
+   "desc_ar": "قص وغسيل وتجفيف",
+   "price": "AED 80"
+  },
+  {
+   "en": "Hair colour",
+   "ar": "صبغة الشعر",
+   "desc_en": "Full colour or highlights",
+   "desc_ar": "صبغة كاملة أو هايلايت",
+   "price": "from AED 250"
+  },
+  {
+   "en": "Manicure",
+   "ar": "مانيكير",
+   "desc_en": "Classic care for hands",
+   "desc_ar": "عناية كلاسيكية لليدين",
+   "price": "AED 60"
+  },
+  {
+   "en": "Pedicure",
+   "ar": "باديكير",
+   "desc_en": "Classic care for feet",
+   "desc_ar": "عناية كلاسيكية للقدمين",
+   "price": "AED 70"
+  },
+  {
+   "en": "Facial",
+   "ar": "تنظيف بشرة",
+   "desc_en": "Deep cleansing facial",
+   "desc_ar": "تنظيف عميق للبشرة",
+   "price": "AED 150"
+  },
+  {
+   "en": "Henna",
+   "ar": "حناء",
+   "desc_en": "Hand and foot designs",
+   "desc_ar": "نقوش لليدين والقدمين",
+   "price": "AED 100"
+  }
+ ]
+}

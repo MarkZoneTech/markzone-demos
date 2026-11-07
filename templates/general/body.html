@@ -1,0 +1,68 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> clients</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="glance up" style="animation-delay:.2s"><h3 class="en">At a glance</h3><h3 class="ar">نبذة سريعة</h3>
+      <dl>
+        <div class="row"><dt><span class="en">Location</span><span class="ar">الموقع</span></dt><dd><span class="en"><<AREA_EN>></span><span class="ar"><<AREA_AR>></span></dd></div>
+        <div class="row"><dt><span class="en">Google rating</span><span class="ar">تقييم جوجل</span></dt><dd dir="ltr"><<RATING>> ★ (<<REVIEWS>>)</dd></div>
+        <div class="row"><dt><span class="en">Open</span><span class="ar">أيام الدوام</span></dt><dd><span class="en"><<OPEN_DAYS>> days a week</span><span class="ar"><<OPEN_DAYS>> أيام في الأسبوع</span></dd></div>
+        <div class="row"><dt><span class="en">Reach us</span><span class="ar">تواصل</span></dt><dd dir="ltr"><<PHONE_DISPLAY>></dd></div>
+      </dl></div>
+  </div>
+</section>
+<section id="services" class="svc-sec">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">What we <b>offer</b></h2><h2 class="ar rv">شو <b>نقدم</b></h2>
+    <p class="intro en rv">A summary of our services. Contact us for details and a quote.</p>
+    <p class="intro ar rv">ملخص لخدماتنا. تواصل معنا للتفاصيل وعرض السعر.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Why <b>work with us</b></h2><h2 class="ar rv">ليش <b>تتعامل معنا</b></h2>
+    <p class="intro en rv">Clear communication from the first message.</p><p class="intro ar rv">تواصل واضح من أول رسالة.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">Easy to reach</h3><h3 class="ar">سهل التواصل</h3><p class="en">Message us on WhatsApp or call during opening hours.</p><p class="ar">راسلنا على واتساب أو اتصل في أوقات الدوام.</p></div>
+      <div class="u rv"><h3 class="en">Clear answers</h3><h3 class="ar">إجابات واضحة</h3><p class="en">We explain the options and next steps simply.</p><p class="ar">نشرح الخيارات والخطوات الجاية ببساطة.</p></div>
+      <div class="u rv"><h3 class="en">Local and close</h3><h3 class="ar">قريبين منك</h3><p class="en">Based in <<AREA_EN>>, with directions below.</p><p class="ar">موجودين في <<AREA_AR>>، والاتجاهات تحت.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Get in <b>touch</b></h2><h2 class="ar">تواصل <b>معنا</b></h2>
+      <p class="intro en">Tell us what you need and your message opens in WhatsApp, ready to send.</p><p class="intro ar">قل لنا شو تحتاج وتنفتح رسالتك في واتساب جاهزة للإرسال.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to get in touch:" data-intro-ar="مرحباً، أبغى أتواصل معكم:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Service</span><span class="ar">الخدمة</span></label><select id="fSvc" data-src="services" data-f data-en="Service" data-ar="الخدمة"></select></div>
+      <div class="full"><label for="fNote"><span class="en">How can we help?</span><span class="ar">كيف نقدر نساعدك؟</span></label><textarea id="fNote" rows="4" required data-f data-en="Message" data-ar="الرسالة"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">How do I get a quote?</span><span class="ar">كيف أحصل على عرض سعر؟</span></summary><p class="en">Send your request through the form or WhatsApp and we'll reply with the details.</p><p class="ar">أرسل طلبك من النموذج أو واتساب ونرد عليك بالتفاصيل.</p></details>
+      <details><summary><span class="en">When are you open?</span><span class="ar">متى أوقات الدوام؟</span></summary><p class="en">See the opening hours below. You can message us on WhatsApp any time.</p><p class="ar">شوف أوقات الدوام تحت. وتقدر تراسلنا على واتساب في أي وقت.</p></details>
+      <details><summary><span class="en">Where are you?</span><span class="ar">وين موقعكم؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدم الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

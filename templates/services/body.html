@@ -1,0 +1,70 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="badge up en"><<AREA_EN>></div><div class="badge up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> customers</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="gear up" aria-hidden="true" style="animation-delay:.2s">
+      <svg viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="40" stroke="var(--primary-2)" stroke-width="12" stroke-dasharray="11.2 11.2"/><circle cx="50" cy="50" r="33" stroke="var(--primary)" stroke-width="8"/></svg>
+      <div class="in"><span class="en">Call or WhatsApp</span><span class="ar">اتصل أو واتساب</span></div></div>
+  </div>
+</section>
+<section id="services" class="svc-sec">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">What we <b>do</b></h2><h2 class="ar rv">شو <b>نسوي</b></h2>
+    <p class="intro en rv">Tell us the job and we'll confirm details and timing on WhatsApp.</p>
+    <p class="intro ar rv">قل لنا الشغل المطلوب ونأكد لك التفاصيل والوقت على واتساب.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="how" class="how">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">How it <b>works</b></h2><h2 class="ar rv">كيف <b>نشتغل</b></h2>
+    <p class="intro en rv">Simple, clear and no surprises.</p><p class="intro ar rv">بسيط وواضح وبدون مفاجآت.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">1. Describe the job</h3><h3 class="ar">١. اشرح المطلوب</h3><p class="en">Send the request form, with photos on WhatsApp if you like.</p><p class="ar">أرسل النموذج، ومعه صور على واتساب إذا تبغى.</p></div>
+      <div class="u rv"><h3 class="en">2. Get a quote</h3><h3 class="ar">٢. استلم عرض السعر</h3><p class="en">We reply with the price and the time that suits you.</p><p class="ar">نرد عليك بالسعر والوقت المناسب لك.</p></div>
+      <div class="u rv"><h3 class="en">3. We get it done</h3><h3 class="ar">٣. ننفذ الشغل</h3><p class="en">Our team comes to you and completes the work.</p><p class="ar">فريقنا يوصلك وينهي الشغل.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Request a <b>quote</b></h2><h2 class="ar">اطلب <b>عرض سعر</b></h2>
+      <p class="intro en">Fill in a few details and your request opens in WhatsApp, ready to send.</p><p class="intro ar">عبّئ التفاصيل وينفتح طلبك في واتساب جاهز للإرسال.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like a quote:" data-intro-ar="مرحباً، أبغى عرض سعر:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Service needed</span><span class="ar">الخدمة المطلوبة</span></label><select id="fSvc" data-src="services" data-f data-en="Service" data-ar="الخدمة"></select></div>
+      <div class="full"><label for="fArea"><span class="en">Your area / building</span><span class="ar">منطقتك / المبنى</span></label><input id="fArea" required data-f data-en="Location" data-ar="الموقع"></div>
+      <div class="full"><label><span class="en">When do you need it?</span><span class="ar">متى تحتاجها؟</span></label><div class="slots">
+        <label><input type="radio" name="when" checked data-f data-en="When" data-ar="الموعد" data-ven="As soon as possible" data-var="بأسرع وقت"><span><span class="en">As soon as possible</span><span class="ar">بأسرع وقت</span></span></label>
+        <label><input type="radio" name="when" data-f data-en="When" data-ar="الموعد" data-ven="This week" data-var="هذا الأسبوع"><span><span class="en">This week</span><span class="ar">هذا الأسبوع</span></span></label>
+        <label><input type="radio" name="when" data-f data-en="When" data-ar="الموعد" data-ven="Flexible" data-var="مرن"><span><span class="en">Flexible</span><span class="ar">مرن</span></span></label></div></div>
+      <div class="full"><label for="fNote"><span class="en">Describe the job (optional)</span><span class="ar">وصف الشغل (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Details" data-ar="التفاصيل"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send request on WhatsApp</span><span class="ar">أرسل الطلب على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">How much will it cost?</span><span class="ar">كم التكلفة؟</span></summary><p class="en">It depends on the job. Send the details and we'll give you a quote before we start.</p><p class="ar">تعتمد على الشغل. أرسل التفاصيل وبنعطيك عرض سعر قبل ما نبدأ.</p></details>
+      <details><summary><span class="en">Which areas do you cover?</span><span class="ar">أي مناطق تغطون؟</span></summary><p class="en">Write your area in the form and we'll confirm whether we can reach you.</p><p class="ar">اكتب منطقتك في النموذج ونأكد لك إذا نقدر نوصلك.</p></details>
+      <details><summary><span class="en">Can I send photos?</span><span class="ar">أقدر أرسل صور؟</span></summary><p class="en">Yes, send photos on WhatsApp after your request so we can quote more accurately.</p><p class="ar">أكيد، أرسل الصور على واتساب بعد الطلب عشان نعطيك سعر أدق.</p></details>
+    </div>
+  </div>
+</section>
+<a class="callbar" href="tel:<<TEL>>"><span class="en">Call now</span><span class="ar">اتصل الآن</span> <span dir="ltr"><<PHONE_DISPLAY>></span></a>

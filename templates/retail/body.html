@@ -1,0 +1,64 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="tagrow up"><span class="en"><<AREA_EN>></span><span class="ar"><<AREA_AR>></span></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="#shop"><span class="en">Browse products</span><span class="ar">تصفح المنتجات</span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> customers</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="bag up" aria-hidden="true" style="animation-delay:.2s"><div class="bg"></div><div class="sq"></div>
+      <svg viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><path d="M18 32h64l-5 56H23z"/><path d="M35 40V26a15 15 0 0 1 30 0v14"/></svg>
+      <div class="tag"><span class="en">Ask us on WhatsApp</span><span class="ar">اسألنا على واتساب</span></div></div>
+  </div>
+</section>
+<section id="shop" class="shop-sec">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">What we <b>offer</b></h2><h2 class="ar rv">وش <b>نوفر لك</b></h2>
+    <p class="intro en rv">A look at our main categories. Message us for availability and prices.</p>
+    <p class="intro ar rv">نظرة على أقسامنا الرئيسية. راسلنا لمعرفة المتوفر والأسعار.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="how" class="how">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Shopping with us is <b>simple</b></h2><h2 class="ar rv">التسوق عندنا <b>بسيط</b></h2>
+    <p class="intro en rv">No complicated checkout. Just a message.</p><p class="intro ar rv">بدون خطوات معقدة. بس رسالة.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">1. Tell us</h3><h3 class="ar">١. قل لنا</h3><p class="en">What you are looking for.</p><p class="ar">شو تدور عليه.</p></div>
+      <div class="u rv"><h3 class="en">2. We confirm</h3><h3 class="ar">٢. نأكد لك</h3><p class="en">Availability and price, on WhatsApp.</p><p class="ar">التوفر والسعر على واتساب.</p></div>
+      <div class="u rv"><h3 class="en">3. Collect it</h3><h3 class="ar">٣. استلمه</h3><p class="en">Visit the shop, details below.</p><p class="ar">زرنا في المحل، التفاصيل تحت.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Order on <b>WhatsApp</b></h2><h2 class="ar">اطلب على <b>واتساب</b></h2>
+      <p class="intro en">Tell us what you need and your message opens in WhatsApp, ready to send.</p><p class="intro ar">قل لنا شو تحتاج وتنفتح رسالتك في واتساب جاهزة للإرسال.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to ask about / order:" data-intro-ar="مرحباً، أبغى أسأل عن / أطلب:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Category</span><span class="ar">القسم</span></label><select id="fSvc" data-src="services" data-f data-en="Category" data-ar="القسم"></select></div>
+      <div class="full"><label for="fNote"><span class="en">What are you looking for?</span><span class="ar">شو تدور عليه؟</span></label><textarea id="fNote" rows="4" required data-f data-en="Request" data-ar="الطلب"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Is the item available?</span><span class="ar">المنتج متوفر؟</span></summary><p class="en">Send us the item name on WhatsApp and we'll confirm availability.</p><p class="ar">أرسل لنا اسم المنتج على واتساب ونأكد لك التوفر.</p></details>
+      <details><summary><span class="en">What are the prices?</span><span class="ar">كم الأسعار؟</span></summary><p class="en">Prices change by item. Message us and we'll confirm the price.</p><p class="ar">الأسعار تختلف حسب المنتج. راسلنا ونأكد لك السعر.</p></details>
+      <details><summary><span class="en">Where is the shop?</span><span class="ar">وين المحل؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدم الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

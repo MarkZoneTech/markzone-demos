@@ -1,0 +1,68 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="pill up en"><<AREA_EN>></div><div class="pill up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="#menu"><span class="en">See the menu</span><span class="ar">شوف القائمة</span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> guests</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> ضيف</span></div>
+    </div>
+    <div class="plate up" aria-hidden="true" style="animation-delay:.2s"><div class="p1"></div><div class="p2"></div>
+      <svg viewBox="0 0 100 100" fill="none" stroke="var(--gold-soft)" stroke-width="4" stroke-linecap="round"><path d="M28 12v26a8 8 0 0 0 16 0V12M36 12v76M72 12c-9 6-12 20-12 32h12v44"/></svg></div>
+  </div>
+</section>
+<section id="menu" class="menu-sec">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">From our <b>menu</b></h2><h2 class="ar rv">من <b>قائمتنا</b></h2>
+    <p class="intro en rv">A taste of what we serve. Ask us on WhatsApp for the full menu and today's availability.</p>
+    <p class="intro ar rv">لمحة عن اللي نقدمه. اسألنا على واتساب عن القائمة الكاملة والمتوفر اليوم.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="how" class="how">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Ordering is <b>easy</b></h2><h2 class="ar rv">الطلب <b>سهل</b></h2>
+    <p class="intro en rv">Three steps and your request is with us.</p><p class="intro ar rv">ثلاث خطوات ويوصلنا طلبك.</p>
+    <div class="strip">
+      <div class="u rv"><h3 class="en">1. Choose</h3><h3 class="ar">١. اختر</h3><p class="en">Pick from the menu above.</p><p class="ar">اختر من القائمة فوق.</p></div>
+      <div class="u rv"><h3 class="en">2. Send on WhatsApp</h3><h3 class="ar">٢. أرسل على واتساب</h3><p class="en">Fill the short form and send it as a message.</p><p class="ar">عبّئ النموذج القصير وأرسله كرسالة.</p></div>
+      <div class="u rv"><h3 class="en">3. We confirm</h3><h3 class="ar">٣. نأكد لك</h3><p class="en">We reply to confirm your order or table.</p><p class="ar">نرد عليك ونأكد طلبك أو طاولتك.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Order or <b>reserve</b></h2><h2 class="ar">اطلب أو <b>احجز</b></h2>
+      <p class="intro en">Your request opens in WhatsApp, ready to send.</p><p class="intro ar">طلبك ينفتح في واتساب جاهز للإرسال.</p>
+      <ul class="tick"><li><span class="en">Open <<OPEN_DAYS>> days a week, see the hours below</span><span class="ar">مفتوحين <<OPEN_DAYS>> أيام في الأسبوع، شوف الأوقات تحت</span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to place a request:" data-intro-ar="مرحباً، أبغى أرسل طلب:">
+      <div><label for="fName"><span class="en">Full name</span><span class="ar">الاسم الكامل</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label><span class="en">Request type</span><span class="ar">نوع الطلب</span></label><div class="slots">
+        <label><input type="radio" name="kind" checked data-f data-en="Type" data-ar="النوع" data-ven="Order" data-var="طلب"><span><span class="en">Order</span><span class="ar">طلب</span></span></label>
+        <label><input type="radio" name="kind" data-f data-en="Type" data-ar="النوع" data-ven="Table reservation" data-var="حجز طاولة"><span><span class="en">Table</span><span class="ar">حجز طاولة</span></span></label></div></div>
+      <div class="full"><label for="fSvc"><span class="en">Item</span><span class="ar">الصنف</span></label><select id="fSvc" data-src="services" data-f data-en="Item" data-ar="الصنف"></select></div>
+      <div><label for="fGuests"><span class="en">Quantity / guests</span><span class="ar">الكمية / عدد الأشخاص</span></label><input id="fGuests" type="number" min="1" value="1" data-f data-en="Quantity / guests" data-ar="الكمية / الأشخاص"></div>
+      <div><label for="fDate"><span class="en">Date</span><span class="ar">التاريخ</span></label><input id="fDate" type="date" data-f data-en="Date" data-ar="التاريخ"></div>
+      <div class="full"><label for="fNote"><span class="en">Notes (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Common <b>questions</b></h2><h2 class="ar">أسئلة <b>شائعة</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيت جوابك؟ راسلنا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Can I see the full menu?</span><span class="ar">أقدر أشوف القائمة الكاملة؟</span></summary><p class="en">Message us on WhatsApp and we'll send you the full menu.</p><p class="ar">راسلنا على واتساب ونرسل لك القائمة الكاملة.</p></details>
+      <details><summary><span class="en">How do I reserve a table?</span><span class="ar">كيف أحجز طاولة؟</span></summary><p class="en">Choose "Table" in the form above, add the number of guests and date, and send it on WhatsApp.</p><p class="ar">اختر "حجز طاولة" في النموذج، وحط عدد الأشخاص والتاريخ، وأرسله على واتساب.</p></details>
+      <details><summary><span class="en">Where are you?</span><span class="ar">وين موقعكم؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدم الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

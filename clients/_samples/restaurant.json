@@ -1,0 +1,79 @@
+{
+ "wa": "971500000000",
+ "phone_display": "+971 50 000 0000",
+ "tel": "+971500000000",
+ "rating": "4.8",
+ "reviews": "120",
+ "lat": 25.7895,
+ "lng": 55.9432,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "Closed"
+  }
+ },
+ "slug": "sample-restaurant",
+ "category": "Restaurant and cafe",
+ "name_en": "Al Mawrid Grill",
+ "name_ar": "مشاوي المورد",
+ "area_en": "Al Hamra, Ras Al Khaimah",
+ "area_ar": "الحمراء، رأس الخيمة",
+ "lead_en": "Grills, rice and fresh bread served hot. Order or reserve a table on WhatsApp.",
+ "lead_ar": "مشاوي ورز وخبز طازج وساخن. اطلب أو احجز طاولة على واتساب.",
+ "desc_en": "Al Mawrid Grill, Ras Al Khaimah.",
+ "address_en": [
+  "Al Hamra",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "الحمراء",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Mixed grill platter",
+   "ar": "صينية مشاوي مشكلة",
+   "desc_en": "Lamb, chicken and kebab with rice",
+   "desc_ar": "لحم ودجاج وكباب مع رز"
+  },
+  {
+   "en": "Chicken shawarma",
+   "ar": "شاورما دجاج",
+   "desc_en": "Wrapped with garlic and pickles",
+   "desc_ar": "ملفوفة مع ثوم ومخلل"
+  },
+  {
+   "en": "Hummus and mutabbal",
+   "ar": "حمص ومتبل",
+   "desc_en": "Served with warm bread",
+   "desc_ar": "مع خبز ساخن"
+  },
+  {
+   "en": "Fresh juices",
+   "ar": "عصائر طازجة",
+   "desc_en": "Seasonal fruit",
+   "desc_ar": "فواكه الموسم"
+  },
+  {
+   "en": "Kunafa",
+   "ar": "كنافة",
+   "desc_en": "Warm, with syrup",
+   "desc_ar": "ساخنة مع القطر"
+  },
+  {
+   "en": "Family meal",
+   "ar": "وجبة عائلية",
+   "desc_en": "Ask for today's options",
+   "desc_ar": "اسأل عن خيارات اليوم"
+  }
+ ]
+}
