@@ -1,0 +1,66 @@
+{
+  "slug": "al-burj-dental",
+  "name_en": "Al Burj Dental Center",
+  "name_ar": "مركز البرج لطب الأسنان",
+  "area_en": "Dafan Al Nakheel, Ras Al Khaimah",
+  "area_ar": "دفان النخيل، رأس الخيمة",
+  "wa": "971504874950",
+  "phone_display": "+971 50 487 4950",
+  "tel": "+971504874950",
+  "rating": "4.8",
+  "reviews": "5",
+  "lead_en": "A dental centre in Dafan Al Nakheel, Ras Al Khaimah, with a specialist oral surgeon and a lady dentist. Open six days a week, morning to evening.",
+  "lead_ar": "مركز لطب الأسنان في دفان النخيل، رأس الخيمة، فيه جرّاح فم متخصص وطبيبة أسنان. مفتوح ست أيام في الأسبوع، من الصبح إلى المساء.",
+  "desc_en": "Al Burj Dental Center in Dafan Al Nakheel, Ras Al Khaimah. Book an appointment online.",
+  "address_en": [
+    "Julphar Office Tower 309, Al Hisn Road",
+    "Dafan Al Nakheel, Ras Al Khaimah, UAE"
+  ],
+  "address_ar": [
+    "برج جلفار للمكاتب 309، شارع الحصن",
+    "دفان النخيل، رأس الخيمة، الإمارات"
+  ],
+  "lat": 25.7910186,
+  "lng": 55.9601395,
+  "hours": {
+    "open": "8:00 AM",
+    "close": "8:00 PM",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "services": [
+    {
+      "en": "Oral surgery",
+      "ar": "جراحة الفم"
+    },
+    {
+      "en": "Dental extractions",
+      "ar": "خلع الأسنان"
+    },
+    {
+      "en": "General dentistry",
+      "ar": "طب الأسنان العام"
+    },
+    {
+      "en": "Check-ups and consultations",
+      "ar": "الفحص والاستشارات"
+    }
+  ],
+  "palette": {
+    "night": "#10243f",
+    "primary": "#1b4f8a",
+    "primary2": "#2a67aa",
+    "accent": "#e0a23b",
+    "accent_soft": "#f6e5c0",
+    "ink": "#13202f",
+    "paper": "#f5f8fc",
+    "line": "#dbe4ef",
+    "muted": "#586b80"
+  }
+}
