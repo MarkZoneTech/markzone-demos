@@ -1,0 +1,76 @@
+{
+  "slug": "al-asima-dental",
+  "name_en": "Al Asima Dental Center",
+  "name_ar": "مركز العاصمة للأسنان",
+  "area_en": "Al Araibi, Ras Al Khaimah",
+  "area_ar": "العريبي، رأس الخيمة",
+  "wa": "971505100383",
+  "phone_display": "+971 50 510 0383",
+  "tel": "+971505100383",
+  "rating": "5.0",
+  "reviews": "8",
+  "lead_en": "A friendly dental centre in Al Araibi, Ras Al Khaimah, with gentle doctors and a caring team. Open morning and evening, seven days a week.",
+  "lead_ar": "مركز أسنان في العريبي، رأس الخيمة، فيه دكاترة لطيفين وفريق يهتم فيك. مفتوح صبح ومساء، سبع أيام في الأسبوع.",
+  "desc_en": "Al Asima Dental Center in Al Araibi, Ras Al Khaimah. Book an appointment online.",
+  "address_en": [
+    "Al Muntasir Road, Al A Building",
+    "Al Araibi, Ras Al Khaimah, UAE"
+  ],
+  "address_ar": [
+    "شارع المنتصر، مبنى العا",
+    "العريبي، رأس الخيمة، الإمارات"
+  ],
+  "lat": 25.791406,
+  "lng": 55.9705038,
+  "hours": {
+    "open": "9:00 AM",
+    "close": "9:30 PM",
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "by_day": {
+      "0": "9:00 AM – 12:30 PM, 5:00 – 9:30 PM",
+      "1": "9:00 AM – 12:30 PM, 5:00 – 9:30 PM",
+      "2": "9:00 AM – 12:30 PM, 5:00 – 9:30 PM",
+      "3": "9:00 AM – 12:30 PM, 5:00 – 9:30 PM",
+      "4": "9:00 AM – 12:30 PM, 5:00 – 9:30 PM",
+      "5": "5:00 – 8:00 PM",
+      "6": "9:00 AM – 12:30 PM, 5:00 – 9:30 PM"
+    }
+  },
+  "services": [
+    {
+      "en": "Check-ups and consultations",
+      "ar": "الفحص والاستشارات"
+    },
+    {
+      "en": "Teeth cleaning",
+      "ar": "تنظيف الأسنان"
+    },
+    {
+      "en": "Fillings and restorations",
+      "ar": "الحشوات والترميم"
+    },
+    {
+      "en": "General dental care",
+      "ar": "العناية العامة بالأسنان"
+    }
+  ],
+  "palette": {
+    "night": "#10243f",
+    "primary": "#1b4f8a",
+    "primary2": "#2a67aa",
+    "accent": "#e0a23b",
+    "accent_soft": "#f6e5c0",
+    "ink": "#13202f",
+    "paper": "#f5f8fc",
+    "line": "#dbe4ef",
+    "muted": "#586b80"
+  }
+}
