@@ -12,3 +12,4 @@ Private website previews for prospective MarkZone clients, served at https://dem
 | Client | Folder | Created |
 |---|---|---|
 | Dr. Emad Mosalam Eye Clinic (RAK) | dr-emad-mosalam | Sep 2026 |
+| Dr. Suhad Obstetrics & Gynecology Clinic (RAK) | dr-suhad-rak | Nov 2026 (draft, not yet pushed) |
