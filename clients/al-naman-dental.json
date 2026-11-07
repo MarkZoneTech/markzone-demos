@@ -1,0 +1,74 @@
+{
+  "slug": "al-naman-dental",
+  "name_en": "Al Naman Dental Clinic",
+  "name_ar": "عيادة النعمان لطب الأسنان",
+  "area_en": "Al Nakheel, Ras Al Khaimah",
+  "area_ar": "النخيل، رأس الخيمة",
+  "wa": "971559972387",
+  "phone_display": "+971 55 997 2387",
+  "tel": "+971559972387",
+  "rating": "5.0",
+  "reviews": "3",
+  "lead_en": "A dental clinic in Al Nakheel, Ras Al Khaimah, for scaling, crowns and everyday dental care in a comfortable, friendly setting. Open morning and evening, six days a week.",
+  "lead_ar": "عيادة أسنان في النخيل، رأس الخيمة، للتنظيف والتيجان والعناية اليومية بالأسنان في جو مريح. مفتوحة صبح ومساء، ست أيام في الأسبوع.",
+  "desc_en": "Al Naman Dental Clinic in Al Nakheel, Ras Al Khaimah. Book an appointment online.",
+  "address_en": [
+    "Ghobash Building, near Bank of Baroda",
+    "Al Nakheel, Ras Al Khaimah, UAE"
+  ],
+  "address_ar": [
+    "مبنى غباش، قرب بنك بارودا",
+    "النخيل، رأس الخيمة، الإمارات"
+  ],
+  "lat": 25.7981304,
+  "lng": 55.9749176,
+  "hours": {
+    "open": "9:00 AM",
+    "close": "9:00 PM",
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "by_day": {
+      "0": "9:00 AM – 1:00 PM, 5:00 – 9:00 PM",
+      "1": "9:00 AM – 1:00 PM, 5:00 – 9:00 PM",
+      "2": "9:00 AM – 1:00 PM, 5:00 – 9:00 PM",
+      "3": "9:00 AM – 1:00 PM, 5:00 – 9:00 PM",
+      "4": "9:00 AM – 1:00 PM, 5:00 – 9:00 PM",
+      "6": "9:00 AM – 1:00 PM, 5:00 – 9:00 PM"
+    }
+  },
+  "services": [
+    {
+      "en": "Scaling and cleaning",
+      "ar": "تنظيف الأسنان وإزالة الجير"
+    },
+    {
+      "en": "Crowns",
+      "ar": "تيجان الأسنان"
+    },
+    {
+      "en": "General dental procedures",
+      "ar": "إجراءات طب الأسنان العامة"
+    },
+    {
+      "en": "Check-ups and consultations",
+      "ar": "الفحص والاستشارات"
+    }
+  ],
+  "palette": {
+    "night": "#10243f",
+    "primary": "#1b4f8a",
+    "primary2": "#2a67aa",
+    "accent": "#e0a23b",
+    "accent_soft": "#f6e5c0",
+    "ink": "#13202f",
+    "paper": "#f5f8fc",
+    "line": "#dbe4ef",
+    "muted": "#586b80"
+  }
+}
