@@ -1,0 +1,73 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> parents</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> ولي أمر</span></div>
+    </div>
+    <div class="blocks up" aria-hidden="true" style="animation-delay:.2s">
+      <span class="bk b-a"><span class="en">A</span><span class="ar">أ</span></span>
+      <span class="bk b-b"><span class="en">B</span><span class="ar">ب</span></span>
+      <span class="bk b-c"><span class="en">C</span><span class="ar">ج</span></span>
+      <span class="bk b-1">1</span><span class="bk b-2">2</span>
+      <span class="sun"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"><circle cx="50" cy="50" r="17"/><path d="M50 8v14M50 78v14M8 50h14M78 50h14M20 20l10 10M70 70l10 10M80 20L70 30M30 70L20 80"/></svg></span>
+      <span class="star s1">★</span><span class="star s2">★</span>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30C240 70 480 -10 720 25s480 40 720 0V60H0z"/></svg>
+</section>
+<section id="programs" class="prog">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Learning and <b>care</b></h2><h2 class="ar rv">التعلّم <b>والرعاية</b></h2>
+    <p class="intro en rv">What your child can expect. Ages, daily schedules and fees are confirmed when you ask.</p>
+    <p class="intro ar rv">وش يتوقع طفلكم. الأعمار والجدول اليومي والرسوم نأكدها عند السؤال.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="visit-steps" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Come and <b>meet us</b></h2><h2 class="ar rv">تعالوا <b>وتعرفوا علينا</b></h2>
+    <p class="intro en rv">Choosing a nursery is a big step. See the place and meet the team first.</p><p class="intro ar rv">اختيار الحضانة خطوة كبيرة. شوفوا المكان وتعرفوا على الفريق أول.</p>
+    <div class="strip">
+      <div class="u rv"><b class="num">1</b><h3 class="en">Send a message</h3><h3 class="ar">أرسلوا رسالة</h3><p class="en">Tell us your child's age and what you are looking for.</p><p class="ar">قولوا لنا عمر طفلكم وش تدورون.</p></div>
+      <div class="u rv"><b class="num">2</b><h3 class="en">Visit the nursery</h3><h3 class="ar">زوروا الحضانة</h3><p class="en">Walk through the rooms and ask the team your questions.</p><p class="ar">تمشون بين القاعات وتسألون الفريق.</p></div>
+      <div class="u rv"><b class="num">3</b><h3 class="en">Register</h3><h3 class="ar">سجّلوا</h3><p class="en">We confirm the documents and the start date with you.</p><p class="ar">نأكد لكم المستندات وتاريخ البداية.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Ask about <b>registration</b></h2><h2 class="ar">اسألوا عن <b>التسجيل</b></h2>
+      <p class="intro en">Send your details and the message opens in WhatsApp, ready to send.</p><p class="intro ar">أرسلوا التفاصيل وتنفتح الرسالة في واتساب جاهزة للإرسال.</p>
+      <ul class="tick"><li><span class="en"><<OPEN_LINE_EN>></span><span class="ar"><<OPEN_LINE_AR>></span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to ask about nursery registration:" data-intro-ar="مرحباً، أبغى أسأل عن التسجيل في الحضانة:">
+      <div><label for="fName"><span class="en">Parent name</span><span class="ar">اسم ولي الأمر</span></label><input id="fName" required autocomplete="name" data-f data-en="Parent" data-ar="ولي الأمر"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fChild"><span class="en">Child's name and age</span><span class="ar">اسم الطفل وعمره</span></label><input id="fChild" required data-f data-en="Child" data-ar="الطفل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Interested in</span><span class="ar">مهتمين بـ</span></label><select id="fSvc" data-src="services" data-f data-en="Interested in" data-ar="مهتمين بـ"></select></div>
+      <div class="full"><label for="fDate"><span class="en">Preferred visit date (optional)</span><span class="ar">تاريخ الزيارة المفضل (اختياري)</span></label><input id="fDate" type="date" data-f data-en="Visit date" data-ar="تاريخ الزيارة"></div>
+      <div class="full"><label for="fNote"><span class="en">Notes (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Parents <b>ask</b></h2><h2 class="ar">أسئلة <b>أولياء الأمور</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيتوا جوابكم؟ راسلونا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Which ages do you accept?</span><span class="ar">أي أعمار تقبلون؟</span></summary><p class="en">Write your child's age in the form and we will confirm the right group.</p><p class="ar">اكتبوا عمر طفلكم في النموذج ونأكد لكم المجموعة المناسبة.</p></details>
+      <details><summary><span class="en">Can I visit before registering?</span><span class="ar">أقدر أزور قبل التسجيل؟</span></summary><p class="en">Yes. Choose a visit date in the form and we will confirm a time.</p><p class="ar">أكيد. اختاروا تاريخ الزيارة في النموذج ونأكد لكم الوقت.</p></details>
+      <details><summary><span class="en">What are the fees and documents?</span><span class="ar">كم الرسوم وايش المستندات؟</span></summary><p class="en">Message us and we will send the fees and the documents needed.</p><p class="ar">راسلونا ونرسل لكم الرسوم والمستندات المطلوبة.</p></details>
+      <details><summary><span class="en">Where is the nursery?</span><span class="ar">وين الحضانة؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدموا الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

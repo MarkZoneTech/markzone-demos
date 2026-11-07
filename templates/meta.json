@@ -245,7 +245,7 @@
   }
  },
  "education": {
-  "label": "Education & training (nursery, tuition, training centre, language, driving school)",
+  "label": "Education & training (school, tuition, training centre, language, driving school)",
   "palette": {
    "night": "#17285A",
    "primary": "#243B8C",
@@ -389,6 +389,55 @@
    "sub_ar": "أرسل لنا تفاصيل قضيتك وبنرد عليك على واتساب.",
    "cta_en": "Request a consultation",
    "cta_ar": "اطلب استشارة"
+  }
+ },
+ "nursery": {
+  "label": "Nurseries & early years (nursery, day care, kindergarten, preschool)",
+  "palette": {
+   "night": "#2B2A6B",
+   "primary": "#3D3A99",
+   "primary2": "#6C68D8",
+   "accent": "#FFB703",
+   "accent_soft": "#FFE9B0",
+   "ink": "#26244F",
+   "paper": "#FFF9EC",
+   "line": "#F0E6CF",
+   "muted": "#6A6788"
+  },
+  "nav": [
+   {
+    "href": "programs",
+    "en": "Learning",
+    "ar": "التعلّم"
+   },
+   {
+    "href": "visit-steps",
+    "en": "Your visit",
+    "ar": "زيارتكم"
+   },
+   {
+    "href": "book",
+    "en": "Register",
+    "ar": "التسجيل"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "A happy start for little ones.",
+   "head_ar": "بداية سعيدة لأطفالنا الصغار.",
+   "sub_en": "Ask about registration and book a visit to meet the team.",
+   "sub_ar": "اسأل عن التسجيل واحجز زيارة لتتعرف على الفريق.",
+   "cta_en": "Ask about registration",
+   "cta_ar": "اسأل عن التسجيل"
   }
  }
 }
