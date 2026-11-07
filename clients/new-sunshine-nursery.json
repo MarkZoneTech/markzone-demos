@@ -1,0 +1,71 @@
+{
+ "wa": "971506901313",
+ "phone_display": "+971 50 690 1313",
+ "tel": "+971506901313",
+ "rating": "4.6",
+ "reviews": "21",
+ "lat": 25.763423,
+ "lng": 55.9341186,
+ "hours": {
+  "open": "",
+  "close": "",
+  "days": [],
+  "by_day": {
+   "0": "Hours to be confirmed",
+   "1": "Hours to be confirmed",
+   "2": "Hours to be confirmed",
+   "3": "Hours to be confirmed",
+   "4": "Hours to be confirmed",
+   "5": "Hours to be confirmed",
+   "6": "Hours to be confirmed"
+  }
+ },
+ "slug": "new-sunshine-nursery",
+ "category": "Nursery",
+ "name_en": "New Sunshine Nursery",
+ "name_ar": "حضانة نيو صن شاين",
+ "area_en": "Khuzam, Ras Al Khaimah",
+ "area_ar": "خزام، رأس الخيمة",
+ "lead_en": "A nursery with branches across Ras Al Khaimah. Ask about registration on WhatsApp.",
+ "lead_ar": "حضانة لها فروع في رأس الخيمة. اسأل عن التسجيل على واتساب.",
+ "desc_en": "New Sunshine Nursery, Khuzam, Ras Al Khaimah.",
+ "address_en": [
+  "Khuzam",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "خزام",
+  "رأس الخيمة، الإمارات"
+ ],
+ "brand": {
+  "primary": "#1090D0",
+  "accent": "#F0C010",
+  "source": "Sampled from the Facebook profile logo of New Sunshine Nursery Al Brirat (approximate, from a screenshot)"
+ },
+ "services": [
+  {
+   "en": "Early years care",
+   "ar": "رعاية الطفولة المبكرة",
+   "desc_en": "For babies and young children",
+   "desc_ar": "للرضع والأطفال الصغار"
+  },
+  {
+   "en": "Learning through play",
+   "ar": "التعلم باللعب",
+   "desc_en": "Activities for each age group",
+   "desc_ar": "أنشطة لكل فئة عمرية"
+  },
+  {
+   "en": "Daily updates",
+   "ar": "تحديثات يومية",
+   "desc_en": "Staying in touch with parents",
+   "desc_ar": "تواصل مستمر مع أولياء الأمور"
+  },
+  {
+   "en": "Registration",
+   "ar": "التسجيل",
+   "desc_en": "Ask about places and branches",
+   "desc_ar": "اسأل عن المقاعد والفروع"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "wa": "971529971234",
+ "phone_display": "+971 52 997 1234",
+ "tel": "+971529971234",
+ "rating": "5.0",
+ "reviews": "74",
+ "lat": 25.7146337,
+ "lng": 55.8525206,
+ "hours": {
+  "open": "8:00 AM",
+  "close": "4:00 PM",
+  "days": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "by_day": {
+   "0": "Closed",
+   "6": "Closed"
+  }
+ },
+ "slug": "lavenders-nursery",
+ "category": "Nursery",
+ "name_en": "Lavenders Nursery & Day Care",
+ "name_ar": "حضانة لافندرز",
+ "area_en": "Al Riffa, Ras Al Khaimah",
+ "area_ar": "الرفعة، رأس الخيمة",
+ "lead_en": "A British-curriculum nursery in Al Riffa. Ask about registration on WhatsApp.",
+ "lead_ar": "حضانة بمنهج بريطاني في الرفعة. اسأل عن التسجيل على واتساب.",
+ "desc_en": "Lavenders Nursery & Day Care, Al Riffa, Ras Al Khaimah.",
+ "address_en": [
+  "Sheikh Mohammed bin Salem St, Al Riffa",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "شارع الشيخ محمد بن سالم، الرفعة",
+  "رأس الخيمة، الإمارات"
+ ],
+ "brand": {
+  "primary": "#503090",
+  "accent": "#6CC0F0",
+  "source": "Sampled from the Instagram profile logo @lavenderriffa (approximate, from a screenshot)"
+ },
+ "services": [
+  {
+   "en": "British curriculum",
+   "ar": "المنهج البريطاني",
+   "desc_en": "Early years learning",
+   "desc_ar": "التعلم في سنوات الطفولة المبكرة"
+  },
+  {
+   "en": "Activities and events",
+   "ar": "أنشطة وفعاليات",
+   "desc_en": "Sports day and celebrations through the year",
+   "desc_ar": "يوم رياضي واحتفالات خلال السنة"
+  },
+  {
+   "en": "Bus service",
+   "ar": "خدمة الباص",
+   "desc_en": "Ask the nursery about routes",
+   "desc_ar": "اسأل الحضانة عن المسارات"
+  },
+  {
+   "en": "Registration",
+   "ar": "التسجيل",
+   "desc_en": "Ask about places for the new year",
+   "desc_ar": "اسأل عن المقاعد للعام الجديد"
+  }
+ ]
+}

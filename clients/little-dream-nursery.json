@@ -1,0 +1,71 @@
+{
+ "wa": "971542881308",
+ "phone_display": "+971 54 288 1308",
+ "tel": "+971542881308",
+ "rating": "4.3",
+ "reviews": "19",
+ "lat": 25.721738,
+ "lng": 55.9107066,
+ "hours": {
+  "open": "",
+  "close": "",
+  "days": [],
+  "by_day": {
+   "0": "Hours to be confirmed",
+   "1": "Hours to be confirmed",
+   "2": "Hours to be confirmed",
+   "3": "Hours to be confirmed",
+   "4": "Hours to be confirmed",
+   "5": "Hours to be confirmed",
+   "6": "Hours to be confirmed"
+  }
+ },
+ "slug": "little-dream-nursery",
+ "category": "Nursery",
+ "name_en": "Little Dream Nursery",
+ "name_ar": "حضانة ليتل دريم",
+ "area_en": "Al Dhait, Ras Al Khaimah",
+ "area_ar": "الظيت، رأس الخيمة",
+ "lead_en": "British curriculum with Arabic, Islamic studies and English. Ask about registration on WhatsApp.",
+ "lead_ar": "منهج بريطاني مع اللغة العربية والتربية الإسلامية والإنجليزية. اسأل عن التسجيل على واتساب.",
+ "desc_en": "Little Dream Nursery, Al Dhait, Ras Al Khaimah.",
+ "address_en": [
+  "110 Al Nofe Rd, Al Dhait South",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "110 طريق النوف، الظيت الجنوبي",
+  "رأس الخيمة، الإمارات"
+ ],
+ "brand": {
+  "primary": "#C8402F",
+  "accent": "#2A6FDB",
+  "source": "Sampled from the Facebook profile logo of Lettle Dream Nursery_Al Dhait (approximate, from a screenshot)"
+ },
+ "services": [
+  {
+   "en": "Reading and writing",
+   "ar": "القراءة والكتابة",
+   "desc_en": "Early foundations",
+   "desc_ar": "تأسيس مبكر"
+  },
+  {
+   "en": "Arabic and Islamic studies",
+   "ar": "العربي والتربية الإسلامية",
+   "desc_en": "Taught alongside English",
+   "desc_ar": "تدرّس مع الإنجليزي"
+  },
+  {
+   "en": "British curriculum",
+   "ar": "المنهج البريطاني",
+   "desc_en": "For young learners",
+   "desc_ar": "للصغار"
+  },
+  {
+   "en": "Registration",
+   "ar": "التسجيل",
+   "desc_en": "Ask about places",
+   "desc_ar": "اسأل عن المقاعد"
+  }
+ ]
+}
