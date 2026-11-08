@@ -1,7 +1,7 @@
 {
  "slug": "al-wasl-learning-rak",
- "template": "clinic",
- "category": "Medical clinics",
+ "template": "therapy",
+ "category": "Learning difficulties centre",
  "name_en": "Alwasl Center for Learning Difficulties",
  "name_ar": "مركز الوصل لصعوبات التعلم",
  "area_en": "Al Dafan, Ras Al Khaimah",
@@ -66,16 +66,5 @@
  "brand": {
   "primary": "#907860",
   "accent": "#C0A890"
- },
- "palette": {
-  "night": "#10243f",
-  "primary": "#1b4f8a",
-  "primary2": "#2a67aa",
-  "accent": "#e0a23b",
-  "accent_soft": "#f6e5c0",
-  "ink": "#13202f",
-  "paper": "#f5f8fc",
-  "line": "#dbe4ef",
-  "muted": "#586b80"
  }
 }

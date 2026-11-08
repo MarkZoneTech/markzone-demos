@@ -1,0 +1,76 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> patients</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> مراجع</span></div>
+    </div>
+    <div class="art up" aria-hidden="true" style="animation-delay:.2s">
+      <svg viewBox="0 0 400 420" fill="none">
+        <circle class="p-ring" cx="200" cy="210" r="176"/>
+        <path class="p-arc" d="M96 330C40 250 60 130 150 76"/><path class="p-arrow" d="M138 62l22 12-16 20"/>
+        <path class="p-arc2" d="M304 90c56 80 36 200-54 254"/><path class="p-arrow" d="M262 358l-22-12 16-20"/>
+        <g class="p-spine">
+          <rect x="172" y="92" width="56" height="30" rx="12"/><rect x="168" y="130" width="64" height="32" rx="12"/><rect x="164" y="170" width="72" height="34" rx="13"/>
+          <rect x="164" y="212" width="72" height="34" rx="13"/><rect x="168" y="254" width="64" height="32" rx="12"/><rect x="172" y="294" width="56" height="30" rx="12"/>
+        </g>
+        <path class="p-pulse" d="M60 380h72l14-26 22 46 18-34 12 14h34"/>
+      </svg>
+    </div>
+  </div>
+</section>
+<section id="treatments" class="prog">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Our <b>treatments</b></h2><h2 class="ar rv"><b>علاجاتنا</b></h2>
+    <p class="intro en rv">Tell us what is bothering you. We confirm the right treatment, the sessions and the price when you ask.</p>
+    <p class="intro ar rv">قولوا لنا وش يضايقكم. نأكد لكم العلاج المناسب والجلسات والسعر عند السؤال.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="recovery" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">Your road to <b>recovery</b></h2><h2 class="ar rv">طريقكم إلى <b>التعافي</b></h2>
+    <p class="intro en rv">Four steps from the first message to moving better.</p><p class="intro ar rv">أربع خطوات من أول رسالة لين تتحركون بشكل أحسن.</p>
+    <div class="road">
+      <div class="u rv"><b class="num">1</b><h3 class="en">Assessment</h3><h3 class="ar">التقييم</h3><p class="en">We listen, look at how you move and find the cause.</p><p class="ar">نسمعكم ونشوف حركتكم ونحدد السبب.</p></div>
+      <div class="u rv"><b class="num">2</b><h3 class="en">Treatment plan</h3><h3 class="ar">خطة العلاج</h3><p class="en">The plan and number of sessions are explained to you.</p><p class="ar">نشرح لكم الخطة وعدد الجلسات.</p></div>
+      <div class="u rv"><b class="num">3</b><h3 class="en">Sessions</h3><h3 class="ar">الجلسات</h3><p class="en">Hands-on treatment and guided exercises with the therapist.</p><p class="ar">علاج يدوي وتمارين موجهة مع الأخصائي.</p></div>
+      <div class="u rv"><b class="num">4</b><h3 class="en">Keep moving</h3><h3 class="ar">استمروا بالحركة</h3><p class="en">Simple exercises to continue at home.</p><p class="ar">تمارين بسيطة تكملونها في البيت.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Book a <b>session</b></h2><h2 class="ar">احجزوا <b>جلسة</b></h2>
+      <p class="intro en">Send your details and the message opens in WhatsApp, ready to send.</p><p class="intro ar">أرسلوا التفاصيل وتنفتح الرسالة في واتساب جاهزة للإرسال.</p>
+      <ul class="tick"><li><span class="en"><<OPEN_LINE_EN>></span><span class="ar"><<OPEN_LINE_AR>></span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to book a physiotherapy session:" data-intro-ar="مرحباً، أبغى أحجز جلسة علاج طبيعي:">
+      <div><label for="fName"><span class="en">Name</span><span class="ar">الاسم</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Treatment</span><span class="ar">العلاج</span></label><select id="fSvc" data-src="services" data-f data-en="Treatment" data-ar="العلاج"></select></div>
+      <div class="full"><label for="fPain"><span class="en">Where does it hurt? (optional)</span><span class="ar">وين الألم؟ (اختياري)</span></label><input id="fPain" placeholder="" data-f data-en="Problem area" data-ar="مكان الألم"></div>
+      <div class="full"><label for="fDate"><span class="en">Preferred date (optional)</span><span class="ar">التاريخ المفضل (اختياري)</span></label><input id="fDate" type="date" data-f data-en="Preferred date" data-ar="التاريخ المفضل"></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Patients <b>ask</b></h2><h2 class="ar">أسئلة <b>المراجعين</b></h2><p class="intro en">Can't find your answer? Message us on WhatsApp.</p><p class="intro ar">ما لقيتوا جوابكم؟ راسلونا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">What happens in the first session?</span><span class="ar">وش يصير في أول جلسة؟</span></summary><p class="en">The therapist asks about your problem and checks how you move. Then we explain the plan.</p><p class="ar">الأخصائي يسألكم عن مشكلتكم ويفحص حركتكم، وبعدها نشرح لكم الخطة.</p></details>
+      <details><summary><span class="en">How many sessions will I need?</span><span class="ar">كم جلسة أحتاج؟</span></summary><p class="en">It depends on each case. We confirm it after the assessment.</p><p class="ar">يعتمد على كل حالة. نأكد لكم بعد التقييم.</p></details>
+      <details><summary><span class="en">What are the prices?</span><span class="ar">كم الأسعار؟</span></summary><p class="en">Message us and we will send the session prices.</p><p class="ar">راسلونا ونرسل لكم أسعار الجلسات.</p></details>
+      <details><summary><span class="en">Where is the center?</span><span class="ar">وين المركز؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدموا الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

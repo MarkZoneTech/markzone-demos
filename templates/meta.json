@@ -635,5 +635,152 @@
    "cta_en": "Send your brief",
    "cta_ar": "أرسل تفاصيل مشروعك"
   }
+ },
+ "therapy": {
+  "label": "Learning difficulties, speech and developmental therapy centres",
+  "palette": {
+   "night": "#2E3B3A",
+   "primary": "#3F6F68",
+   "primary2": "#5E9A90",
+   "accent": "#E8A25A",
+   "accent_soft": "#FBE5CB",
+   "ink": "#243230",
+   "paper": "#FBF8F2",
+   "line": "#EADFCC",
+   "muted": "#66726F"
+  },
+  "nav": [
+   {
+    "href": "support",
+    "en": "Support",
+    "ar": "الدعم"
+   },
+   {
+    "href": "path",
+    "en": "How we work",
+    "ar": "طريقة العمل"
+   },
+   {
+    "href": "book",
+    "en": "Assessment",
+    "ar": "التقييم"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Every child can grow.",
+   "head_ar": "كل طفل يقدر ينمو.",
+   "sub_en": "Ask about an assessment.",
+   "sub_ar": "اسألوا عن التقييم.",
+   "cta_en": "Ask about an assessment",
+   "cta_ar": "اسألوا عن التقييم"
+  }
+ },
+ "lab": {
+  "label": "Medical laboratories and diagnostic centres",
+  "palette": {
+   "night": "#0B2E3D",
+   "primary": "#0F5A73",
+   "primary2": "#1E8AA8",
+   "accent": "#2FB5A6",
+   "accent_soft": "#D3F1EC",
+   "ink": "#102A35",
+   "paper": "#F4F9FA",
+   "line": "#D9E8EC",
+   "muted": "#587684"
+  },
+  "nav": [
+   {
+    "href": "tests",
+    "en": "Tests",
+    "ar": "التحاليل"
+   },
+   {
+    "href": "steps",
+    "en": "How it works",
+    "ar": "كيف تتم الزيارة"
+   },
+   {
+    "href": "book",
+    "en": "Ask",
+    "ar": "اسألوا"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Accurate tests. Clear results.",
+   "head_ar": "تحاليل دقيقة. نتائج واضحة.",
+   "sub_en": "Ask about a test.",
+   "sub_ar": "اسألوا عن تحليل.",
+   "cta_en": "Ask about a test",
+   "cta_ar": "اسألوا عن تحليل"
+  }
+ },
+ "physio": {
+  "label": "Physiotherapy, rehabilitation and sports injury centres",
+  "palette": {
+   "night": "#0E2A3A",
+   "primary": "#13506C",
+   "primary2": "#2B7FA5",
+   "accent": "#F26A21",
+   "accent_soft": "#FFE1CF",
+   "ink": "#122A38",
+   "paper": "#F5F8FA",
+   "line": "#DCE6EC",
+   "muted": "#587080"
+  },
+  "nav": [
+   {
+    "href": "treatments",
+    "en": "Treatments",
+    "ar": "العلاجات"
+   },
+   {
+    "href": "recovery",
+    "en": "Recovery",
+    "ar": "التعافي"
+   },
+   {
+    "href": "book",
+    "en": "Book",
+    "ar": "احجزوا"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Move better. Live better.",
+   "head_ar": "تحرك أحسن. عيش أحسن.",
+   "sub_en": "Book a session.",
+   "sub_ar": "احجزوا جلسة.",
+   "cta_en": "Book a session",
+   "cta_ar": "احجزوا جلسة"
+  }
  }
 }

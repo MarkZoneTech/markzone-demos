@@ -1,7 +1,7 @@
 {
  "slug": "al-fajr-physio-rak",
- "template": "clinic",
- "category": "Medical clinics",
+ "template": "physio",
+ "category": "Physiotherapy and rehabilitation",
  "name_en": "Al Fajr Physiotherapy and Rehabilitation Centre",
  "name_ar": "مركز الفجر للعلاج الطبيعي والتأهيل",
  "area_en": "Al Nakheel, Ras Al Khaimah",
@@ -62,16 +62,5 @@
  "brand": {
   "primary": "#0f5c78",
   "accent": "#f13f04"
- },
- "palette": {
-  "night": "#10243f",
-  "primary": "#1b4f8a",
-  "primary2": "#2a67aa",
-  "accent": "#e0a23b",
-  "accent_soft": "#f6e5c0",
-  "ink": "#13202f",
-  "paper": "#f5f8fc",
-  "line": "#dbe4ef",
-  "muted": "#586b80"
  }
 }
