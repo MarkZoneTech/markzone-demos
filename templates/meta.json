@@ -439,5 +439,103 @@
    "cta_en": "Ask about registration",
    "cta_ar": "اسأل عن التسجيل"
   }
+ },
+ "decor": {
+  "label": "Interior decoration & fit-out (decor, gypsum, wall panels, ceilings, kitchens)",
+  "palette": {
+   "night": "#1E2226",
+   "primary": "#2F3438",
+   "primary2": "#4A5157",
+   "accent": "#B8895A",
+   "accent_soft": "#EBD9C3",
+   "ink": "#1E2226",
+   "paper": "#F6F2EC",
+   "line": "#E4DCCF",
+   "muted": "#6B6760"
+  },
+  "nav": [
+   {
+    "href": "work",
+    "en": "Our work",
+    "ar": "أعمالنا"
+   },
+   {
+    "href": "process",
+    "en": "How it works",
+    "ar": "طريقة العمل"
+   },
+   {
+    "href": "book",
+    "en": "Get a quote",
+    "ar": "عرض سعر"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Interiors finished with care.",
+   "head_ar": "ديكور منفّذ بعناية.",
+   "sub_en": "Send us your space and get a quote after a site visit.",
+   "sub_ar": "أرسل لنا مساحتك واحصل على عرض سعر بعد زيارة الموقع.",
+   "cta_en": "Get a quote",
+   "cta_ar": "اطلب عرض سعر"
+  }
+ },
+ "events": {
+  "label": "Events, weddings & party styling (kosha, henna, balloons, event planners)",
+  "palette": {
+   "night": "#2B2024",
+   "primary": "#3B2A33",
+   "primary2": "#8C5A70",
+   "accent": "#D98BA8",
+   "accent_soft": "#F9DDE6",
+   "ink": "#2B2024",
+   "paper": "#FFF8F5",
+   "line": "#F1E0DC",
+   "muted": "#7A6A6E"
+  },
+  "nav": [
+   {
+    "href": "styling",
+    "en": "Styling",
+    "ar": "التنسيق"
+   },
+   {
+    "href": "steps",
+    "en": "How it works",
+    "ar": "طريقة العمل"
+   },
+   {
+    "href": "book",
+    "en": "Plan your day",
+    "ar": "خططوا لمناسبتكم"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Your occasion, beautifully styled.",
+   "head_ar": "مناسبتكم بتنسيق راقٍ.",
+   "sub_en": "Tell us the date and we plan the setup with you.",
+   "sub_ar": "قل لنا التاريخ ونخطط التنسيق معك.",
+   "cta_en": "Plan your occasion",
+   "cta_ar": "خطط لمناسبتك"
+  }
  }
 }

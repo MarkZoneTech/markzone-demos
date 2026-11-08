@@ -1,0 +1,46 @@
+/* EVENTS: blush ivory, soft serif, a drawn floral arch with fairy lights and petals */
+:root{--r:22px;--btn-r:999px;--hdr-bg:#fff;--hdr-fg:var(--ink);--bg:var(--paper)}
+h1,h2,.hero h1{font-family:"IBM Plex Serif",Georgia,serif;font-weight:500}
+html[lang="ar"] h1,html[lang="ar"] h2{font-family:"IBM Plex Sans Arabic",sans-serif;font-weight:600}
+header{box-shadow:0 1px 0 var(--line)}
+.btn-gold{background:var(--gold);color:var(--ink);box-shadow:0 8px 22px -8px color-mix(in srgb,var(--gold) 80%,transparent)}
+.btn-gold:hover{background:color-mix(in srgb,var(--gold) 88%,#fff)}
+.hero{background:linear-gradient(180deg,var(--paper),color-mix(in srgb,var(--gold-soft) 55%,var(--paper)));padding-block:72px 96px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.kick{display:inline-block;color:color-mix(in srgb,var(--gold) 62%,#000);font-weight:600;font-size:14px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:22px}
+html[lang="ar"] .kick{letter-spacing:0;text-transform:none}
+.hero h1{font-size:clamp(38px,5.6vw,68px);line-height:1.1;color:var(--primary);margin-bottom:20px}
+html[lang="ar"] .hero h1{line-height:1.4}
+.hero .lead{font-size:18px;color:var(--muted);max-width:50ch;margin-bottom:28px}
+.hero .btn-ghost{border-color:var(--primary);color:var(--primary)}.hero .btn-ghost:hover{background:var(--primary);color:#fff}
+.hero .rating{margin-top:28px;color:var(--muted)}
+.stars{color:var(--gold)}
+/* floral arch */
+.arch{position:relative;justify-self:center;width:min(380px,100%);aspect-ratio:4/5}
+.a-glow{position:absolute;inset:8% 6% 0;border-radius:200px 200px 0 0;background:radial-gradient(closest-side,color-mix(in srgb,var(--gold-soft) 90%,#fff),transparent);filter:blur(10px)}
+.a-frame{position:absolute;inset:6% 12% 8%;border-radius:999px 999px 0 0;border:3px solid var(--gold);background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,.2))}
+.a-ring{position:absolute;border-radius:999px 999px 0 0;border:1.5px solid color-mix(in srgb,var(--gold) 60%,transparent)}
+.r1{inset:6%}.r2{inset:12%}
+.bl{position:absolute;border-radius:50%;background:var(--gold);width:13%;aspect-ratio:1;box-shadow:inset -4px -4px 0 rgba(0,0,0,.08)}
+.bl:nth-of-type(even){background:var(--gold-soft)}
+.b1{left:-6%;top:44%}.b2{left:-3%;top:26%;width:16%}.b3{left:6%;top:10%}.b4{left:30%;top:-5%;width:15%}
+.b5{right:-6%;top:44%;background:color-mix(in srgb,var(--gold) 62%,#000)}.b6{right:-3%;top:26%;width:16%}.b7{right:6%;top:10%}.b8{left:55%;top:-5%;width:12%;background:color-mix(in srgb,var(--gold) 62%,#000)}
+.lt{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 10px 4px color-mix(in srgb,var(--gold) 70%,#fff);animation:tw 3s ease-in-out infinite}
+.l1{left:18%;top:30%}.l2{left:78%;top:24%;animation-delay:.5s}.l3{left:30%;top:56%;animation-delay:1s}.l4{left:66%;top:60%;animation-delay:1.5s}.l5{left:48%;top:14%;animation-delay:2s}.l6{left:50%;top:44%;animation-delay:.8s}
+@keyframes tw{50%{opacity:.25;transform:scale(.7)}}
+.a-aisle{position:absolute;left:30%;right:30%;bottom:0;height:10%;background:linear-gradient(180deg,color-mix(in srgb,var(--gold-soft) 80%,#fff),color-mix(in srgb,var(--gold) 40%,#fff));clip-path:polygon(18% 0,82% 0,100% 100%,0 100%)}
+.petal{position:absolute;width:14px;height:20px;border-radius:70% 0 70% 0;background:var(--gold);opacity:.8;animation:fall 7s linear infinite}
+.p1{left:18%;top:-6%}.p2{left:70%;top:-10%;animation-delay:2.5s;background:color-mix(in srgb,var(--gold) 62%,#000)}.p3{left:44%;top:-4%;animation-delay:4.5s;background:var(--gold-soft)}
+@keyframes fall{to{transform:translate(30px,420px) rotate(240deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){.petal,.lt{animation:none}}
+@media (max-width:880px){.hero-grid{grid-template-columns:1fr}.arch{width:min(280px,72%);order:-1}.hero{padding-block:48px 64px}}
+.prog{background:#fff}
+.card{border-radius:22px;border:1px solid var(--line);background:var(--paper)}
+.card:nth-child(2n){background:color-mix(in srgb,var(--gold-soft) 45%,#fff)}
+.card i{font-family:"IBM Plex Serif",serif;font-style:normal;color:color-mix(in srgb,var(--gold) 62%,#000);background:none;width:auto;height:auto;font-size:16px;letter-spacing:.1em}
+.why{background:var(--paper)}
+.strip .u{border-radius:22px;border:1px solid var(--line);background:#fff;position:relative;padding-top:46px}
+.strip .num{position:absolute;top:-16px;inset-inline-start:22px;width:40px;height:40px;border-radius:50%;background:var(--gold);color:var(--ink);display:grid;place-items:center;font-family:"IBM Plex Serif",serif;font-size:18px}
+.book{background:linear-gradient(135deg,var(--primary),var(--night))}
+
+@media (min-width:761px){.strip{grid-template-columns:repeat(4,1fr)}}

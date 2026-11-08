@@ -1,0 +1,84 @@
+{
+ "wa": "971506474370",
+ "phone_display": "+971 50 647 4339",
+ "tel": "+971506474339",
+ "rating": "4.4",
+ "reviews": "36",
+ "lat": 25.7926099,
+ "lng": 55.9708674,
+ "hours": {
+  "open": "8:00 AM",
+  "close": "10:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "5": "4:00 PM – 10:00 PM"
+  }
+ },
+ "slug": "sample-decor",
+ "category": "Interior decoration",
+ "name_en": "Sample Decor Studio",
+ "name_ar": "استوديو ديكور تجريبي",
+ "area_en": "Al Araibi, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Living rooms, bedrooms, TV walls, ceilings, kitchens and bathrooms finished by a team with 30 years in decoration. Send your space on WhatsApp.",
+ "lead_ar": "مجالس وغرف نوم وجدران شاشات وأسقف ومطابخ وحمامات ينفذها فريق خبرته 30 سنة في الديكور. أرسلوا مساحتكم على واتساب.",
+ "desc_en": "Sample interior decoration studio.",
+ "address_en": [
+  "Al-Montaser Street, Al Araibi",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "شارع المنتصر، العريبي",
+  "رأس الخيمة، الإمارات"
+ ],
+ "brand": {
+  "primary": "#2F3438",
+  "accent": "#B8895A",
+  "source": "Sample"
+ },
+ "services": [
+  {
+   "en": "Living rooms and majlis",
+   "ar": "المجالس وغرف الجلوس",
+   "desc_en": "Wall finishes, lighting and layout for sitting areas",
+   "desc_ar": "تشطيب الجدران والإضاءة وتوزيع مناطق الجلوس"
+  },
+  {
+   "en": "Bedrooms",
+   "ar": "غرف النوم",
+   "desc_en": "Headboard walls, panels and warm lighting",
+   "desc_ar": "جدار رأس السرير والبانلات والإضاءة الدافئة"
+  },
+  {
+   "en": "TV walls",
+   "ar": "جدران الشاشات",
+   "desc_en": "Feature walls built around your screen",
+   "desc_ar": "جدران مميزة مصممة حول الشاشة"
+  },
+  {
+   "en": "Ceilings",
+   "ar": "الأسقف",
+   "desc_en": "False ceilings with hidden lighting",
+   "desc_ar": "أسقف مستعارة بإضاءة مخفية"
+  },
+  {
+   "en": "Kitchens",
+   "ar": "المطابخ",
+   "desc_en": "Kitchen finishing and cabinet design",
+   "desc_ar": "تشطيب المطابخ وتصميم الكبتات"
+  },
+  {
+   "en": "Bathrooms",
+   "ar": "الحمامات",
+   "desc_en": "Finishing and fittings for bathrooms",
+   "desc_ar": "تشطيب وتجهيز الحمامات"
+  }
+ ]
+}

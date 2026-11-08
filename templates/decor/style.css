@@ -1,0 +1,43 @@
+/* DECOR: dark charcoal and warm metal, serif display, a drawn room (slatted wall, cove light, mirror) */
+:root{--r:4px;--btn-r:2px;--hdr-bg:var(--night);--hdr-fg:#fff;--bg:var(--paper)}
+h1,h2,.hero h1{font-family:"IBM Plex Serif",Georgia,serif;font-weight:500}
+html[lang="ar"] h1,html[lang="ar"] h2{font-family:"IBM Plex Sans Arabic",sans-serif;font-weight:600}
+header{background:var(--night);border-bottom:1px solid color-mix(in srgb,var(--gold) 35%,transparent)}
+header .brand,header nav a{color:#fff}
+header .brand small{color:color-mix(in srgb,#fff 65%,transparent)}
+.mono{background:var(--gold);color:var(--night)}
+.lang{border-color:color-mix(in srgb,#fff 40%,transparent);color:#fff;background:transparent}
+.btn-gold{background:var(--gold);color:var(--night);letter-spacing:.02em}
+.btn-gold:hover{background:color-mix(in srgb,var(--gold) 85%,#fff)}
+.hero{background:radial-gradient(900px 500px at 80% 20%,color-mix(in srgb,var(--primary-2) 55%,transparent),transparent),var(--night);color:#fff;padding-block:84px 96px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.kick{display:inline-block;color:var(--gold);letter-spacing:.14em;text-transform:uppercase;font-size:13px;font-weight:600;padding-bottom:10px;border-bottom:1px solid var(--gold);margin-bottom:26px}
+html[lang="ar"] .kick{letter-spacing:0;text-transform:none}
+.hero h1{font-size:clamp(38px,5.6vw,68px);line-height:1.1;color:#fff;margin-bottom:22px;letter-spacing:-.01em}
+html[lang="ar"] .hero h1{line-height:1.4;letter-spacing:0}
+.hero .lead{font-size:18px;color:color-mix(in srgb,#fff 78%,transparent);max-width:50ch;margin-bottom:30px}
+.hero .btn-ghost{border-color:color-mix(in srgb,#fff 55%,transparent);color:#fff}.hero .btn-ghost:hover{background:#fff;color:var(--night)}
+.hero .rating{margin-top:30px;color:color-mix(in srgb,#fff 70%,transparent)}
+.stars{color:var(--gold)}
+/* the drawn room */
+.room{position:relative;justify-self:center;width:min(420px,100%);aspect-ratio:4/5;background:linear-gradient(180deg,#2c3036,#1b1e22);border:1px solid color-mix(in srgb,var(--gold) 45%,transparent);overflow:hidden}
+.r-ceil{position:absolute;inset:0 0 auto 0;height:15%;background:#23272c;border-bottom:1px solid #000}
+.r-ceil i{position:absolute;left:6%;right:6%;bottom:18%;height:5px;border-radius:3px;background:var(--gold);box-shadow:0 0 22px 6px color-mix(in srgb,var(--gold) 70%,transparent),0 12px 40px 8px color-mix(in srgb,var(--gold) 35%,transparent)}
+.r-wall{position:absolute;left:0;top:15%;width:58%;height:68%;display:flex;gap:2.5%;padding:0 3%;background:#15181b}
+.slat{flex:1;background:linear-gradient(90deg,color-mix(in srgb,var(--gold) 50%,#2a2118),color-mix(in srgb,var(--gold) 28%,#1a1510));box-shadow:inset 0 0 0 1px rgba(0,0,0,.35)}
+.r-tv{position:absolute;right:7%;top:30%;width:28%;height:20%;background:#050607;border:3px solid #3a3f45;box-shadow:0 0 0 1px #000}
+.r-mirror{position:absolute;right:9%;top:56%;width:22%;height:24%;border-radius:50% 50% 8px 8px;background:linear-gradient(135deg,#aeb7bf,#5d666e);border:3px solid var(--gold)}
+.r-floor{position:absolute;inset:auto 0 0 0;height:17%;background:linear-gradient(180deg,#14161a,#0c0d10);border-top:1px solid color-mix(in srgb,var(--gold) 30%,transparent)}
+.r-lamp{position:absolute;left:38%;bottom:12%;width:16%;height:6%;border-radius:50%;background:color-mix(in srgb,var(--gold) 60%,#fff);filter:blur(.5px);box-shadow:0 0 40px 18px color-mix(in srgb,var(--gold) 45%,transparent);opacity:.9}
+@media (max-width:880px){.hero-grid{grid-template-columns:1fr}.room{width:min(300px,76%);order:-1}.hero{padding-block:56px 64px}}
+.prog{background:#fff}
+.card{border-radius:4px;border:1px solid var(--line);background:var(--paper);border-top:3px solid var(--gold)}
+.card i{font-family:"IBM Plex Serif",serif;font-style:normal;color:var(--gold);background:none;width:auto;height:auto;font-size:15px;letter-spacing:.12em}
+.why{background:var(--paper)}
+.strip .u{border-radius:4px;border:1px solid var(--line);background:#fff;position:relative;padding-top:46px}
+.strip .num{position:absolute;top:-1px;inset-inline-start:-1px;width:44px;height:44px;background:var(--night);color:var(--gold);display:grid;place-items:center;font-family:"IBM Plex Serif",serif;font-size:19px}
+.book{background:linear-gradient(135deg,var(--night),var(--primary))}
+.book h2,.book .intro,.book .tick li{color:#fff}
+
+@media (min-width:821px){.cards{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:761px){.strip{grid-template-columns:repeat(4,1fr)}}

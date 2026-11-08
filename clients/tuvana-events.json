@@ -1,0 +1,79 @@
+{
+ "wa": "971552150021",
+ "phone_display": "+971 55 215 0021",
+ "tel": "+971552150021",
+ "rating": "4.2",
+ "reviews": "375",
+ "lat": 25.7869472,
+ "lng": 55.9417379,
+ "hours": {
+  "open": "10:00 AM",
+  "close": "10:30 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "by_day": {
+   "0": "10:00 AM – 1:00 PM, 4:00 PM – 10:30 PM",
+   "1": "10:00 AM – 1:00 PM, 4:00 PM – 10:30 PM",
+   "2": "10:00 AM – 1:00 PM, 4:00 PM – 10:30 PM",
+   "3": "10:00 AM – 1:00 PM, 4:00 PM – 10:30 PM",
+   "4": "10:00 AM – 1:00 PM, 4:00 PM – 10:30 PM",
+   "5": "10:00 AM – 1:00 PM, 4:00 PM – 10:30 PM",
+   "6": "10:00 AM – 1:00 PM, 4:00 PM – 10:30 PM"
+  }
+ },
+ "slug": "tuvana-events",
+ "category": "Wedding & event styling",
+ "name_en": "Tuvana Events",
+ "name_ar": "توفانا للمناسبات",
+ "area_en": "Dafan, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Wedding and event styling across the UAE: receptions, henna nights, outdoor events and a mobile hall. Share your date on WhatsApp.",
+ "lead_ar": "تنسيق أفراح ومناسبات في كل الإمارات: حفلات استقبال وليالي حنة ومناسبات خارجية وقاعة متنقلة. شاركونا تاريخكم على واتساب.",
+ "desc_en": "Tuvana Events, wedding and event styling in Ras Al Khaimah.",
+ "address_en": [
+  "Sheikh Mohammed Bin Salem Street, Dafan",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "شارع الشيخ محمد بن سالم",
+  "رأس الخيمة، الإمارات"
+ ],
+ "brand": {
+  "primary": "#1F1F1F",
+  "accent": "#E58FB0",
+  "source": "Sampled from the Facebook profile logo (approximate, from a screenshot)"
+ },
+ "services": [
+  {
+   "en": "Weddings and receptions",
+   "ar": "الأفراح وحفلات الاستقبال",
+   "desc_en": "Stage, kosha and guest area styling",
+   "desc_ar": "تنسيق الكوشة والمسرح ومنطقة الضيوف"
+  },
+  {
+   "en": "Henna nights",
+   "ar": "ليالي الحنة",
+   "desc_en": "Setups for henna and pre-wedding nights",
+   "desc_ar": "تجهيزات للحنة وليالي ما قبل الزواج"
+  },
+  {
+   "en": "Outdoor events",
+   "ar": "المناسبات الخارجية",
+   "desc_en": "Garden, beach and open-air setups",
+   "desc_ar": "تجهيزات حدائق وشواطئ ومساحات مفتوحة"
+  },
+  {
+   "en": "Mobile hall",
+   "ar": "القاعة المتنقلة",
+   "desc_en": "A hall we bring to your location",
+   "desc_ar": "قاعة نجهزها في موقعكم"
+  }
+ ]
+}

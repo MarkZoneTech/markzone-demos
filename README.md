@@ -41,3 +41,8 @@ Templates live in `templates/<name>/` (body.html + style.css) on top of `templat
 
 ### Legal template
 `legal` (law firms, advocates, legal consultants, notary): formal serif look, navy and bronze, scales motif, consultation request form, FAQ and a "not legal advice" note. Picked automatically by keywords (law firm, lawyer, advocate, محاماة, ...). Content stays general: no case results, years of experience or fee claims unless the owner supplies them.
+
+## Decor and Events templates
+- `decor`: interior decoration and fit-out (decor, gypsum, wall panels, ceilings). Dark charcoal and warm metal, serif headings, a drawn room (slatted wall, cove light, mirror). Form asks for the need, property type and a site visit date. Sample: `clients/_samples/decor.json`.
+- `events`: weddings, henna nights, party and event styling. Blush ivory, soft serif, a drawn floral arch with lights and petals. Form asks for occasion, event date, guests and venue. Sample: `clients/_samples/events.json`.
+- Both are picked automatically by `tools/pick_template.py` from the category, activity, name and Google types (English and Arabic keywords). "event / wedding / kosha / party" go to `events`; "decor / decoration / interior / gypsum / wall panel" go to `decor`. Set `"template": "decor"` in the client JSON to override.

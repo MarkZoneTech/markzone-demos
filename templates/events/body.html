@@ -1,0 +1,76 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> clients</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="arch up" aria-hidden="true" style="animation-delay:.25s">
+      <div class="a-glow"></div>
+      <div class="a-frame">
+        <span class="a-ring r1"></span><span class="a-ring r2"></span>
+        <span class="bl b1"></span><span class="bl b2"></span><span class="bl b3"></span><span class="bl b4"></span><span class="bl b5"></span><span class="bl b6"></span><span class="bl b7"></span><span class="bl b8"></span>
+        <span class="lt l1"></span><span class="lt l2"></span><span class="lt l3"></span><span class="lt l4"></span><span class="lt l5"></span><span class="lt l6"></span>
+      </div>
+      <div class="a-aisle"></div>
+      <span class="petal p1"></span><span class="petal p2"></span><span class="petal p3"></span>
+    </div>
+  </div>
+</section>
+<section id="styling" class="prog">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">What we <b>style</b></h2><h2 class="ar rv">وش <b>ننسّق</b></h2>
+    <p class="intro en rv">Tell us the occasion and the number of guests. We shape the setup around it.</p>
+    <p class="intro ar rv">قولوا لنا المناسبة وعدد الضيوف. نصمم التنسيق حسبها.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="steps" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">From idea to <b>your day</b></h2><h2 class="ar rv">من الفكرة إلى <b>يومكم</b></h2>
+    <p class="intro en rv">A simple path so you can enjoy the occasion.</p><p class="intro ar rv">طريق بسيط عشان تستمتعون بالمناسبة.</p>
+    <div class="strip">
+      <div class="u rv"><b class="num">1</b><h3 class="en">Share the occasion</h3><h3 class="ar">شاركونا المناسبة</h3><p class="en">Date, place, number of guests and the style you like.</p><p class="ar">التاريخ والمكان وعدد الضيوف والستايل اللي يعجبكم.</p></div>
+      <div class="u rv"><b class="num">2</b><h3 class="en">Plan the setup</h3><h3 class="ar">نخطط التنسيق</h3><p class="en">We send the layout, colours and the written quote for your approval.</p><p class="ar">نرسل التصميم والألوان وعرض السعر المكتوب لاعتمادكم.</p></div>
+      <div class="u rv"><b class="num">3</b><h3 class="en">We set it up</h3><h3 class="ar">نجهز المكان</h3><p class="en">Our team installs everything before your guests arrive.</p><p class="ar">فريقنا يركّب كل شي قبل وصول الضيوف.</p></div>
+      <div class="u rv"><b class="num">4</b><h3 class="en">You enjoy</h3><h3 class="ar">وانتم تستمتعون</h3><p class="en">We look after the details and clear the space after.</p><p class="ar">نهتم بالتفاصيل ونرتب المكان بعد المناسبة.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Plan your <b>occasion</b></h2><h2 class="ar">خططوا <b>لمناسبتكم</b></h2>
+      <p class="intro en">Send the details and the message opens in WhatsApp, ready to send. We reply with options and availability for your date.</p><p class="intro ar">أرسلوا التفاصيل وتنفتح الرسالة في واتساب جاهزة للإرسال. نرد عليكم بالخيارات والتوفر في تاريخكم.</p>
+      <ul class="tick"><li><span class="en"><<OPEN_LINE_EN>></span><span class="ar"><<OPEN_LINE_AR>></span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like to ask about an event setup:" data-intro-ar="مرحباً، أبغى أسأل عن تنسيق مناسبة:">
+      <div><label for="fName"><span class="en">Your name</span><span class="ar">الاسم</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">Type of occasion</span><span class="ar">نوع المناسبة</span></label><select id="fSvc" data-src="services" data-f data-en="Occasion" data-ar="المناسبة"></select></div>
+      <div><label for="fDate"><span class="en">Event date</span><span class="ar">تاريخ المناسبة</span></label><input id="fDate" type="date" required data-f data-en="Event date" data-ar="تاريخ المناسبة"></div>
+      <div><label for="fGuests"><span class="en">Number of guests</span><span class="ar">عدد الضيوف</span></label><input id="fGuests" inputmode="numeric" data-f data-en="Guests" data-ar="الضيوف"></div>
+      <div class="full"><label for="fVenue"><span class="en">Venue or area</span><span class="ar">المكان أو المنطقة</span></label><input id="fVenue" data-f data-en="Venue" data-ar="المكان"></div>
+      <div class="full"><label for="fNote"><span class="en">Style, colours, notes (optional)</span><span class="ar">الستايل والألوان وملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Good to <b>know</b></h2><h2 class="ar">مهم <b>تعرفونه</b></h2><p class="intro en">Another question? Message us on WhatsApp.</p><p class="intro ar">عندكم سؤال ثاني؟ راسلونا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">How early should I book?</span><span class="ar">كم قبل المناسبة أحجز؟</span></summary><p class="en">As early as you can. Send your date in the form and we confirm availability.</p><p class="ar">كل ما كان أبكر أفضل. أرسلوا التاريخ في النموذج ونأكد لكم التوفر.</p></details>
+      <details><summary><span class="en">Do you work outside Ras Al Khaimah?</span><span class="ar">تشتغلون خارج رأس الخيمة؟</span></summary><p class="en">We work across the UAE. Tell us the venue and we confirm.</p><p class="ar">نشتغل في كل الإمارات. قولوا لنا المكان ونأكد.</p></details>
+      <details><summary><span class="en">How is the price decided?</span><span class="ar">كيف يتحدد السعر؟</span></summary><p class="en">By the occasion, the guest count and the design. You receive a written quote first.</p><p class="ar">حسب المناسبة وعدد الضيوف والتصميم. يوصلكم عرض سعر مكتوب أول.</p></details>
+      <details><summary><span class="en">Where is your office?</span><span class="ar">وين مكتبكم؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدموا الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>
