@@ -1,0 +1,82 @@
+{
+ "slug": "al-rafidain-medical-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Al Rafidain Medical Center",
+ "name_ar": "مركز الرافدين الطبي",
+ "area_en": "Al Dhait South, Ras Al Khaimah",
+ "area_ar": "الظيت الجنوبي، رأس الخيمة",
+ "wa": "971501171182",
+ "phone_display": "+971 7 233 5500",
+ "tel": "+97172335500",
+ "rating": "4.2",
+ "reviews": "11",
+ "lead_en": "Dental care, skin care, aesthetics and laser, open every day until 10 PM. Book on WhatsApp.",
+ "lead_ar": "علاج أسنان وعناية بالبشرة وتجميل وليزر، مفتوحين كل يوم لين 10 بالليل. احجزوا من الواتساب.",
+ "desc_en": "Al Rafidain Medical Center, Al Dhait South, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "Zayed Center, Al Dhait South",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "مركز زايد، الظيت الجنوبي",
+  "رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.7204628,
+ "lng": 55.9168041,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "10:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "by_day": {
+   "1": "9:00 AM – 10:00 PM",
+   "2": "9:00 AM – 10:00 PM",
+   "3": "9:00 AM – 10:00 PM",
+   "4": "9:00 AM – 10:00 PM",
+   "5": "9:00 AM – 10:00 PM",
+   "6": "9:00 AM – 10:00 PM",
+   "0": "9:00 AM – 10:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Dental care",
+   "ar": "طب الأسنان"
+  },
+  {
+   "en": "Skin care",
+   "ar": "العناية بالبشرة"
+  },
+  {
+   "en": "Aesthetics",
+   "ar": "التجميل"
+  },
+  {
+   "en": "Laser treatments",
+   "ar": "علاجات الليزر"
+  }
+ ],
+ "brand": {
+  "primary": "#606030",
+  "accent": "#C0C0A8"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ }
+}

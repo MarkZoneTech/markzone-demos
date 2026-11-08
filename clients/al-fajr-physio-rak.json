@@ -1,0 +1,77 @@
+{
+ "slug": "al-fajr-physio-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Al Fajr Physiotherapy and Rehabilitation Centre",
+ "name_ar": "مركز الفجر للعلاج الطبيعي والتأهيل",
+ "area_en": "Al Nakheel, Ras Al Khaimah",
+ "area_ar": "النخيل، رأس الخيمة",
+ "wa": "971501984545",
+ "phone_display": "+971 7 244 6068",
+ "tel": "+97172446068",
+ "rating": "4.6",
+ "reviews": "67",
+ "lead_en": "Physiotherapy, rehabilitation and cupping in Al Nakheel, Ras Al Khaimah. Open six days a week, closed Fridays, until 9 PM. Book on WhatsApp.",
+ "lead_ar": "علاج طبيعي وتأهيل وحجامة في النخيل، رأس الخيمة. مفتوحين ست أيام في الأسبوع، والجمعة إجازة، لين 9 بالليل. احجزوا من الواتساب.",
+ "desc_en": "Al Fajr Physiotherapy and Rehabilitation Centre, Al Nakheel, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "Al Safa Building 3, behind Concord Building",
+  "Al Nakheel, Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "بناية الصفا 3، خلف بناية كونكورد",
+  "النخيل، رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.798582099999997,
+ "lng": 55.9708562,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "1": "9:00 AM – 9:00 PM",
+   "2": "9:00 AM – 9:00 PM",
+   "3": "9:00 AM – 9:00 PM",
+   "4": "9:00 AM – 9:00 PM",
+   "5": "Closed",
+   "6": "9:00 AM – 9:00 PM",
+   "0": "9:00 AM – 9:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Physiotherapy",
+   "ar": "العلاج الطبيعي"
+  },
+  {
+   "en": "Rehabilitation",
+   "ar": "التأهيل"
+  },
+  {
+   "en": "Cupping (hijama)",
+   "ar": "الحجامة"
+  }
+ ],
+ "brand": {
+  "primary": "#0f5c78",
+  "accent": "#f13f04"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "al-samah-learning-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Al Samah Center for Learning Difficulties",
+ "name_ar": "مركز السماح لصعوبات التعلم",
+ "area_en": "Al Dafan, Ras Al Khaimah",
+ "area_ar": "الدفان، رأس الخيمة",
+ "wa": "971551728872",
+ "phone_display": "+971 55 172 8872",
+ "tel": "+971551728872",
+ "rating": "4.8",
+ "reviews": "17",
+ "lead_en": "Assessment and rehabilitation for students with learning difficulties, including speech therapy and occupational therapy. Rated 4.8. Ask on WhatsApp.",
+ "lead_ar": "تقييم وتأهيل للطلاب من ذوي صعوبات التعلم، ويشمل علاج النطق والعلاج الوظيفي. تقييم 4.8. اسألوا من الواتساب.",
+ "desc_en": "Al Samah Center for Learning Difficulties, Al Dafan, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "Sheikh Mohamed Bin Salem St",
+  "Al Dafan, Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "شارع الشيخ محمد بن سالم",
+  "الدفان، رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.7651745,
+ "lng": 55.939256,
+ "hours": {
+  "open": "8:00 AM",
+  "close": "8:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "1": "8:00 AM – 8:00 PM",
+   "2": "8:00 AM – 8:00 PM",
+   "3": "8:00 AM – 8:00 PM",
+   "4": "8:00 AM – 8:00 PM",
+   "5": "Closed",
+   "6": "8:00 AM – 8:00 PM",
+   "0": "8:00 AM – 8:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Learning difficulties assessment",
+   "ar": "تقييم صعوبات التعلم"
+  },
+  {
+   "en": "Speech therapy",
+   "ar": "علاج النطق"
+  },
+  {
+   "en": "Occupational therapy",
+   "ar": "العلاج الوظيفي"
+  }
+ ],
+ "brand": {
+  "primary": "#907848",
+  "accent": "#D8D8C0"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ }
+}

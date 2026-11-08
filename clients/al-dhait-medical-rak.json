@@ -1,0 +1,75 @@
+{
+ "slug": "al-dhait-medical-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Al Dhait Medical Center",
+ "name_ar": "مركز الظيت الطبي",
+ "area_en": "Al Dhait, Ras Al Khaimah",
+ "area_ar": "الظيت، رأس الخيمة",
+ "wa": "971561921177",
+ "phone_display": "+971 56 192 1177",
+ "tel": "+971561921177",
+ "rating": "4.6",
+ "reviews": "8",
+ "lead_en": "A medical center on Sheikh Rashid Bin Saeed Al Maktoum Road in Al Dhait, open every day from 8 AM to 10 PM. Book on WhatsApp.",
+ "lead_ar": "مركز طبي على شارع الشيخ راشد بن سعيد آل مكتوم في الظيت، مفتوح كل يوم من 8 الصبح لين 10 بالليل. احجزوا من الواتساب.",
+ "desc_en": "Al Dhait Medical Center, Al Dhait, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "320 Sheikh Rashid Bin Saeed Al Maktoum Rd, Al Kharan",
+  "Al Dhait, Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "320 شارع الشيخ راشد بن سعيد آل مكتوم، الخران",
+  "الظيت، رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.7156871,
+ "lng": 55.9689651,
+ "hours": {
+  "open": "8:00 AM",
+  "close": "10:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "by_day": {
+   "1": "8:00 AM – 10:00 PM",
+   "2": "8:00 AM – 10:00 PM",
+   "3": "8:00 AM – 10:00 PM",
+   "4": "8:00 AM – 10:00 PM",
+   "5": "8:00 AM – 10:00 PM",
+   "6": "8:00 AM – 10:00 PM",
+   "0": "8:00 AM – 10:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Medical consultation",
+   "ar": "الكشف الطبي"
+  },
+  {
+   "en": "Doctor appointments",
+   "ar": "حجز موعد مع الطبيب"
+  }
+ ],
+ "brand": {
+  "primary": "#1890C0",
+  "accent": "#60C0D8"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ },
+ "hide_rating": true
+}

@@ -71,6 +71,9 @@ def build(slug, out_root=None):
       "SERVICES_JSON": json.dumps(svc_json, ensure_ascii=False),
     }
     for k,v in rep.items(): t = t.replace(f"<<{k}>>", v)
+    if c.get("hide_rating"):   # low rating or very few reviews: drop the rating line and the rating / reviews tiles
+        t = re.sub(r'<div class="rating">.*?</div>', '', t, flags=re.S)
+        t = re.sub(r'<div class="t"><b>[^<]*</b><span class="en">(?:Google rating|Patient reviews)</span>.*?</div>', '', t, flags=re.S)
     assert "<<" not in t.replace("<<<","") or True
     left = [s for s in __import__("re").findall(r"<<[A-Z_]+>>", t)]
     if left: sys.exit(f"Unreplaced placeholders: {set(left)}")

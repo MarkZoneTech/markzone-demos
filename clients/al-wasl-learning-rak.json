@@ -1,0 +1,81 @@
+{
+ "slug": "al-wasl-learning-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Alwasl Center for Learning Difficulties",
+ "name_ar": "مركز الوصل لصعوبات التعلم",
+ "area_en": "Al Dafan, Ras Al Khaimah",
+ "area_ar": "الدفان، رأس الخيمة",
+ "wa": "971507702876",
+ "phone_display": "+971 50 770 2876",
+ "tel": "+971507702876",
+ "rating": "5.0",
+ "reviews": "20",
+ "lead_en": "Support for learning difficulties, speech and hearing, and behaviour modification, with care for people of determination. Rated 5.0 by parents. Ask on WhatsApp.",
+ "lead_ar": "نعالج صعوبات التعلم والنطق والسمع وتعديل السلوك، ودعم لأصحاب الهمم. تقييم الأهالي 5.0. اسألوا من الواتساب.",
+ "desc_en": "Alwasl Center for Learning Difficulties, Al Dafan, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "First Abu Dhabi Bank building, 2nd floor, office 202",
+  "Al Dafan, Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "بناية بنك أبوظبي الأول، الطابق 2، مكتب 202",
+  "الدفان، رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.7896081,
+ "lng": 55.949581699999996,
+ "hours": {
+  "open": "10:00 AM",
+  "close": "7:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "1": "10:00 AM – 7:00 PM",
+   "2": "10:00 AM – 7:00 PM",
+   "3": "10:00 AM – 7:00 PM",
+   "4": "10:00 AM – 7:00 PM",
+   "5": "Closed",
+   "6": "10:00 AM – 7:00 PM",
+   "0": "10:00 AM – 7:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Learning difficulties",
+   "ar": "صعوبات التعلم"
+  },
+  {
+   "en": "Speech and hearing",
+   "ar": "النطق والسمع"
+  },
+  {
+   "en": "Behaviour modification",
+   "ar": "تعديل السلوك"
+  },
+  {
+   "en": "Support for people of determination",
+   "ar": "دعم أصحاب الهمم"
+  }
+ ],
+ "brand": {
+  "primary": "#907860",
+  "accent": "#C0A890"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "al-saada-medical-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Al Saada Specialized Medical Center",
+ "name_ar": "مركز السعادة الطبي التخصصي",
+ "area_en": "Al Juwais, Ras Al Khaimah",
+ "area_ar": "الجويس، رأس الخيمة",
+ "wa": "971507963898",
+ "phone_display": "+971 7 233 0500",
+ "tel": "+97172330500",
+ "rating": "4.9",
+ "reviews": "110",
+ "lead_en": "Dental and ENT care plus cupping, next to RAK Mall. Rated 4.9 by patients. Book on WhatsApp.",
+ "lead_ar": "علاج أسنان وأنف وأذن وحنجرة وحجامة، جنب رأس الخيمة مول. تقييم المرضى 4.9. احجزوا من الواتساب.",
+ "desc_en": "Al Saada Specialized Medical Center, Al Juwais, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "Next to RAK Mall, Al Juwais",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "جنب رأس الخيمة مول، الجويس",
+  "رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.7745216,
+ "lng": 55.9611999,
+ "hours": {
+  "open": "10:00 AM",
+  "close": "6:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "by_day": {
+   "1": "10:00 AM – 6:00 PM",
+   "2": "10:00 AM – 6:00 PM",
+   "3": "10:00 AM – 6:00 PM",
+   "4": "10:00 AM – 6:00 PM",
+   "5": "10:00 AM – 6:00 PM",
+   "6": "Closed",
+   "0": "10:00 AM – 6:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Dental treatment",
+   "ar": "علاج الأسنان"
+  },
+  {
+   "en": "Ear, nose and throat (ENT)",
+   "ar": "الأنف والأذن والحنجرة"
+  },
+  {
+   "en": "Cupping (hijama)",
+   "ar": "الحجامة"
+  }
+ ],
+ "brand": {
+  "primary": "#0090D8",
+  "accent": "#00A848"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ }
+}

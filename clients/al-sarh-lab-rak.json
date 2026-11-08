@@ -1,0 +1,77 @@
+{
+ "slug": "al-sarh-lab-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Al Sarh Medical Analysis",
+ "name_ar": "مختبر الصرح للتحاليل الطبية",
+ "area_en": "Al Juwais, Ras Al Khaimah",
+ "area_ar": "الجويس، رأس الخيمة",
+ "wa": "971505131884",
+ "phone_display": "+971 50 513 1884",
+ "tel": "+971505131884",
+ "rating": "4.9",
+ "reviews": "23",
+ "lead_en": "A medical laboratory opposite RAK Mall. Rated 4.9 by patients, open until 10 PM. Ask about tests and health-check packages on WhatsApp.",
+ "lead_ar": "مختبر تحاليل طبية مقابل رأس الخيمة مول. تقييم المرضى 4.9، مفتوحين لين 10 بالليل. اسألوا عن التحاليل وباقات الفحص من الواتساب.",
+ "desc_en": "Al Sarh Medical Analysis, Al Juwais, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "Khuzam, opposite RAK Mall",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "خزام، مقابل رأس الخيمة مول",
+  "رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.7744017,
+ "lng": 55.9635629,
+ "hours": {
+  "open": "8:30 AM",
+  "close": "10:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "1": "8:30 AM – 10:00 PM",
+   "2": "8:30 AM – 10:00 PM",
+   "3": "8:30 AM – 10:00 PM",
+   "4": "8:30 AM – 10:00 PM",
+   "5": "Closed",
+   "6": "8:30 AM – 10:00 PM",
+   "0": "8:30 AM – 10:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Medical lab tests",
+   "ar": "التحاليل الطبية"
+  },
+  {
+   "en": "Health-check packages",
+   "ar": "باقات الفحص الصحي"
+  },
+  {
+   "en": "Test results",
+   "ar": "نتائج التحاليل"
+  }
+ ],
+ "brand": {
+  "primary": "#30C048",
+  "accent": "#90D8F0"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ }
+}

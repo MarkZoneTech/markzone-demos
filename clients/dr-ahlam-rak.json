@@ -1,0 +1,78 @@
+{
+ "slug": "dr-ahlam-rak",
+ "template": "clinic",
+ "category": "Medical clinics",
+ "name_en": "Dr. Ahlam Kareem Jassim Gynaecology & Obstetric Clinic",
+ "name_ar": "عيادة د. أحلام كريم جاسم للنساء والولادة",
+ "area_en": "Al Nakheel, Ras Al Khaimah",
+ "area_ar": "النخيل، رأس الخيمة",
+ "wa": "971504869988",
+ "phone_display": "+971 7 227 7666",
+ "tel": "+97172277666",
+ "rating": "3.1",
+ "reviews": "33",
+ "lead_en": "A gynaecology and obstetrics clinic in Al Nakheel, Ras Al Khaimah, with morning and evening sessions. Book your visit on WhatsApp.",
+ "lead_ar": "عيادة نساء وولادة في النخيل، رأس الخيمة، فيها دوام صباحي ومسائي. احجزي موعدج من الواتساب.",
+ "desc_en": "Dr. Ahlam Kareem Jassim Gynaecology & Obstetric Clinic, Al Nakheel, Ras Al Khaimah. Book on WhatsApp.",
+ "address_en": [
+  "Al Muntasir Road, Al Nakheel",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "شارع المنتصر، النخيل",
+  "رأس الخيمة، الإمارات"
+ ],
+ "lat": 25.7973459,
+ "lng": 55.971774499999995,
+ "hours": {
+  "open": "9:25 AM",
+  "close": "9:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "by_day": {
+   "1": "9:25 AM – 1:00 PM, 5:00 – 9:00 PM",
+   "2": "9:25 AM – 1:00 PM, 5:00 – 9:00 PM",
+   "3": "9:25 AM – 1:00 PM, 5:00 – 9:00 PM",
+   "4": "9:25 AM – 1:00 PM, 5:00 – 9:00 PM",
+   "5": "Closed",
+   "6": "9:30 AM – 1:00 PM, 5:00 – 9:00 PM",
+   "0": "9:25 AM – 1:00 PM, 5:00 – 9:00 PM"
+  }
+ },
+ "services": [
+  {
+   "en": "Gynaecology consultation",
+   "ar": "استشارة النساء"
+  },
+  {
+   "en": "Obstetric care",
+   "ar": "متابعة الحمل والولادة"
+  },
+  {
+   "en": "Women's health check-ups",
+   "ar": "فحوصات صحة المرأة"
+  }
+ ],
+ "brand": {
+  "primary": "#7830A8",
+  "accent": "#F0C0D8"
+ },
+ "palette": {
+  "night": "#10243f",
+  "primary": "#1b4f8a",
+  "primary2": "#2a67aa",
+  "accent": "#e0a23b",
+  "accent_soft": "#f6e5c0",
+  "ink": "#13202f",
+  "paper": "#f5f8fc",
+  "line": "#dbe4ef",
+  "muted": "#586b80"
+ },
+ "hide_rating": true
+}
