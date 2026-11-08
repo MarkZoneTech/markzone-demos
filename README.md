@@ -46,3 +46,9 @@ Templates live in `templates/<name>/` (body.html + style.css) on top of `templat
 - `decor`: interior decoration and fit-out (decor, gypsum, wall panels, ceilings). Dark charcoal and warm metal, serif headings, a drawn room (slatted wall, cove light, mirror). Form asks for the need, property type and a site visit date. Sample: `clients/_samples/decor.json`.
 - `events`: weddings, henna nights, party and event styling. Blush ivory, soft serif, a drawn floral arch with lights and petals. Form asks for occasion, event date, guests and venue. Sample: `clients/_samples/events.json`.
 - Both are picked automatically by `tools/pick_template.py` from the category, activity, name and Google types (English and Arabic keywords). "event / wedding / kosha / party" go to `events`; "decor / decoration / interior / gypsum / wall panel" go to `decor`. Set `"template": "decor"` in the client JSON to override.
+
+## Curtains and Interior templates
+- `curtains`: made-to-measure curtains, blinds, sheers, fitting. Linen and terracotta palette, drawn window with draped curtains. Form asks for rooms or windows and a measuring date.
+- `interior`: interior design and fit-out studios. Petrol and clay palette, drawn floor plan with dimensions. Form asks for property type and area and a site visit date.
+- Auto-pick: `pick_template.py` matches curtain, blind, window treatment words to `curtains`, and interior design/designer/architect words to `interior`. Decoration, wallpaper and gypsum still go to `decor`.
+- Client JSON can set `"hide_rating": true` to drop the Google rating line (used for low ratings), and `"copy"` to override the hero headline.

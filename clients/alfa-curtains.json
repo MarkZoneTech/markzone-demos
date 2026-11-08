@@ -1,0 +1,67 @@
+{
+ "wa": "971547392716",
+ "phone_display": "+971 54 739 2716",
+ "tel": "+971547392716",
+ "rating": "4.8",
+ "reviews": "10",
+ "lat": 25.8123866,
+ "lng": 55.9652736,
+ "hours": {
+  "open": "8:30 AM",
+  "close": "11:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "by_day": {
+   "5": "10:00 AM – 10:00 PM"
+  }
+ },
+ "slug": "alfa-curtains",
+ "category": "Window treatment store",
+ "name_en": "Alfa Curtains",
+ "name_ar": "ألفا للستائر",
+ "area_en": "Al Maireed, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Modern and classic curtains and blinds in custom sizes, with a free quotation and fitting. Send your windows on WhatsApp.",
+ "lead_ar": "ستائر وبلايند عصرية وكلاسيكية بمقاسات حسب الطلب، مع عرض سعر وتركيب مجاني. أرسلوا نوافذكم على واتساب.",
+ "desc_en": "Alfa Curtains, curtains and blinds in Ras Al Khaimah.",
+ "address_en": [
+  "Fish Market Line, Al Maireed",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Modern and classic curtains",
+   "ar": "ستائر عصرية وكلاسيكية",
+   "desc_en": "Designs for every room, in custom sizes",
+   "desc_ar": "تصاميم لكل غرفة بمقاسات حسب الطلب"
+  },
+  {
+   "en": "Roller blinds",
+   "ar": "بلايند رول",
+   "desc_en": "Simple blinds that fit your window",
+   "desc_ar": "بلايند بسيطة تناسب النافذة"
+  },
+  {
+   "en": "Vertical blinds",
+   "ar": "بلايند عمودي",
+   "desc_en": "For wide windows and doors",
+   "desc_ar": "للنوافذ والأبواب العريضة"
+  },
+  {
+   "en": "Free quotation and fitting",
+   "ar": "عرض سعر وتركيب مجاني",
+   "desc_en": "We quote and fit at your home",
+   "desc_ar": "نعطيكم السعر ونركب في بيتكم"
+  }
+ ]
+}

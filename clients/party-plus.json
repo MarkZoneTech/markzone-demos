@@ -1,0 +1,77 @@
+{
+ "wa": "971503055665",
+ "phone_display": "+971 50 305 5665",
+ "tel": "+971503055665",
+ "rating": "4.8",
+ "reviews": "23",
+ "lat": 25.7810782,
+ "lng": 55.935204,
+ "hours": {
+  "open": "10:00 AM",
+  "close": "10:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "slug": "party-plus",
+ "category": "Event planner",
+ "name_en": "Party Plus",
+ "name_ar": "بارتي بلس",
+ "area_en": "Dahan, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Balloons, party decor, flowers and gifts for birthdays and celebrations. Rated 4.8 by 23 clients on Google. Share your date on WhatsApp.",
+ "lead_ar": "بالونات وديكور حفلات وورد وهدايا لأعياد الميلاد والمناسبات. تقييم 4.8 من 23 عميل على جوجل. شاركونا تاريخكم على واتساب.",
+ "desc_en": "Party Plus, balloons and party decor in Ras Al Khaimah.",
+ "address_en": [
+  "Sheikh Mohammed Bin Salem Street, Dahan",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "شارع الشيخ محمد بن سالم",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Balloon decoration",
+   "ar": "ديكور بالونات",
+   "desc_en": "Balloon styling for birthdays and parties",
+   "desc_ar": "تنسيق بالونات لأعياد الميلاد والحفلات"
+  },
+  {
+   "en": "Garlands",
+   "ar": "جارلاند",
+   "desc_en": "Organic balloon garlands in your colours",
+   "desc_ar": "جارلاند بالونات بألوانكم"
+  },
+  {
+   "en": "Flower stands",
+   "ar": "ستاندات ورد",
+   "desc_en": "Flowers styled for the occasion",
+   "desc_ar": "ورد منسق للمناسبة"
+  },
+  {
+   "en": "Gender reveal",
+   "ar": "حفلات كشف الجنس",
+   "desc_en": "A setup for the big moment",
+   "desc_ar": "تجهيز للحظة المنتظرة"
+  },
+  {
+   "en": "Back to school",
+   "ar": "العودة للمدرسة",
+   "desc_en": "Themed setups for the new term",
+   "desc_ar": "تجهيزات بطابع العودة للمدرسة"
+  },
+  {
+   "en": "Bouncy castles and piñata",
+   "ar": "نطاطات وبينياتا",
+   "desc_en": "Fun for the children",
+   "desc_ar": "فرحة للأطفال"
+  }
+ ]
+}

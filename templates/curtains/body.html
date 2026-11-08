@@ -1,0 +1,74 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> clients</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="win up" aria-hidden="true" style="animation-delay:.25s">
+      <div class="w-rod"><i></i><i></i></div>
+      <div class="w-glass"><span class="sun"></span><span class="bar-h"></span><span class="bar-v"></span></div>
+      <div class="w-sheer"></div>
+      <div class="w-cur left"></div>
+      <div class="w-cur right"></div>
+      <div class="w-tie left"></div><div class="w-tie right"></div>
+      <div class="w-sill"></div>
+    </div>
+  </div>
+</section>
+<section id="made" class="prog">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">What we <b>make</b></h2><h2 class="ar rv">وش <b>نسوي</b></h2>
+    <p class="intro en rv">Curtains and window dressing made for your windows. Tell us the room and we help you choose.</p>
+    <p class="intro ar rv">ستائر وتجهيزات نوافذ تُفصّل على نوافذكم. قولوا لنا الغرفة ونساعدكم في الاختيار.</p>
+    <div class="cards"><<SERVICE_CARDS>></div>
+  </div>
+</section>
+<section id="process" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">From measure to <b>fitted</b></h2><h2 class="ar rv">من القياس إلى <b>التركيب</b></h2>
+    <p class="intro en rv">Four simple steps, with no guessing on sizes.</p><p class="intro ar rv">أربع خطوات بسيطة بدون تخمين في المقاسات.</p>
+    <div class="strip">
+      <div class="u rv"><b class="num">1</b><h3 class="en">Measure</h3><h3 class="ar">القياس</h3><p class="en">We measure your windows at home so the curtains fit exactly.</p><p class="ar">نقيس نوافذكم في البيت عشان تجي الستائر على المقاس بالضبط.</p></div>
+      <div class="u rv"><b class="num">2</b><h3 class="en">Choose</h3><h3 class="ar">الاختيار</h3><p class="en">Pick the fabric, colour and style that suit the room.</p><p class="ar">اختاروا القماش واللون والستايل المناسب للغرفة.</p></div>
+      <div class="u rv"><b class="num">3</b><h3 class="en">Made to size</h3><h3 class="ar">تفصيل على المقاس</h3><p class="en">Your curtains are stitched to the measurements we took.</p><p class="ar">تنخاط ستائركم على المقاسات اللي أخذناها.</p></div>
+      <div class="u rv"><b class="num">4</b><h3 class="en">Fitted</h3><h3 class="ar">التركيب</h3><p class="en">We fit rails and curtains and leave the room tidy.</p><p class="ar">نركب السكك والستائر ونخلي الغرفة مرتبة.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Book a <b>home measure</b></h2><h2 class="ar">احجزوا <b>قياس في البيت</b></h2>
+      <p class="intro en">Send a few details and the message opens in WhatsApp, ready to send. We reply to arrange a time.</p><p class="intro ar">أرسلوا التفاصيل وتنفتح الرسالة في واتساب جاهزة للإرسال. نرد عليكم لترتيب الموعد.</p>
+      <ul class="tick"><li><span class="en"><<OPEN_LINE_EN>></span><span class="ar"><<OPEN_LINE_AR>></span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like a curtains quote:" data-intro-ar="مرحباً، أبغى عرض سعر ستائر:">
+      <div><label for="fName"><span class="en">Your name</span><span class="ar">الاسم</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">What do you need?</span><span class="ar">وش تحتاجون؟</span></label><select id="fSvc" data-src="services" data-f data-en="Interested in" data-ar="مهتمين بـ"></select></div>
+      <div class="full"><label for="fRooms"><span class="en">Rooms or windows (for example 3 bedrooms and a majlis)</span><span class="ar">الغرف أو النوافذ (مثلاً 3 غرف نوم ومجلس)</span></label><input id="fRooms" data-f data-en="Rooms" data-ar="الغرف"></div>
+      <div class="full"><label for="fDate"><span class="en">Preferred measuring date (optional)</span><span class="ar">تاريخ القياس المفضل (اختياري)</span></label><input id="fDate" type="date" data-f data-en="Measure date" data-ar="تاريخ القياس"></div>
+      <div class="full"><label for="fNote"><span class="en">Notes (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Before you <b>order</b></h2><h2 class="ar">قبل ما <b>تطلبون</b></h2><p class="intro en">Another question? Message us on WhatsApp.</p><p class="intro ar">عندكم سؤال ثاني؟ راسلونا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Do you measure at home?</span><span class="ar">تقيسون في البيت؟</span></summary><p class="en">Yes. Choose a date in the form and we will confirm a time.</p><p class="ar">أكيد. اختاروا تاريخ في النموذج ونأكد لكم الوقت.</p></details>
+      <details><summary><span class="en">How is the price decided?</span><span class="ar">كيف يتحدد السعر؟</span></summary><p class="en">By the window size and the fabric you choose. We give you the price before we start.</p><p class="ar">حسب مقاس النافذة والقماش اللي تختارونه. نعطيكم السعر قبل ما نبدأ.</p></details>
+      <details><summary><span class="en">Can I change the style?</span><span class="ar">أقدر أغيّر الستايل؟</span></summary><p class="en">Yes. You can mix curtains with blinds or sheers, room by room.</p><p class="ar">نعم. تقدرون تجمعون بين الستائر والبلايند أو الشيّر، غرفة غرفة.</p></details>
+      <details><summary><span class="en">Where are you?</span><span class="ar">وين موقعكم؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدموا الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

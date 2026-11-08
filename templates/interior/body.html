@@ -1,0 +1,75 @@
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kick up en"><<AREA_EN>></div><div class="kick up ar"><<AREA_AR>></div>
+      <h1 class="up en" style="animation-delay:.1s"><<C_HEAD_EN>></h1><h1 class="up ar" style="animation-delay:.1s"><<C_HEAD_AR>></h1>
+      <p class="lead up en" style="animation-delay:.3s"><<LEAD_EN>></p><p class="lead up ar" style="animation-delay:.3s"><<LEAD_AR>></p>
+      <div class="cta up" style="animation-delay:.45s">
+        <a class="btn btn-gold" href="#book"><span class="en"><<C_CTA_EN>></span><span class="ar"><<C_CTA_AR>></span></a>
+        <a class="btn btn-ghost" href="tel:<<TEL>>"><span dir="ltr"><<PHONE_DISPLAY>></span></a>
+      </div>
+      <div class="rating up" style="animation-delay:.6s"><span class="stars" aria-hidden="true">★★★★★</span><span class="en">Rated <<RATING>> on Google by <<REVIEWS>> clients</span><span class="ar">تقييم <<RATING>> على جوجل من <<REVIEWS>> عميل</span></div>
+    </div>
+    <div class="plan up" aria-hidden="true" style="animation-delay:.25s">
+      <div class="p-room p1"><span>Living</span></div>
+      <div class="p-room p2"><span>Bed</span></div>
+      <div class="p-room p3"><span>Kitchen</span></div>
+      <div class="p-room p4"><span>Bath</span></div>
+      <div class="p-room p5"><span>Hall</span></div>
+      <i class="p-door d1"></i><i class="p-door d2"></i><i class="p-door d3"></i>
+      <b class="p-dim top">6.0 m</b><b class="p-dim side">4.5 m</b>
+      <div class="p-chip"><span class="dot"></span><span class="en">Concept</span><span class="ar">فكرة</span></div>
+    </div>
+  </div>
+</section>
+<section id="scope" class="prog">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">What we <b>design and build</b></h2><h2 class="ar rv">وش <b>نصمم وننفذ</b></h2>
+    <p class="intro en rv">One team from the first sketch to the finished room.</p>
+    <p class="intro ar rv">فريق واحد من أول رسمة إلى الغرفة النهائية.</p>
+    <ul class="menu"><<MENU_ROWS>></ul>
+  </div>
+</section>
+<section id="process" class="why">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="en rv">How we <b>work</b></h2><h2 class="ar rv">كيف <b>نشتغل</b></h2>
+    <p class="intro en rv">A clear order of work, so you always know the next step.</p><p class="intro ar rv">ترتيب واضح للعمل، تعرفون دايماً الخطوة الجاية.</p>
+    <div class="steps">
+      <div class="st rv"><b class="num">01</b><h3 class="en">Brief and visit</h3><h3 class="ar">الفكرة والزيارة</h3><p class="en">We listen to what you need and see the space.</p><p class="ar">نسمع احتياجكم ونشوف المكان.</p></div>
+      <div class="st rv"><b class="num">02</b><h3 class="en">Concept</h3><h3 class="ar">التصميم المبدئي</h3><p class="en">Layout, colours and materials for you to review.</p><p class="ar">توزيع وألوان وخامات تراجعونها.</p></div>
+      <div class="st rv"><b class="num">03</b><h3 class="en">Quote</h3><h3 class="ar">عرض السعر</h3><p class="en">A written quote that matches the approved design.</p><p class="ar">عرض سعر مكتوب يطابق التصميم المعتمد.</p></div>
+      <div class="st rv"><b class="num">04</b><h3 class="en">Build and handover</h3><h3 class="ar">التنفيذ والتسليم</h3><p class="en">We finish the work and walk through it with you.</p><p class="ar">ننهي العمل ونمشي معكم فيه.</p></div>
+    </div>
+  </div>
+</section>
+<section class="book" id="book">
+  <div class="wrap book-grid">
+    <div class="rv"><div class="rule"></div>
+      <h2 class="en">Start with <b>your brief</b></h2><h2 class="ar">ابدأوا <b>بتفاصيل مشروعكم</b></h2>
+      <p class="intro en">Send a few details and the message opens in WhatsApp, ready to send. We reply to arrange a site visit.</p><p class="intro ar">أرسلوا التفاصيل وتنفتح الرسالة في واتساب جاهزة للإرسال. نرد عليكم لترتيب زيارة للموقع.</p>
+      <ul class="tick"><li><span class="en"><<OPEN_LINE_EN>></span><span class="ar"><<OPEN_LINE_AR>></span></li></ul>
+    </div>
+    <form id="bookForm" class="rv" novalidate data-intro-en="Hello, I'd like an interior design quote:" data-intro-ar="مرحباً، أبغى عرض سعر تصميم داخلي:">
+      <div><label for="fName"><span class="en">Your name</span><span class="ar">الاسم</span></label><input id="fName" required autocomplete="name" data-f data-en="Name" data-ar="الاسم"></div>
+      <div><label for="fPhone"><span class="en">Mobile number</span><span class="ar">رقم الموبايل</span></label><input id="fPhone" type="tel" required autocomplete="tel" dir="ltr" placeholder="05X XXX XXXX" data-f data-en="Mobile" data-ar="الموبايل"></div>
+      <div class="full"><label for="fSvc"><span class="en">What do you need?</span><span class="ar">وش تحتاجون؟</span></label><select id="fSvc" data-src="services" data-f data-en="Interested in" data-ar="مهتمين بـ"></select></div>
+      <div class="full"><label for="fLoc"><span class="en">Property type and area (villa, apartment, office, shop...)</span><span class="ar">نوع العقار والمنطقة (فيلا، شقة، مكتب، محل...)</span></label><input id="fLoc" data-f data-en="Property" data-ar="العقار"></div>
+      <div class="full"><label for="fDate"><span class="en">Preferred site visit date (optional)</span><span class="ar">تاريخ الزيارة المفضل (اختياري)</span></label><input id="fDate" type="date" data-f data-en="Visit date" data-ar="تاريخ الزيارة"></div>
+      <div class="full"><label for="fNote"><span class="en">Notes (optional)</span><span class="ar">ملاحظات (اختياري)</span></label><textarea id="fNote" rows="3" data-f data-en="Notes" data-ar="ملاحظات"></textarea></div>
+      <div class="full"><button class="btn btn-wa" type="submit"><span class="en">Send on WhatsApp</span><span class="ar">أرسل على واتساب</span></button></div>
+    </form>
+  </div>
+</section>
+<section id="faq" style="padding-top:92px">
+  <div class="wrap faq-grid">
+    <div class="rv"><div class="rule"></div><h2 class="en">Before you <b>start</b></h2><h2 class="ar">قبل ما <b>تبدأون</b></h2><p class="intro en">Another question? Message us on WhatsApp.</p><p class="intro ar">عندكم سؤال ثاني؟ راسلونا على واتساب.</p></div>
+    <div class="rv">
+      <details><summary><span class="en">Do you visit the site?</span><span class="ar">تزورون الموقع؟</span></summary><p class="en">Yes. Choose a visit date in the form and we will confirm a time.</p><p class="ar">أكيد. اختاروا تاريخ الزيارة في النموذج ونأكد لكم الوقت.</p></details>
+      <details><summary><span class="en">How is the price decided?</span><span class="ar">كيف يتحدد السعر؟</span></summary><p class="en">After the visit we send a written quote based on the space, the design and the materials.</p><p class="ar">بعد الزيارة نرسل عرض سعر مكتوب حسب المساحة والتصميم والخامات.</p></details>
+      <details><summary><span class="en">Can you handle a whole property?</span><span class="ar">تقدرون تنفذون عقار كامل؟</span></summary><p class="en">Tell us the property type and the rooms in the form and we will say what is possible.</p><p class="ar">اكتبوا نوع العقار والغرف في النموذج ونقول لكم المتاح.</p></details>
+      <details><summary><span class="en">Where are you?</span><span class="ar">وين موقعكم؟</span></summary><p class="en"><<ADDR_EN_INLINE>>. Use the map below for directions.</p><p class="ar"><<ADDR_AR_INLINE>>. استخدموا الخريطة تحت للاتجاهات.</p></details>
+    </div>
+  </div>
+</section>

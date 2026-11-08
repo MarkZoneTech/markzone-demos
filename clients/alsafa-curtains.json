@@ -1,0 +1,74 @@
+{
+ "wa": "971556506160",
+ "phone_display": "+971 55 650 6160",
+ "tel": "+971556506160",
+ "rating": "4.9",
+ "reviews": "42",
+ "lat": 25.7935389,
+ "lng": 55.9464188,
+ "hours": {
+  "open": "8:00 AM",
+  "close": "11:30 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "by_day": {
+   "5": "8:30 AM – 11:30 PM",
+   "6": "8:30 AM – 11:30 PM"
+  }
+ },
+ "slug": "alsafa-curtains",
+ "category": "Curtain supplier and maker",
+ "name_en": "Al Safa Curtains",
+ "name_ar": "الصفاء للستائر",
+ "area_en": "Old Town, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Hand-made curtains, roller blinds, rugs and custom sofas. Rated 4.9 by 42 clients on Google. Send your room on WhatsApp.",
+ "lead_ar": "ستائر يدوية وبلايند رول وسجاد وكنب حسب الطلب. تقييم 4.9 من 42 عميل على جوجل. أرسلوا غرفتكم على واتساب.",
+ "desc_en": "Al Safa Curtains, curtains, blinds, rugs and custom sofas in Ras Al Khaimah.",
+ "address_en": [
+  "Kowite Street, near the police station, Old Town",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Curtains",
+   "ar": "ستائر",
+   "desc_en": "Hand-made and fitted in your home",
+   "desc_ar": "تفصيل يدوي وتركيب في بيتكم"
+  },
+  {
+   "en": "Roller blinds",
+   "ar": "بلايند رول",
+   "desc_en": "Clean blinds for bedrooms and offices",
+   "desc_ar": "بلايند مرتبة للغرف والمكاتب"
+  },
+  {
+   "en": "Rugs",
+   "ar": "سجاد",
+   "desc_en": "Choose a rug to match the room",
+   "desc_ar": "اختاروا سجادة تناسب الغرفة"
+  },
+  {
+   "en": "Custom sofas",
+   "ar": "كنب حسب الطلب",
+   "desc_en": "Sofas and furniture made to your design",
+   "desc_ar": "كنب وأثاث حسب تصميمكم"
+  },
+  {
+   "en": "Artificial grass",
+   "ar": "عشب صناعي",
+   "desc_en": "Fitted neatly for gardens and terraces",
+   "desc_ar": "تركيب مرتب للحدائق والتراسات"
+  }
+ ]
+}

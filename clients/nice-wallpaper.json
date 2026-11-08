@@ -1,0 +1,74 @@
+{
+ "wa": "971508790942",
+ "phone_display": "+971 50 879 0942",
+ "tel": "+971508790942",
+ "rating": "3.4",
+ "reviews": "8",
+ "hide_rating": true,
+ "lat": 25.7822838,
+ "lng": 55.9374838,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "10:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "by_day": {
+   "0": "9:00 AM – 1:00 PM, 4:00 PM – 10:00 PM",
+   "1": "9:00 AM – 1:00 PM, 4:00 PM – 10:00 PM",
+   "2": "9:00 AM – 1:00 PM, 4:00 PM – 10:00 PM",
+   "3": "9:00 AM – 1:00 PM, 4:00 PM – 10:00 PM",
+   "4": "9:00 AM – 1:00 PM, 4:00 PM – 10:00 PM",
+   "5": "4:30 PM – 12:00 AM",
+   "6": "12:00 AM – 1:00 PM, 4:00 PM – 10:00 PM"
+  }
+ },
+ "slug": "nice-wallpaper",
+ "category": "Wallpaper store",
+ "name_en": "Nice Wall Paper & Decoration",
+ "name_ar": "نايس لورق الجدران والديكور",
+ "area_en": "Dafan, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Wallpaper for homes and offices in Ras Al Khaimah. Send your wall size and the look you like on WhatsApp.",
+ "lead_ar": "ورق جدران للبيوت والمكاتب في رأس الخيمة. أرسلوا مقاس الجدار والستايل اللي يعجبكم على واتساب.",
+ "desc_en": "Nice Wall Paper & Decoration, wallpaper in Ras Al Khaimah.",
+ "address_en": [
+  "13A Street, Dafan",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Wallpaper",
+   "ar": "ورق جدران",
+   "desc_en": "Choose a design for your room",
+   "desc_ar": "اختاروا تصميم لغرفتكم"
+  },
+  {
+   "en": "Wallpaper fitting",
+   "ar": "تركيب ورق الجدران",
+   "desc_en": "Fitted on your walls",
+   "desc_ar": "تركيب على جدرانكم"
+  },
+  {
+   "en": "Wall decoration",
+   "ar": "ديكور جدران",
+   "desc_en": "Finishing touches for the room",
+   "desc_ar": "لمسات أخيرة للغرفة"
+  }
+ ],
+ "copy": {
+  "head_en": "Wallpaper for every wall.",
+  "head_ar": "ورق جدران لكل جدار.",
+  "cta_en": "Get a quote",
+  "cta_ar": "اطلب عرض سعر"
+ }
+}

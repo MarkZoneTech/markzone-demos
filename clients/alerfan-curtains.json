@@ -1,0 +1,69 @@
+{
+ "wa": "971558448214",
+ "phone_display": "+971 55 844 8214",
+ "tel": "+971558448214",
+ "rating": "4.8",
+ "reviews": "151",
+ "lat": 25.7820727,
+ "lng": 55.9364929,
+ "hours": {
+  "open": "9:00 AM",
+  "close": "10:00 PM",
+  "days": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "by_day": {
+   "5": "4:30 PM – 10:00 PM",
+   "6": "9:00 AM – 11:30 PM"
+  }
+ },
+ "slug": "alerfan-curtains",
+ "category": "Curtain supplier and maker",
+ "name_en": "Al Erfan Curtains",
+ "name_ar": "العرفان للستائر",
+ "area_en": "Dahan, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Made-to-measure curtains, fitted neatly in your home. Rated 4.8 by 151 clients on Google. Send your windows on WhatsApp.",
+ "lead_ar": "ستائر تفصيل على المقاس وتركيب مرتب في بيتكم. تقييم 4.8 من 151 عميل على جوجل. أرسلوا نوافذكم على واتساب.",
+ "desc_en": "Al Erfan Curtains, made-to-measure curtains in Ras Al Khaimah.",
+ "address_en": [
+  "Mohammad Bin Salim Road, Dahan",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "شارع محمد بن سالم",
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Made-to-measure curtains",
+   "ar": "ستائر تفصيل على المقاس",
+   "desc_en": "Stitched to your window sizes",
+   "desc_ar": "تنخاط على مقاسات نوافذكم"
+  },
+  {
+   "en": "Wave curtains",
+   "ar": "ستائر موجة",
+   "desc_en": "A clean, even fold for modern rooms",
+   "desc_ar": "طيّة منتظمة ومرتبة للغرف العصرية"
+  },
+  {
+   "en": "Curtain fitting",
+   "ar": "تركيب الستائر",
+   "desc_en": "Rails and curtains fitted at home",
+   "desc_ar": "تركيب السكك والستائر في البيت"
+  },
+  {
+   "en": "Curtain alterations",
+   "ar": "تعديل الستائر",
+   "desc_en": "Shorten or adjust curtains you already have",
+   "desc_ar": "تقصير أو تعديل ستائركم الحالية"
+  }
+ ]
+}

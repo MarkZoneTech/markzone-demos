@@ -88,8 +88,9 @@ def build(slug, template=None, out_root=None):
 '''
     page = (head + rd(T/"_shared"/"header.html") + '<main id="top">\n' + rd(T/tpl/"body.html") + '\n</main>\n'
             + rd(T/"_shared"/"visit.html") + rd(T/"_shared"/"footer.html") + rd(T/"_shared"/"script.html") + "\n</body>\n</html>\n")
-    page = fill(page, rep)
     import re
+    if c.get("hide_rating"): page = re.sub(r'<div class="rating[^>]*>.*?</div>', '', page, flags=re.S)
+    page = fill(page, rep)
     left = set(re.findall(r"<<[A-Z_]+>>", page))
     if left: sys.exit(f"Unreplaced placeholders: {left}")
     out = Path(out_root or ROOT/"public")/c["slug"]; out.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,52 @@
+{
+ "wa": "971509032399",
+ "phone_display": "+971 50 903 2399",
+ "tel": "+971509032399",
+ "rating": "2.4",
+ "reviews": "5",
+ "hide_rating": true,
+ "lat": 25.7214881,
+ "lng": 55.8687552,
+ "hours": {
+  "open": "8:00 AM",
+  "close": "5:00 PM",
+  "days": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "slug": "masterplex-interior",
+ "category": "Interior designer",
+ "name_en": "Master plex interior design",
+ "name_ar": "ماستر بلكس للتصميم الداخلي",
+ "area_en": "Sheikh Khalifa City, Ras Al Khaimah",
+ "area_ar": "رأس الخيمة",
+ "lead_en": "Interior design and finishing for homes and offices in Ras Al Khaimah. Send your space on WhatsApp and we arrange a site visit.",
+ "lead_ar": "تصميم داخلي وتشطيب للبيوت والمكاتب في رأس الخيمة. أرسلوا مساحتكم على واتساب ونرتب زيارة للموقع.",
+ "desc_en": "Master plex interior design, interior design and finishing in Ras Al Khaimah.",
+ "address_en": [
+  "Sheikh Mohamed Bin Salem Street, Sheikh Khalifa City",
+  "Ras Al Khaimah, UAE"
+ ],
+ "address_ar": [
+  "رأس الخيمة، الإمارات"
+ ],
+ "services": [
+  {
+   "en": "Interior design",
+   "ar": "تصميم داخلي",
+   "desc_en": "Layout, colours and materials for your space",
+   "desc_ar": "توزيع وألوان وخامات لمساحتكم"
+  },
+  {
+   "en": "Finishing and fit-out",
+   "ar": "تشطيب وتجهيز",
+   "desc_en": "Finishing work carried out on site",
+   "desc_ar": "أعمال تشطيب تنفذ في الموقع"
+  }
+ ]
+}

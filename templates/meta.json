@@ -537,5 +537,103 @@
    "cta_en": "Plan your occasion",
    "cta_ar": "خطط لمناسبتك"
   }
+ },
+ "curtains": {
+  "label": "Curtains, blinds & window dressing (made-to-measure curtains, rollers, sheers, rails, fitting)",
+  "palette": {
+   "night": "#262B24",
+   "primary": "#3F4A3C",
+   "primary2": "#7A8872",
+   "accent": "#B8643F",
+   "accent_soft": "#F2DCCF",
+   "ink": "#262B24",
+   "paper": "#F8F4EC",
+   "line": "#E6DED0",
+   "muted": "#6E6A60"
+  },
+  "nav": [
+   {
+    "href": "made",
+    "en": "What we make",
+    "ar": "وش نسوي"
+   },
+   {
+    "href": "process",
+    "en": "How it works",
+    "ar": "طريقة العمل"
+   },
+   {
+    "href": "book",
+    "en": "Book a measure",
+    "ar": "احجز قياس"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Curtains made to fit your windows.",
+   "head_ar": "ستائر على مقاس نوافذكم.",
+   "sub_en": "Book a home measure and choose your fabric.",
+   "sub_ar": "احجزوا قياس في البيت واختاروا القماش.",
+   "cta_en": "Book a home measure",
+   "cta_ar": "احجز قياس في البيت"
+  }
+ },
+ "interior": {
+  "label": "Interior design & fit-out studio (design, fit-out, joinery, lighting, finishing)",
+  "palette": {
+   "night": "#12262A",
+   "primary": "#1D3B40",
+   "primary2": "#3D6A6F",
+   "accent": "#C98B62",
+   "accent_soft": "#F1DFD1",
+   "ink": "#12262A",
+   "paper": "#F4F1EA",
+   "line": "#E1DACB",
+   "muted": "#62675F"
+  },
+  "nav": [
+   {
+    "href": "scope",
+    "en": "What we do",
+    "ar": "وش نسوي"
+   },
+   {
+    "href": "process",
+    "en": "How we work",
+    "ar": "كيف نشتغل"
+   },
+   {
+    "href": "book",
+    "en": "Your brief",
+    "ar": "تفاصيل مشروعكم"
+   },
+   {
+    "href": "faq",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+   },
+   {
+    "href": "visit",
+    "en": "Find us",
+    "ar": "الموقع"
+   }
+  ],
+  "copy": {
+   "head_en": "Spaces planned, then built.",
+   "head_ar": "مساحات مخططة ثم منفّذة.",
+   "sub_en": "Share your brief and we arrange a site visit.",
+   "sub_ar": "شاركونا تفاصيل مشروعكم ونرتب زيارة للموقع.",
+   "cta_en": "Send your brief",
+   "cta_ar": "أرسل تفاصيل مشروعك"
+  }
  }
 }
